@@ -1,0 +1,10 @@
+# keep the build context small and dev fast
+node_modules
+.next
+out
+dist
+coverage
+*.log
+.DS_Store
+.git
+.gitignore

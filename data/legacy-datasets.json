@@ -1,0 +1,146 @@
+{
+  "about": "Datasets listed on the lab's earlier data page (https://www.cs.sfu.ca/~colour/data/, last updated May 07, 2014), in that page's own words. Status lines that are out of date (a paper 'in press' or 'under review') are replaced by the published paper, by the owner's decision of 2026-11-19. Files stay on the department's server.",
+  "source": "https://www.cs.sfu.ca/~colour/data/",
+  "datasets": [
+    {
+      "title": "Multi-illuminant test set (MIST)",
+      "links": [
+        {
+          "label": "Download",
+          "href": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
+        }
+      ],
+      "papers": [
+        "10.1002/col.22535",
+        "10.2352/issn.2169-2629.2019.27.21"
+      ],
+      "description": []
+    },
+    {
+      "title": "Flying Drone Multi-Illuminant Test Set",
+      "links": [
+        {
+          "label": "Download",
+          "href": "https://www2.cs.sfu.ca/~colour/data2/DRONE-Dataset/"
+        }
+      ],
+      "papers": [
+        "10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411"
+      ],
+      "description": []
+    },
+    {
+      "title": "Funt et al. HDR Dataset",
+      "links": [
+        {
+          "label": "Dataset page",
+          "href": "https://www.cs.sfu.ca/~colour/data/funt_hdr/"
+        }
+      ],
+      "description": []
+    },
+    {
+      "title": "Ciurea’s Dataset",
+      "links": [
+        {
+          "label": "Dataset page",
+          "href": "https://www.cs.sfu.ca/~colour/data/gray_ball/index.html"
+        }
+      ],
+      "papers": [
+        "10.2352/CIC.2003.11.1.art00028"
+      ],
+      "description": []
+    },
+    {
+      "title": "Shi’s Re-processed Version of the Gehler Color Constancy Dataset of 568 Images",
+      "description": [
+        "This dataset is based on work done by Dr. Lilong Shi at Simon Fraser University with Dr. Brian Funt. It involves processing the original RAW format images provided by Gehler et al. to generate a new set of high quality linear images. New ground truth illumination measurements are also provided for these images.",
+        "The original dataset is described in Peter Gehler and Carsten Rother and Andrew Blake and Tom Minka and Toby Sharp, “Bayesian Color Constancy Revisited”, Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2008. We thank Dr. Peter Gehler for making his images publically available and for permission to post our new versions of them.",
+        "Note that the black level offset needs to be subtracted from the original images. A Matlab template for loading the images and removing the offset is linked below."
+      ],
+      "links": [
+        {
+          "label": "Dataset page",
+          "href": "https://www.cs.sfu.ca/~colour/data/shi_gehler/"
+        },
+        {
+          "label": "MATLAB template (process_568.m)",
+          "href": "https://www.cs.sfu.ca/~colour/data/process_568.m"
+        }
+      ]
+    },
+    {
+      "title": "Three Manually Labeled Color Constancy Datasets",
+      "byline": "Bing Li, Weihua Xiong, Weiming Hu, Brian Funt, May 15, 2012",
+      "description": [
+        "A total of 1,913 images are included in the 3 data sets. We manually labeled each of these images with its the 3D stages and its indoor/outdoor classification. Following Nedovic et al., the 15 typical 3D stages sky+bkg+grd, bkg+grd, sky+grd, grd, nodepth, grd+Tbkg (LR), grd+Tbkg (RL), Tbkg (LR), Tbkg (RL), tbl+Prs+bkg, 1sd+wall(LR), 1sd+wall(RL), corner, corridor, and prs+bkg are used. There are separate files in both Matlab (.mat) and plain text (.txt) formats containing the file name from the original data set, a 0/1 flag indicating indoor/outdoor, and a numerical stage value."
+      ],
+      "links": [
+        {
+          "label": "Download (zip)",
+          "href": "https://www.cs.sfu.ca/~colour/data/ThreeManuallyLabeledDatasets.zip"
+        }
+      ],
+      "papers": [
+        "10.1109/TIP.2013.2277943"
+      ]
+    },
+    {
+      "title": "Metamer Mismatching Hue Circle Transition Wavelengths",
+      "description": [
+        "Full precision data for Table II of “Logvinenko, A.D., Funt, B., and Godau, C., “Metamer Mismatching,” IEEE Trans. on Image Processing, Vol. 23, No. 1, pp. 34-43, Jan. 2014”.",
+        "The data files consist of 20 rows of the 5 transition wavelengths defining a reflectance spectrum. Note that transitions T1, ..., T5 are given in order. In some rows the wavelengths are increasing, some decreasing. For the increasing case, the reflectance is zero for all wavelengths less than T1, one from T1 to T2, zero from T2 to T3, and so on. For the decreasing case, the reflectance is zero for all wavelengths greater than T1, one from T1 down to T2, zero from T2 down to T3, and so forth."
+      ],
+      "links": [
+        {
+          "label": "Data (Word document)",
+          "href": "https://www.cs.sfu.ca/~colour/data/XYZ%20of%2020%20metameric%205-transition%20points.docx"
+        },
+        {
+          "label": "Paper (PDF)",
+          "href": "https://www.cs.sfu.ca/~funt/LogvinenkoFuntGodauMetamerMismatchingTIP2013.pdf"
+        }
+      ],
+      "papers": [
+        "10.1109/TIP.2013.2283148"
+      ]
+    }
+  ],
+  "barnard": {
+    "title": "Barnard’s Datasets",
+    "description": "These datasets were gathered as part of Kobus Barnard’s Ph.D. research at SFU. Appropriate archival references for the data accompany each dataset.",
+    "datasets": [
+      {
+        "title": "Camera Calibration Data for Sony DXC-930",
+        "href": "https://www.cs.sfu.ca/~colour/data/camera_calibration/index.html"
+      },
+      {
+        "title": "Colour Constancy Synthetic Test Data",
+        "href": "https://www.cs.sfu.ca/~colour/data/colour_constancy_synthetic_test_data/index.html"
+      },
+      {
+        "title": "Colour Constancy Test Images Captured Using Sony DXC-930",
+        "href": "https://www.cs.sfu.ca/~colour/data/colour_constancy_test_images/index.html"
+      },
+      {
+        "title": "Images of Objects Under Different Illuminants",
+        "href": "https://www.cs.sfu.ca/~colour/data/objects_under_different_lights/index.html"
+      },
+      {
+        "title": "Spectra of Fluorescent Surfaces",
+        "href": "https://www.cs.sfu.ca/~colour/data/fluorescent_surface_spectra/index.html"
+      },
+      {
+        "title": "Object Recognition Image Database (Old Version - 1998)",
+        "href": "https://www.cs.sfu.ca/~colour/image_db/index.html"
+      }
+    ]
+  },
+  "alsoOnZenodo": {
+    "10.5281/zenodo.17114535": {
+      "label": "MATLAB .mat files",
+      "href": "https://www2.cs.sfu.ca/~colour/data/Zhang_41MillionReflectances/"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- The home page Mondrian; each colour is the Munsell paper's computed colour under D65 (lib/mondrian.ts paperHex). -->
+  <rect width="48" height="48" fill="#1c1c1c"/>
+  <rect x="0.5" y="8.5" width="19" height="15" fill="#e4d9bd"/>
+  <rect x="20.5" y="8.5" width="11" height="7" fill="#65738c"/>
+  <rect x="32.5" y="8.5" width="15" height="11" fill="#bba17a"/>
+  <rect x="20.5" y="16.5" width="7" height="11" fill="#944842"/>
+  <rect x="28.5" y="16.5" width="3" height="7" fill="#334f44"/>
+  <rect x="32.5" y="20.5" width="7" height="11" fill="#7a5642"/>
+  <rect x="40.5" y="20.5" width="7" height="19" fill="#d3bc5a"/>
+  <rect x="0.5" y="24.5" width="7" height="15" fill="#686f96"/>
+  <rect x="8.5" y="24.5" width="11" height="7" fill="#93ac84"/>
+  <rect x="8.5" y="32.5" width="11" height="7" fill="#d59682"/>
+  <rect x="20.5" y="28.5" width="11" height="11" fill="#3d5e81"/>
+  <rect x="32.5" y="32.5" width="7" height="7" fill="#c7c0a4"/>
+</svg>

@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Inner pages are still light; the header, footer and home page sit on black paper. */
+  color-scheme: light;
+  --ground: #1c1c1c; /* flat 1.2% reflectance (about Munsell N1) under D65 */
+  --ink: #ebe9e4;
+  --ink-2: #a9a7a1;
+  --rule: #3b3a37;
+}
+
+:root:has(main.on-ground) {
+  color-scheme: dark;
+}
+
+/* Pages on the ground keep it under overscroll too. */
+:root:has(main.on-ground) body {
+  background: var(--ground);
+}
+
+/* Element defaults live in the base layer so Tailwind classes on a component always win. */
+@layer base {
+  body {
+    @apply font-sans text-gray-900 bg-white antialiased;
+  }
+
+  /* a:where(:hover) has the same specificity as a, so a color class on the link still wins on hover.
+     A plain a:hover would outrank it. */
+  a {
+    @apply text-blue-600;
+  }
+
+  a:where(:hover) {
+    @apply text-blue-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-gray-900;
+  }
+
+  /* On black paper: one neutral ink, underlined links, light focus rings and selection. */
+  :where(.on-ground) a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--ink-2);
+  }
+
+  :where(.on-ground) a:where(:hover) {
+    color: var(--ink);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--ink);
+  }
+
+  :where(.on-ground) p {
+    text-wrap: pretty;
+  }
+
+  :where(.on-ground) :is(h1, h2, h3) {
+    text-wrap: balance;
+  }
+
+  :where(.on-ground) :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+
+  :where(.on-ground) ::selection {
+    background: var(--ink);
+    color: var(--ground);
+  }
+}

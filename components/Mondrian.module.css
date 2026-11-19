@@ -1,0 +1,290 @@
+.stage {
+  --gap: 10px;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 100svh;
+  min-height: 600px;
+  color: var(--ink);
+}
+
+/* Phones: the whole display and its controls fit one screen. The title's three rows size to its text;
+   the other nine share what is left. */
+.grid {
+  display: grid;
+  gap: var(--gap);
+  padding: var(--gap);
+  min-height: 0;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(3, auto) repeat(9, minmax(0, 1fr));
+}
+
+.paper {
+  grid-area: var(--narrow);
+  position: relative;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 0;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+/* The Munsell notation sits in the paper's corner; papers too narrow to hold it leave it out. */
+.notation {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.label {
+  font-size: clamp(19px, 1.6vw + 12px, 34px);
+  font-weight: 600;
+  font-stretch: 112.5%;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.link:hover .label {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
+.link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: -8px;
+}
+
+@container (max-width: 68px) {
+  .notation {
+    display: none;
+  }
+}
+
+/* The title sizes to its own paper (11cqi) so "Computational" fits on one line, and clears the notation. */
+.title {
+  padding-top: 36px;
+}
+
+.title h1 {
+  margin: 0;
+  max-width: 9ch;
+  font-size: clamp(28px, 11cqi, 80px);
+  font-weight: 650;
+  font-stretch: 125%;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+  color: inherit;
+  text-wrap: balance;
+}
+
+.title p {
+  margin: 14px 0 0;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Controls stay pinned to the bottom of the display while it is on screen. */
+.controls {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  gap: 12px;
+  padding: 12px var(--gap) 16px;
+  background: inherit;
+  font-size: 15px;
+}
+
+.light {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.readout {
+  min-width: 7ch;
+  font-variant-numeric: tabular-nums;
+}
+
+
+.slider {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 32px;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 10px;
+  background: var(--track);
+}
+
+.slider::-moz-range-track {
+  height: 10px;
+  background: var(--track);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 30px;
+  margin-top: -10px;
+  background: var(--ink);
+  border: 3px solid #000;
+}
+
+.slider::-moz-range-thumb {
+  width: 8px;
+  height: 24px;
+  background: var(--ink);
+  border: 3px solid #000;
+  border-radius: 0;
+}
+
+.slider:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+
+.presets,
+.views {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.presets button,
+.views label span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 160ms ease-out;
+}
+
+.presets button:hover,
+.views label:hover span {
+  border-color: var(--ink-2);
+}
+
+.presets button[aria-pressed="true"],
+.views input:checked + span {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #111;
+}
+
+.presets button:focus-visible,
+.views input:focus-visible + span {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.presets > span,
+.views > span {
+  margin-right: 6px;
+  color: var(--ink-2);
+}
+
+.views input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+@media (max-width: 767px) {
+  .presets button,
+  .views label span {
+    padding: 0 9px;
+    font-size: 13px;
+  }
+
+  .presets > span,
+  .views > span {
+    font-size: 13px;
+  }
+}
+
+/* Below 367px a label and its buttons no longer share a row; the label takes a short line of its own rather
+   than pushing a button onto a full extra row. */
+@media (max-width: 366px) {
+  .presets > span,
+  .views > span {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+
+/* Below 340px the four presets need tighter padding to stay on one row. */
+@media (max-width: 339px) {
+  .presets button,
+  .views label span {
+    padding: 0 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .stage {
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(8, minmax(56px, 1fr));
+  }
+
+  .paper {
+    grid-area: var(--wide);
+    padding: 18px 22px;
+  }
+
+  .notation {
+    top: 14px;
+    right: 16px;
+  }
+}
+
+/* From 1100px the slider has a row to itself and the two button groups share the next; from 1440px all three
+   fit one row with the slider at least 300px. */
+@media (min-width: 1100px) {
+  .controls {
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 28px;
+    padding: 14px 20px 18px;
+  }
+
+  .light {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .controls {
+    grid-template-columns: minmax(300px, 1fr) auto auto;
+  }
+
+  .light {
+    grid-column: auto;
+  }
+}

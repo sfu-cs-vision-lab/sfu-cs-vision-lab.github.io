@@ -1,0 +1,460 @@
+{
+  "director": {
+    "name": "Dr. Brian Funt",
+    "title": "Lab Director",
+    "image": "/img/funt-480.jpg",
+    "researchInterests": [
+      "Digital Colour Imaging",
+      "Colour Constancy",
+      "Colour in Medicine",
+      "Colour Perception"
+    ],
+    "teachingInterests": [
+      "Computational Colour Vision",
+      "Machine Vision",
+      "Computing Science for Science Students Using MATLAB"
+    ],
+    "education": [
+      "Ph.D., Computing Science, University of British Columbia, Canada, 1976",
+      "M.Sc., Computing Science, University of British Columbia, Canada, 1973",
+      "B.Sc., Computing Science, University of British Columbia, Canada, 1971"
+    ],
+    "links": {
+      "orcid": "https://orcid.org/0000-0003-3525-9197",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=tXuVUYMAAAAJ&view_op=list_works",
+      "github": "https://github.com/BrianFunt",
+      "site": null,
+      "linkedin": null,
+      "thesis": null
+    }
+  },
+  "current": [
+    {
+      "name": "Alexander Forsythe",
+      "role": "Ph.D. student",
+      "joined": "2024",
+      "bio": "Research explores computational models of color science with applications in cinema, television, and imaging systems.",
+      "image": "/img/forsythe-480.jpg",
+      "links": {
+        "orcid": "https://orcid.org/0000-0002-5185-0705",
+        "github": "https://github.com/aforsythe",
+        "site": null,
+        "scholar": null,
+        "linkedin": null,
+        "thesis": null
+      }
+    }
+  ],
+  "former": [
+    {
+      "name": "Dr. Emitis Roshan",
+      "role": "Ph.D.",
+      "thesisTitle": "Metamer mismatching and its implications",
+      "thesisYear": "2023",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/36120"
+      }
+    },
+    {
+      "name": "Hoda Aghaei",
+      "role": "M.Sc.",
+      "thesisTitle": "A flying grey ball multi-illuminant image dataset for colour research",
+      "thesisYear": "2019",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/19800"
+      }
+    },
+    {
+      "name": "Dr. Charles Poynton",
+      "role": "Ph.D.",
+      "thesisTitle": "Colour appearance issues in digital video, HD/UHD, and D‑cinema",
+      "thesisYear": "2018",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/19854"
+      }
+    },
+    {
+      "name": "Dr. Hamid Mirzaei",
+      "role": "Ph.D.",
+      "thesisTitle": "Object-Color Description Under Varying Illumination",
+      "thesisYear": "2016",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/16708"
+      }
+    },
+    {
+      "name": "Hamid Mirzaei",
+      "role": "M.Sc.",
+      "thesisTitle": "Applications of Logvinenko’s colour atlas",
+      "thesisYear": "2011",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/11984"
+      }
+    },
+    {
+      "name": "Farnaz Agahian",
+      "role": "M.Sc.",
+      "thesisTitle": "Spectral Compression of Multispectral Images using Outlier Modeling and Subspace Clustering",
+      "thesisYear": "2013",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/13891"
+      }
+    },
+    {
+      "name": "Dr. Milan Mosny",
+      "role": "Ph.D.",
+      "thesisTitle": "Minimizing Worst-case Errors for Illumination Estimation",
+      "thesisYear": "2013",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/13742"
+      }
+    },
+    {
+      "name": "Dr. Lilong Shi",
+      "role": "Ph.D.",
+      "thesisTitle": "Novel colour constancy algorithms for digital colour imagery",
+      "thesisYear": "2009",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/9800"
+      }
+    },
+    {
+      "name": "Nima Bastani",
+      "role": "M.Sc.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Dr. Behnam Bastani",
+      "role": "Ph.D.",
+      "thesisTitle": "Spectral analysis of output devices, from printing to predicting",
+      "thesisYear": "2009",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/9587"
+      }
+    },
+    {
+      "name": "Dr. Weihua (Wallace) Xiong",
+      "role": "Ph.D.",
+      "thesisTitle": "Separating illumination from reflectance in colour imagery",
+      "thesisYear": "2007",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/2639"
+      }
+    },
+    {
+      "name": "Dr. Florian Ciurea",
+      "role": "Ph.D.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      },
+      "thesisTitle": "Colour Constancy Theories in the Real World",
+      "thesisYear": "2004"
+    },
+    {
+      "name": "Bill Cressman",
+      "role": "M.Sc.",
+      "thesisTitle": "Calibrated Colour Mapping Between LCD and CRT Displays: A Case Study",
+      "thesisYear": "2004",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/8707"
+      }
+    },
+    {
+      "name": "Roozbeh Ghaffari",
+      "role": "M.Sc.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Dr. Vlad Cardei",
+      "role": "Ph.D.",
+      "thesisTitle": "A Neural Network Approach to Colour Constancy",
+      "thesisYear": "2000",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://www2.cs.sfu.ca/~colour/publications/VCardeiPhD/VCardei_PhD_Thesis.pdf"
+      }
+    },
+    {
+      "name": "Dr. Graham H. Finlayson",
+      "role": "Ph.D.",
+      "thesisTitle": "Coefficient color constancy",
+      "thesisYear": "1995",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/6639"
+      }
+    },
+    {
+      "name": "Graham H. Finlayson",
+      "role": "M.Sc.",
+      "thesisTitle": "Colour object recognition",
+      "thesisYear": "1992",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/3716"
+      }
+    },
+    {
+      "name": "Dr. Louis Brassard",
+      "role": "Ph.D.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Dr. Kobus Barnard",
+      "role": "Ph.D.",
+      "thesisTitle": "Practical Colour Constancy",
+      "thesisYear": "1999",
+      "bio": null,
+      "links": {
+        "site": "https://www2.cs.arizona.edu/~kobus/",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Kobus Barnard",
+      "role": "M.Sc.",
+      "thesisTitle": "Computational Colour Constancy: Taking Theory into Practice",
+      "thesisYear": "1995",
+      "bio": null,
+      "links": {
+        "site": "https://www2.cs.arizona.edu/~kobus/",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Pamela Gurski",
+      "role": "M.Sc.",
+      "thesisTitle": "Fractal-based texture segmentation of digital X-ray mammograms",
+      "thesisYear": "1991",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/4745"
+      }
+    },
+    {
+      "name": "Shubo Chatterjee",
+      "role": "M.Sc.",
+      "thesisTitle": "Color invariant object and texture recognition",
+      "thesisYear": "1995",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/6768"
+      }
+    },
+    {
+      "name": "Janet Dueck",
+      "role": "M.Sc.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      },
+      "thesisTitle": "Colour and Face Recognition",
+      "thesisYear": "1995"
+    },
+    {
+      "name": "Brigitte Dorner",
+      "role": "M.Sc.",
+      "thesisTitle": "Chasing the colour glove: visual hand tracking",
+      "thesisYear": "1994",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/5069"
+      }
+    },
+    {
+      "name": "Dejan Kulpinski",
+      "role": "M.Sc.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Ian Harder",
+      "role": "M.Sc.",
+      "thesisTitle": "Spectral analysis of interreflection",
+      "thesisYear": "1992",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/3717"
+      }
+    },
+    {
+      "name": "Ed Bryant",
+      "role": "M.Sc.",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": null
+      }
+    },
+    {
+      "name": "Robert Laughlin",
+      "role": "M.Sc.",
+      "thesisTitle": "Approximating harmonic amplitude envelopes of musical instrument sounds with principal component analysis",
+      "thesisYear": "1989",
+      "bio": null,
+      "links": {
+        "site": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "orcid": null,
+        "thesis": "https://summit.sfu.ca/item/4533"
+      }
+    }
+  ]
+}

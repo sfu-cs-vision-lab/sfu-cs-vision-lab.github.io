@@ -1,0 +1,33 @@
+# Dockerfile.dev
+FROM node:20-alpine
+
+# System basics for nicer DX inside the container
+RUN apk add --no-cache bash git
+
+WORKDIR /app
+ENV NODE_ENV=development \
+    NEXT_TELEMETRY_DISABLED=1 \
+    HOST=0.0.0.0 \
+    CHOKIDAR_USEPOLLING=1 \
+    WATCHPACK_POLLING=true
+
+# 1) Install deps with best-effort lockfile use
+#    If package-lock.json exists, use npm ci, else fall back to npm install
+COPY package.json package-lock.json* ./
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+# 2) Copy only what the fetch step needs first to keep caching tight
+COPY scripts ./scripts
+RUN mkdir -p data
+
+# 3) Build-time seeding from Zenodo, optional via build arg
+ARG ZENODO_COMMUNITY
+ENV NEXT_PUBLIC_ZENODO_COMMUNITY=$ZENODO_COMMUNITY
+RUN if [ -n "$ZENODO_COMMUNITY" ]; then npm run fetch:zenodo || true; fi
+
+# 4) Bring in the rest of the source
+COPY . .
+
+# 5) Expose and run dev server
+EXPOSE 3000
+CMD ["npm", "run", "dev"]

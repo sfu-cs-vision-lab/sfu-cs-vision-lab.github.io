@@ -1,0 +1,72 @@
+# Rebuilds the site with fresh data: code and READMEs from the lab's GitHub organisation, publications from
+# ORCID, datasets from Zenodo (npm run build runs npm run fetch:data first). Refreshed data is committed back
+# to data/ so the saved copies the fetch scripts fall back on stay current, and the built site is published
+# to GitHub Pages.
+#
+# Runs every day, on every push to main, and by hand from the Actions tab ("Run workflow").
+# One-time setup: Settings > Pages > Source: GitHub Actions. The site links to root paths (/data/, /research/...),
+# so it must be served at the root of its domain: a custom domain, or an <org>.github.io repository.
+name: Rebuild site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 10 * * *" # 10:17 UTC, 02:17 or 03:17 in Vancouver
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit refreshed data
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # A source that cannot be reached keeps its saved copy and shows as a warning on the run.
+      - run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # raises GitHub's API rate limit for the repo fetch
+          NEXT_TELEMETRY_DISABLED: 1
+
+      # Commit only when something besides the fetch timestamps changed.
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -I'"fetchedAt":' -- data; then
+            echo "Data unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Refresh the lab's code, publications and datasets from GitHub, ORCID and Zenodo"
+          git push || echo "::warning::Could not push the refreshed data; the site is still published from this run."
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

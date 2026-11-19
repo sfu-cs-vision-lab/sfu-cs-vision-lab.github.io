@@ -1,0 +1,162 @@
+/* Prose keeps a reading measure; tables and code use the whole column. */
+.readme {
+  min-width: 0;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  overflow-wrap: anywhere; /* long URLs in README prose */
+}
+
+.readme > :where(p, ul, ol, blockquote, h3, h4, h5, h6) {
+  max-width: 60ch;
+}
+
+.readme > * + * {
+  margin-top: 1em;
+}
+
+.readme h3 {
+  margin-top: 2.2em;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.375;
+  color: var(--ink);
+}
+
+.readme h4,
+.readme h5,
+.readme h6 {
+  margin-top: 1.8em;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.readme h5,
+.readme h6 {
+  font-size: 15px;
+}
+
+.readme > :first-child {
+  margin-top: 0;
+}
+
+.readme h3 + *,
+.readme h4 + *,
+.readme h5 + *,
+.readme h6 + * {
+  margin-top: 0.5em;
+}
+
+.readme ul,
+.readme ol {
+  padding-left: 1.4em;
+}
+
+.readme ul {
+  list-style: disc;
+}
+
+.readme ol {
+  list-style: decimal;
+}
+
+.readme li + li {
+  margin-top: 0.3em;
+}
+
+.readme strong {
+  font-weight: 600;
+}
+
+.readme code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  padding: 0.05em 0.3em;
+  border: 1px solid var(--rule);
+}
+
+.readme blockquote {
+  padding-left: 1em;
+  border-left: 1px solid var(--rule);
+  color: var(--ink-2);
+}
+
+.readme hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+
+/* Figures from the repos often have transparent backgrounds drawn for white pages. */
+.readme img {
+  max-width: 100%;
+  height: auto;
+  background: var(--ink);
+}
+
+.code {
+  position: relative;
+  border: 1px solid var(--rule);
+}
+
+.code pre {
+  overflow-x: auto;
+  padding: 16px 18px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.code pre code {
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+}
+
+.copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  min-height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--rule);
+  background: var(--ground);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 160ms ease-out;
+}
+
+.copy:hover {
+  border-color: var(--ink-2);
+}
+
+.table {
+  overflow-x: auto;
+  overflow-wrap: normal; /* table cells scroll sideways rather than split words */
+}
+
+.table table {
+  border-collapse: collapse;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px 8px 0;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .readme {
+    font-size: 18px;
+  }
+}

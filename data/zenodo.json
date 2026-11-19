@@ -1,0 +1,103 @@
+{
+  "community": "sfu-cs-vision-lab",
+  "fetchedAt": "2026-11-19T15:59:33.175Z",
+  "datasets": [
+    {
+      "id": "22683533",
+      "conceptdoi": "10.5281/zenodo.22683532",
+      "doi": "10.5281/zenodo.22683533",
+      "title": "Exact Discrete Metamer Mismatch Bodies from Zonotope Tiling",
+      "version": "1.0.0",
+      "url": "https://zenodo.org/records/22683533/latest",
+      "publishedAt": "2026-10-19",
+      "creators": [
+        "Forsythe, Alexander G.",
+        "Funt, Brian"
+      ],
+      "license": "cc-by-sa-4.0",
+      "description": "<p>This release contains 345 computed metamer mismatch bodies with their defining inputs and validation records. It also contains the software that computes and validates them.</p>\n<p>A metamer mismatch body describes how objects that match in color under one illuminant can differ in color under another. The collection covers six observer models and 38 illuminant pairs, each pairing D65 with a second illuminant. The wavelength spacings are 1, 2, 5 and 10 nm. The target colors are defined by flat reflectances from 10% to 90%. The manifest lists the combinations included.</p>\n<p>Each dataset contains five files. One is a generators file that defines the color mechanisms and the target color. The others hold the boundary vertices, the triangular faces, a summary and a validation certificate. The vertices and faces are CSV files. The method computes the exact body for the discretized problem. Coordinates are stored as floating-point numbers. Reflectances are bounded between 0 and 1 without additional smoothness constraints.</p>\n<p>The software includes MATLAB and CUDA sources, CIE input tables and a Slurm workflow for running the computations on an HPC cluster. Documentation covers configuration, a small worked example and recovery from interrupted jobs.</p>\n<p>Validation records describe file integrity, volume consistency and reflectance feasibility checks. The manifest and certificates report the validation coverage and numerical tolerances for each dataset. README.md describes each file and its license.</p>",
+      "files": [
+        {
+          "name": "mmb-data.zip",
+          "size": 2809102422,
+          "url": "https://zenodo.org/api/records/22683533/files/mmb-data.zip/content"
+        },
+        {
+          "name": "README.md",
+          "size": 6723,
+          "url": "https://zenodo.org/api/records/22683533/files/README.md/content"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 398,
+          "url": "https://zenodo.org/api/records/22683533/files/SHA256SUMS.txt/content"
+        },
+        {
+          "name": "mmb-validation.zip",
+          "size": 63856,
+          "url": "https://zenodo.org/api/records/22683533/files/mmb-validation.zip/content"
+        },
+        {
+          "name": "mmb-code.zip",
+          "size": 512104,
+          "url": "https://zenodo.org/api/records/22683533/files/mmb-code.zip/content"
+        },
+        {
+          "name": "manifest.csv",
+          "size": 315888,
+          "url": "https://zenodo.org/api/records/22683533/files/manifest.csv/content"
+        }
+      ],
+      "bibtex": "@dataset{forsythe_2026_22683533,\n  author       = {Forsythe, Alexander G. and\n                  Funt, Brian},\n  title        = {Exact Discrete Metamer Mismatch Bodies from\n                   Zonotope Tiling\n                  },\n  month        = oct,\n  year         = 2026,\n  publisher    = {Zenodo},\n  version      = {1.0.0},\n  doi          = {10.5281/zenodo.22683533},\n  url          = {https://doi.org/10.5281/zenodo.22683533},\n}"
+    },
+    {
+      "id": "17114535",
+      "conceptdoi": "10.5281/zenodo.17114534",
+      "doi": "10.5281/zenodo.17114535",
+      "title": "Metamer mismatching in practice versus theory",
+      "version": "1.0.0",
+      "url": "https://zenodo.org/records/17114535/latest",
+      "publishedAt": "2016-02-25",
+      "creators": [
+        "Zhang, Xiandou",
+        "Funt, Brian",
+        "Mirzaei, Hamidreza"
+      ],
+      "license": "cc-by-nc-4.0",
+      "description": "<p>The 41 million reflectance spectra described in:</p>\n<p>Zhang, X., Funt, B. and Mirzaei, H., \"Metamer Mismatching in Practice versus Theory,\" <em>Journal of the Optical Society of America A</em>, Vol. 33, No. 3, pp. A238-A247, March 2016.</p>\n<p><a href=\"https://doi.org/10.1364/JOSAA.33.00A238\" target=\"_blank\" rel=\"noopener\">DOI: 10.1364/JOSAA.33.00A238</a></p>",
+      "files": [
+        {
+          "name": "Ref30_40_unique_expand.csv.gz",
+          "size": 207337219,
+          "url": "https://zenodo.org/api/records/17114535/files/Ref30_40_unique_expand.csv.gz/content"
+        },
+        {
+          "name": "Ref0_5_unique_expand.csv.gz",
+          "size": 2320174025,
+          "url": "https://zenodo.org/api/records/17114535/files/Ref0_5_unique_expand.csv.gz/content"
+        },
+        {
+          "name": "Ref5_10_unique_expand.csv.gz",
+          "size": 1692461163,
+          "url": "https://zenodo.org/api/records/17114535/files/Ref5_10_unique_expand.csv.gz/content"
+        },
+        {
+          "name": "Ref10_20_unique_expand.csv.gz",
+          "size": 1596879845,
+          "url": "https://zenodo.org/api/records/17114535/files/Ref10_20_unique_expand.csv.gz/content"
+        },
+        {
+          "name": "Ref20_30_unique_expand.csv.gz",
+          "size": 435451905,
+          "url": "https://zenodo.org/api/records/17114535/files/Ref20_30_unique_expand.csv.gz/content"
+        },
+        {
+          "name": "Ref40_50_unique_expand.csv.gz",
+          "size": 108532630,
+          "url": "https://zenodo.org/api/records/17114535/files/Ref40_50_unique_expand.csv.gz/content"
+        }
+      ],
+      "bibtex": "@dataset{zhang_2016_17114535,\n  author       = {Zhang, Xiandou and\n                  Funt, Brian and\n                  Mirzaei, Hamidreza},\n  title        = {Metamer mismatching in practice versus theory},\n  month        = feb,\n  year         = 2016,\n  publisher    = {Journal of the Optical Society of America A},\n  version      = {1.0.0},\n  doi          = {10.5281/zenodo.17114535},\n  url          = {https://doi.org/10.5281/zenodo.17114535},\n}"
+    }
+  ]
+}

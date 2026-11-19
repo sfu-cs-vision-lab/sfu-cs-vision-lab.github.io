@@ -1,0 +1,37 @@
+{
+  "name": "sfu-vision-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fetch:zenodo": "node scripts/fetch_zenodo.mjs",
+    "prebuild": "npm run fetch:data",
+    "fetch:github": "node scripts/fetch_github.mjs",
+    "fetch:data": "npm run fetch:zenodo && npm run fetch:github && npm run fetch:orcid",
+    "check:retinex": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check_retinex.mjs",
+    "fetch:orcid": "node scripts/fetch_orcid.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-markdown": "9.0.1",
+    "remark-gfm": "4.0.0",
+    "lucide-react": "0.441.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "0.5.15",
+    "@types/node": "20.14.11",
+    "@types/react": "18.3.3",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

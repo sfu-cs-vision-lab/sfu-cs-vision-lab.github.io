@@ -1,0 +1,58 @@
+{
+  "draft": true,
+  "about": "Every lab funder found online, listed until Brian Funt confirms which to keep (set draft to false then). Sources, checked 2026-11-19: Crossref funder records on his papers (papers lists the DOIs that credit each funder; the grant number is from doi:10.3390/s20154275) and the lab's old funding page (oldPage, last updated January 15, 2007). Funders that Crossref lists for co-authors only (Apple, EPSRC, Chinese national programmes) are left out. Neither his ORCID record nor Alexander Forsythe's lists funding. The Digital Research Alliance of Canada entry is inferred from the mmb-zonotope-tiling README, whose Slurm settings use the accounts def-funt_gpu and def-funt_cpu (the Alliance's naming for a researcher's default allocation); to be confirmed.",
+  "oldPage": "https://www2.cs.sfu.ca/~colour/collaborations",
+  "funders": [
+    {
+      "name": "Natural Sciences and Engineering Research Council of Canada (NSERC)",
+      "detail": "Discovery Grant RGPIN-2019-04255",
+      "href": "https://www.nserc-crsng.gc.ca/",
+      "papers": [
+        "10.1002/col.22976",
+        "10.3390/s20154275",
+        "10.1002/col.22535",
+        "10.2352/j.imagingsci.technol.2020.64.5.050411",
+        "10.1364/josaa.35.00b292",
+        "10.1364/josaa.33.00a238",
+        "10.1007/s11263-015-0844-7",
+        "10.1109/tpami.2015.2420560",
+        "10.1364/josaa.31.001680",
+        "10.1109/tip.2013.2277943",
+        "10.1364/josaa.28.000940"
+      ],
+      "onOldPage": true
+    },
+    {
+      "name": "Digital Research Alliance of Canada",
+      "detail": "Computing resources: GPU and CPU allocations on its national clusters",
+      "href": "https://alliancecan.ca/",
+      "usedFor": [
+        {
+          "label": "Exact Discrete Metamer Mismatch Bodies from Zonotope Tiling (Zenodo, 2026)",
+          "href": "https://doi.org/10.5281/zenodo.22683533"
+        }
+      ]
+    },
+    {
+      "name": "Samsung Advanced Institute of Technology",
+      "papers": [
+        "10.1364/josaa.28.000940"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "detail": "Research contract, 2005–2006",
+      "onOldPage": true
+    },
+    {
+      "name": "British Columbia Advanced Systems Institute",
+      "detail": "Research grant",
+      "onOldPage": true
+    },
+    {
+      "name": "Creo Inc.",
+      "detail": "Industrially oriented research grant",
+      "onOldPage": true
+    }
+  ]
+}

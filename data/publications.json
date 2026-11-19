@@ -1,0 +1,3250 @@
+{
+  "fetchedAt": "2026-11-19T19:37:07.642Z",
+  "sources": [
+    {
+      "name": "Dr. Brian Funt",
+      "orcid": "0000-0003-3525-9197",
+      "since": null
+    },
+    {
+      "name": "Alexander Forsythe",
+      "orcid": "0000-0002-5185-0705",
+      "since": 2024
+    }
+  ],
+  "publications": [
+    {
+      "title": "Modernizing the Color Transformation Language",
+      "year": 2026,
+      "month": 11,
+      "type": "Talk",
+      "venue": "SMPTE Media Technology Summit 2026, Pasadena",
+      "authors": [
+        "Alexander G. Forsythe"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2026modernizing,\n  title = {{Modernizing the Color Transformation Language}},\n  author = {Forsythe, Alexander G.},\n  howpublished = {SMPTE Media Technology Summit 2026, Pasadena},\n  year = {2026}\n}"
+    },
+    {
+      "title": "A MATLAB Toolbox for Individual-Observer Cone Fundamentals",
+      "year": 2026,
+      "month": 11,
+      "type": "Other",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2026matlab,\n  title = {{A MATLAB Toolbox for Individual-Observer Cone Fundamentals}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  howpublished = {IS&T Color Imaging Conference (CIC)},\n  year = {2026}\n}"
+    },
+    {
+      "title": "Adaptive 3D Linear Programming for Practical Metamer Mismatch Body Computation",
+      "year": 2026,
+      "month": 11,
+      "type": "Other",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2026adaptive,\n  title = {{Adaptive 3D Linear Programming for Practical Metamer Mismatch Body Computation}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  howpublished = {IS&T Color Imaging Conference (CIC)},\n  year = {2026}\n}"
+    },
+    {
+      "title": "Benchmarking Metamer Mismatch Body Estimates Against Exact Ground Truth",
+      "year": 2026,
+      "month": 11,
+      "type": "Other",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2026benchmarking,\n  title = {{Benchmarking Metamer Mismatch Body Estimates Against Exact Ground Truth}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  howpublished = {IS&T Color Imaging Conference (CIC)},\n  year = {2026}\n}"
+    },
+    {
+      "title": "What's the Right Answer Anyway? Exact Computation of Metamer Mismatch Bodies via Zonotope Tiling",
+      "year": 2026,
+      "month": 11,
+      "type": "Other",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2026what,\n  title = {{What's the Right Answer Anyway? Exact Computation of Metamer Mismatch Bodies via Zonotope Tiling}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  howpublished = {IS&T Color Imaging Conference (CIC)},\n  year = {2026}\n}"
+    },
+    {
+      "title": "Exact Discrete Metamer Mismatch Bodies from Zonotope Tiling",
+      "year": 2026,
+      "month": 10,
+      "type": "Dataset",
+      "venue": "Zenodo",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": "10.5281/zenodo.22683533",
+      "links": {
+        "doi": "https://doi.org/10.5281/zenodo.22683533",
+        "paperPage": null,
+        "code": "/code/mmb-zonotope-tiling/",
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2026exact,\n  title = {{Exact Discrete Metamer Mismatch Bodies from Zonotope Tiling}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  howpublished = {Zenodo},\n  year = {2026},\n  doi = {10.5281/zenodo.22683533}\n}"
+    },
+    {
+      "title": "Improving Uniformity of Vertex Distributions in Spherical Sampling of Metamer Mismatch Body Boundaries",
+      "year": 2026,
+      "month": 3,
+      "type": "Journal article",
+      "venue": "Electronic Imaging",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": "10.2352/ei.2026.38.10.hvei-216",
+      "links": {
+        "doi": "https://doi.org/10.2352/ei.2026.38.10.hvei-216",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{forsythe2026improving,\n  title = {{Improving Uniformity of Vertex Distributions in Spherical Sampling of Metamer Mismatch Body Boundaries}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  journal = {Electronic Imaging},\n  year = {2026},\n  doi = {10.2352/ei.2026.38.10.hvei-216}\n}"
+    },
+    {
+      "title": "Metamer Mismatch Bodies: Foundations, Methods, and Applications in Color Science",
+      "year": 2025,
+      "month": 10,
+      "type": "Journal article",
+      "venue": "Journal of Physics: Conference Series",
+      "authors": [
+        "Alexander Forsythe",
+        "Brian Funt"
+      ],
+      "doi": "10.1088/1742-6596/3128/1/012011",
+      "links": {
+        "doi": "https://doi.org/10.1088/1742-6596/3128/1/012011",
+        "paperPage": null,
+        "code": "/code/ColorMechanism/",
+        "data": null
+      },
+      "bibtex": "@article{forsythe2025metamer,\n  title = {{Metamer Mismatch Bodies: Foundations, Methods, and Applications in Color Science}},\n  author = {Forsythe, Alexander and Funt, Brian},\n  journal = {Journal of Physics: Conference Series},\n  year = {2025},\n  doi = {10.1088/1742-6596/3128/1/012011}\n}"
+    },
+    {
+      "title": "Deterministic Metamer Mismatch Body Computation",
+      "year": 2025,
+      "month": 10,
+      "type": "Other",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Alexander G. Forsythe",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2025deterministic,\n  title = {{Deterministic Metamer Mismatch Body Computation}},\n  author = {Forsythe, Alexander G. and Funt, Brian},\n  howpublished = {IS&T Color Imaging Conference (CIC)},\n  year = {2025}\n}"
+    },
+    {
+      "title": "ImmuniT Platform for Improved Neoantigen Prediction in Lung Cancer",
+      "year": 2025,
+      "month": 8,
+      "type": "Journal article",
+      "venue": "Vaccines",
+      "authors": [
+        "Stephanie J. Hachey",
+        "Alexander G. Forsythe",
+        "Hari B. Keshava",
+        "Christopher C. W. Hughes"
+      ],
+      "doi": "10.3390/vaccines13090921",
+      "links": {
+        "doi": "https://doi.org/10.3390/vaccines13090921",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{hachey2025immunit,\n  title = {{ImmuniT Platform for Improved Neoantigen Prediction in Lung Cancer}},\n  author = {Hachey, Stephanie J. and Forsythe, Alexander G. and Keshava, Hari B. and Hughes, Christopher C. W.},\n  journal = {Vaccines},\n  year = {2025},\n  doi = {10.3390/vaccines13090921}\n}"
+    },
+    {
+      "title": "ACES: Open Source Innovation for Modern Production Workflows",
+      "year": 2025,
+      "month": 8,
+      "type": "Talk",
+      "venue": "SIGGRAPH - ASWF Open Source Days",
+      "authors": [
+        "Alexander Forsythe"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2025aces,\n  title = {{ACES: Open Source Innovation for Modern Production Workflows}},\n  author = {Forsythe, Alexander},\n  howpublished = {SIGGRAPH - ASWF Open Source Days},\n  year = {2025}\n}"
+    },
+    {
+      "title": "Methods for processing and analyzing images of vascularized micro-organ and tumor systems",
+      "year": 2025,
+      "month": 6,
+      "type": "Journal article",
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "authors": [
+        "Stephanie J. Hachey",
+        "Christopher J. Hatch",
+        "Daniela Gaebler",
+        "Alexander G. Forsythe",
+        "Makena L. Ewald",
+        "Alexander L. Chopra",
+        "Zhangying Chen",
+        "Kapil Thapa",
+        "Melvin Hodanu",
+        "Jennifer S. Fang",
+        "Christopher C. W. Hughes"
+      ],
+      "doi": "10.3389/fbioe.2025.1585003",
+      "links": {
+        "doi": "https://doi.org/10.3389/fbioe.2025.1585003",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{hachey2025methods,\n  title = {{Methods for processing and analyzing images of vascularized micro-organ and tumor systems}},\n  author = {Hachey, Stephanie J. and Hatch, Christopher J. and Gaebler, Daniela and Forsythe, Alexander G. and Ewald, Makena L. and Chopra, Alexander L. and Chen, Zhangying and Thapa, Kapil and Hodanu, Melvin and Fang, Jennifer S. and Hughes, Christopher C. W.},\n  journal = {Frontiers in Bioengineering and Biotechnology},\n  year = {2025},\n  doi = {10.3389/fbioe.2025.1585003}\n}"
+    },
+    {
+      "title": "Metamer Mismatching Predicts Color Difference Ellipsoids",
+      "year": 2025,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "E. Roshan",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.22976",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.22976",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{roshan2025metamer,\n  title = {{Metamer Mismatching Predicts Color Difference Ellipsoids}},\n  author = {Roshan, E. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2025},\n  doi = {10.1002/col.22976}\n}"
+    },
+    {
+      "title": "The object-color solid",
+      "year": 2025,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Vision",
+      "authors": [
+        "A.D. Logvinenko",
+        "B. Funt",
+        "P. Bastani"
+      ],
+      "doi": "10.1167/jov.25.2.2",
+      "links": {
+        "doi": "https://doi.org/10.1167/jov.25.2.2",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{logvinenko2025object,\n  title = {{The object-color solid}},\n  author = {Logvinenko, A.D. and Funt, B. and Bastani, P.},\n  journal = {Journal of Vision},\n  year = {2025},\n  doi = {10.1167/jov.25.2.2}\n}"
+    },
+    {
+      "title": "Report from the Academy of Motion Picture Arts and Sciences",
+      "year": 2024,
+      "month": 11,
+      "type": "Journal article",
+      "venue": "SMPTE Motion Imaging Journal",
+      "authors": [
+        "Alex Forsythe",
+        "Scott Dyer",
+        "Cesario Tio"
+      ],
+      "doi": "10.5594/jmi.2024/scge4617",
+      "links": {
+        "doi": "https://doi.org/10.5594/jmi.2024/scge4617",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{forsythe2024report,\n  title = {{Report from the Academy of Motion Picture Arts and Sciences}},\n  author = {Forsythe, Alex and Dyer, Scott and Tio, Cesario},\n  journal = {SMPTE Motion Imaging Journal},\n  year = {2024},\n  doi = {10.5594/jmi.2024/scge4617}\n}"
+    },
+    {
+      "title": "Assessing color-rendering Differences in Cinematic Lighting with a New Metamer Mismatch Metric",
+      "year": 2024,
+      "month": 10,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "A.G. Forsythe",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.2024.32.1.4",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2024.32.1.4",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{forsythe2024assessing,\n  title = {{Assessing color-rendering Differences in Cinematic Lighting with a New Metamer Mismatch Metric}},\n  author = {Forsythe, A.G. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2024},\n  doi = {10.2352/CIC.2024.32.1.4}\n}"
+    },
+    {
+      "title": "Color Appearance Models and the Future of Color Management",
+      "year": 2024,
+      "month": 2,
+      "type": "Talk",
+      "venue": "Hollywood Professionals Association Tech Retreat",
+      "authors": [
+        "Alexander G. Forsythe"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{forsythe2024color,\n  title = {{Color Appearance Models and the Future of Color Management}},\n  author = {Forsythe, Alexander G.},\n  howpublished = {Hollywood Professionals Association Tech Retreat},\n  year = {2024}\n}"
+    },
+    {
+      "title": "What Underlies Focal Colours?",
+      "year": 2023,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "E. Roshan"
+      ],
+      "doi": "10.2352/CIC.2023.31.1.17",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2023.31.1.17",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2023what,\n  title = {{What Underlies Focal Colours?}},\n  author = {Funt, B. and Roshan, E.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2023},\n  doi = {10.2352/CIC.2023.31.1.17}\n}"
+    },
+    {
+      "title": "Laplacian of Logarithm as Illuminant-Invariant Input Space",
+      "year": 2022,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "L. Zhu"
+      ],
+      "doi": "10.2352/CIC.2022.30.1.32",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2022.30.1.32",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2022laplacian,\n  title = {{Laplacian of Logarithm as Illuminant-Invariant Input Space}},\n  author = {Funt, B. and Zhu, L.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2022},\n  doi = {10.2352/CIC.2022.30.1.32}\n}"
+    },
+    {
+      "title": "Metamer mismatching underlies color difference sensitivity",
+      "year": 2021,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Vision",
+      "authors": [
+        "B.V. Funt",
+        "E. Roshan"
+      ],
+      "doi": "10.1167/jov.21.12.11",
+      "links": {
+        "doi": "https://doi.org/10.1167/jov.21.12.11",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt2021metamer,\n  title = {{Metamer mismatching underlies color difference sensitivity}},\n  author = {Funt, B.V. and Roshan, E.},\n  journal = {Journal of Vision},\n  year = {2021},\n  doi = {10.1167/jov.21.12.11}\n}"
+    },
+    {
+      "title": "A flying gray ball multi-illuminant image dataset for color research",
+      "year": 2020,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Imaging Science and Technology",
+      "authors": [
+        "H. Aghaei",
+        "B. Funt"
+      ],
+      "doi": "10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411",
+      "links": {
+        "doi": "https://doi.org/10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411",
+        "paperPage": null,
+        "code": null,
+        "data": "https://www2.cs.sfu.ca/~colour/data2/DRONE-Dataset/"
+      },
+      "bibtex": "@article{aghaei2020flying,\n  title = {{A flying gray ball multi-illuminant image dataset for color research}},\n  author = {Aghaei, H. and Funt, B.},\n  journal = {Journal of Imaging Science and Technology},\n  year = {2020},\n  doi = {10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411}\n}"
+    },
+    {
+      "title": "A multi-illuminant synthetic image test set",
+      "year": 2020,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "X. Hao",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.22535",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.22535",
+        "paperPage": null,
+        "code": null,
+        "data": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
+      },
+      "bibtex": "@article{hao2020multi,\n  title = {{A multi-illuminant synthetic image test set}},\n  author = {Hao, X. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2020},\n  doi = {10.1002/col.22535}\n}"
+    },
+    {
+      "title": "Color sensor accuracy index utilizing metamer mismatch radii",
+      "year": 2020,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Sensors",
+      "authors": [
+        "E. Roshan",
+        "B. Funt"
+      ],
+      "doi": "10.3390/s20154275",
+      "links": {
+        "doi": "https://doi.org/10.3390/s20154275",
+        "paperPage": null,
+        "code": "/code/CMMRI/",
+        "data": null
+      },
+      "bibtex": "@article{roshan2020color,\n  title = {{Color sensor accuracy index utilizing metamer mismatch radii}},\n  author = {Roshan, E. and Funt, B.},\n  journal = {Sensors},\n  year = {2020},\n  doi = {10.3390/s20154275}\n}"
+    },
+    {
+      "title": "Providing a Single Ground-Truth for Illuminant Estimation for the ColorChecker Dataset",
+      "year": 2020,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "authors": [
+        "G. Hemrit",
+        "G.D. Finlayson",
+        "A. Gijsenij",
+        "P. Gehler",
+        "S. Bianco",
+        "M.S. Drew",
+        "B. Funt",
+        "L. Shi"
+      ],
+      "doi": "10.1109/TPAMI.2019.2919824",
+      "links": {
+        "doi": "https://doi.org/10.1109/TPAMI.2019.2919824",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{hemrit2020providing,\n  title = {{Providing a Single Ground-Truth for Illuminant Estimation for the ColorChecker Dataset}},\n  author = {Hemrit, G. and Finlayson, G.D. and Gijsenij, A. and Gehler, P. and Bianco, S. and Drew, M.S. and Funt, B. and Shi, L.},\n  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n  year = {2020},\n  doi = {10.1109/TPAMI.2019.2919824}\n}"
+    },
+    {
+      "title": "Evaluating Colour Constancy on the new MIST dataset of Multi-Illuminant Scenes",
+      "year": 2019,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "X. Hao",
+        "B. Funt",
+        "H. Jiang"
+      ],
+      "doi": "10.2352/issn.2169-2629.2019.27.21",
+      "links": {
+        "doi": "https://doi.org/10.2352/issn.2169-2629.2019.27.21",
+        "paperPage": null,
+        "code": null,
+        "data": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
+      },
+      "bibtex": "@inproceedings{hao2019evaluating,\n  title = {{Evaluating Colour Constancy on the new MIST dataset of Multi-Illuminant Scenes}},\n  author = {Hao, X. and Funt, B. and Jiang, H.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2019},\n  doi = {10.2352/issn.2169-2629.2019.27.21}\n}"
+    },
+    {
+      "title": "Computational color prediction versus least-dissimilar matching",
+      "year": 2018,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "E. Roshan",
+        "B. Funt"
+      ],
+      "doi": "10.1364/JOSAA.35.00B292",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.35.00B292",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{roshan2018computational,\n  title = {{Computational color prediction versus least-dissimilar matching}},\n  author = {Roshan, E. and Funt, B.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2018},\n  doi = {10.1364/JOSAA.35.00B292}\n}"
+    },
+    {
+      "title": "Colorizing color images",
+      "year": 2018,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T International Symposium on Electronic Imaging Science and Technology",
+      "authors": [
+        "L. Zhu",
+        "B. Funt"
+      ],
+      "doi": "10.2352/ISSN.2470-1173.2018.14.HVEI-541",
+      "links": {
+        "doi": "https://doi.org/10.2352/ISSN.2470-1173.2018.14.HVEI-541",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{zhu2018colorizing,\n  title = {{Colorizing color images}},\n  author = {Zhu, L. and Funt, B.},\n  booktitle = {IS&T International Symposium on Electronic Imaging Science and Technology},\n  year = {2018},\n  doi = {10.2352/ISSN.2470-1173.2018.14.HVEI-541}\n}"
+    },
+    {
+      "title": "Does colour really matter? Evaluation via object classification",
+      "year": 2018,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "L. Zhu"
+      ],
+      "doi": "10.2352/issn.2169-2629.2018.26.268",
+      "links": {
+        "doi": "https://doi.org/10.2352/issn.2169-2629.2018.26.268",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2018does,\n  title = {{Does colour really matter? Evaluation via object classification}},\n  author = {Funt, B. and Zhu, L.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2018},\n  doi = {10.2352/issn.2169-2629.2018.26.268}\n}"
+    },
+    {
+      "title": "Rehabilitating the colorchecker dataset for illuminant estimation",
+      "year": 2018,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "G. Hemrit",
+        "G.D. Finlayson",
+        "A. Gijsenij",
+        "P. Gehler",
+        "S. Bianco",
+        "B. Funt",
+        "M. Drew",
+        "L. Shi"
+      ],
+      "doi": "10.2352/issn.2169-2629.2018.26.350",
+      "links": {
+        "doi": "https://doi.org/10.2352/issn.2169-2629.2018.26.350",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{hemrit2018rehabilitating,\n  title = {{Rehabilitating the colorchecker dataset for illuminant estimation}},\n  author = {Hemrit, G. and Finlayson, G.D. and Gijsenij, A. and Gehler, P. and Bianco, S. and Funt, B. and Drew, M. and Shi, L.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2018},\n  doi = {10.2352/issn.2169-2629.2018.26.350}\n}"
+    },
+    {
+      "title": "Evaluation of color prediction methods in terms of least-dissimilar asymmetric matching",
+      "year": 2017,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T International Symposium on Electronic Imaging Science and Technology",
+      "authors": [
+        "E. Roshan",
+        "B. Funt"
+      ],
+      "doi": "10.2352/ISSN.2470-1173.2017.14.HVEI-133",
+      "links": {
+        "doi": "https://doi.org/10.2352/ISSN.2470-1173.2017.14.HVEI-133",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{roshan2017evaluation,\n  title = {{Evaluation of color prediction methods in terms of least-dissimilar asymmetric matching}},\n  author = {Roshan, E. and Funt, B.},\n  booktitle = {IS&T International Symposium on Electronic Imaging Science and Technology},\n  year = {2017},\n  doi = {10.2352/ISSN.2470-1173.2017.14.HVEI-133}\n}"
+    },
+    {
+      "title": "Metamer mismatching in practice versus theory",
+      "year": 2016,
+      "month": 2,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "X. Zhang",
+        "B. Funt",
+        "H. Mirzaei"
+      ],
+      "doi": "10.1364/JOSAA.33.00A238",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.33.00A238",
+        "paperPage": null,
+        "code": null,
+        "data": "https://doi.org/10.5281/zenodo.17114535"
+      },
+      "bibtex": "@article{zhang2016metamer,\n  title = {{Metamer mismatching in practice versus theory}},\n  author = {Zhang, X. and Funt, B. and Mirzaei, H.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2016},\n  doi = {10.1364/JOSAA.33.00A238}\n}"
+    },
+    {
+      "title": "Multi-Cue Illumination Estimation via a Tree-Structured Group Joint Sparse Representation",
+      "year": 2016,
+      "month": null,
+      "type": "Journal article",
+      "venue": "International Journal of Computer Vision",
+      "authors": [
+        "B. Li",
+        "W. Xiong",
+        "W. Hu",
+        "B. Funt",
+        "J. Xing"
+      ],
+      "doi": "10.1007/s11263-015-0844-7",
+      "links": {
+        "doi": "https://doi.org/10.1007/s11263-015-0844-7",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{li2016multi,\n  title = {{Multi-Cue Illumination Estimation via a Tree-Structured Group Joint Sparse Representation}},\n  author = {Li, B. and Xiong, W. and Hu, W. and Funt, B. and Xing, J.},\n  journal = {International Journal of Computer Vision},\n  year = {2016},\n  doi = {10.1007/s11263-015-0844-7}\n}"
+    },
+    {
+      "title": "Spectral compression using subspace clustering",
+      "year": 2016,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "F. Agahian",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.21942",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.21942",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{agahian2016spectral,\n  title = {{Spectral compression using subspace clustering}},\n  author = {Agahian, F. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2016},\n  doi = {10.1002/col.21942}\n}"
+    },
+    {
+      "title": "Evaluation of the IES method for evaluating light source color rendition in terms of metamer mismatching",
+      "year": 2016,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "B. Hull",
+        "X. Zhang"
+      ],
+      "doi": "10.2352/ISSN.2169-2629.2017.32.192",
+      "links": {
+        "doi": "https://doi.org/10.2352/ISSN.2169-2629.2017.32.192",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2016evaluation,\n  title = {{Evaluation of the IES method for evaluating light source color rendition in terms of metamer mismatching}},\n  author = {Funt, B. and Hull, B. and Zhang, X.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2016},\n  doi = {10.2352/ISSN.2169-2629.2017.32.192}\n}"
+    },
+    {
+      "title": "Metamer Mismatching and Its Consequences for Predicting How Colours are Affected by the Illuminant",
+      "year": 2016,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of the IEEE International Conference on Computer Vision",
+      "authors": [
+        "X. Zhang",
+        "B. Funt",
+        "H. Mirzaei"
+      ],
+      "doi": "10.1109/ICCVW.2015.14",
+      "links": {
+        "doi": "https://doi.org/10.1109/ICCVW.2015.14",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{zhang2016metamer,\n  title = {{Metamer Mismatching and Its Consequences for Predicting How Colours are Affected by the Illuminant}},\n  author = {Zhang, X. and Funt, B. and Mirzaei, H.},\n  booktitle = {Proceedings of the IEEE International Conference on Computer Vision},\n  year = {2016},\n  doi = {10.1109/ICCVW.2015.14}\n}"
+    },
+    {
+      "title": "Gaussian-Based Hue Descriptors",
+      "year": 2015,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "authors": [
+        "H. Mirzaei",
+        "B. Funt"
+      ],
+      "doi": "10.1109/TPAMI.2015.2420560",
+      "links": {
+        "doi": "https://doi.org/10.1109/TPAMI.2015.2420560",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{mirzaei2015gaussian,\n  title = {{Gaussian-Based Hue Descriptors}},\n  author = {Mirzaei, H. and Funt, B.},\n  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n  year = {2015},\n  doi = {10.1109/TPAMI.2015.2420560}\n}"
+    },
+    {
+      "title": "How metamer mismatching decreases as the number of colour mechanisms increases with implications for colour and lightness constancy",
+      "year": 2015,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Vision Research",
+      "authors": [
+        "A.D. Logvinenko",
+        "B. Funt",
+        "C. Godau"
+      ],
+      "doi": "10.1016/j.visres.2015.05.009",
+      "links": {
+        "doi": "https://doi.org/10.1016/j.visres.2015.05.009",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{logvinenko2015metamer,\n  title = {{How metamer mismatching decreases as the number of colour mechanisms increases with implications for colour and lightness constancy}},\n  author = {Logvinenko, A.D. and Funt, B. and Godau, C.},\n  journal = {Vision Research},\n  year = {2015},\n  doi = {10.1016/j.visres.2015.05.009}\n}"
+    },
+    {
+      "title": "Rethinking colour constancy",
+      "year": 2015,
+      "month": null,
+      "type": "Journal article",
+      "venue": "PLOS ONE",
+      "authors": [
+        "A.D. Logvinenko",
+        "B. Funt",
+        "H. Mirzaei",
+        "R. Tokunaga"
+      ],
+      "doi": "10.1371/journal.pone.0135029",
+      "links": {
+        "doi": "https://doi.org/10.1371/journal.pone.0135029",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{logvinenko2015rethinking,\n  title = {{Rethinking colour constancy}},\n  author = {Logvinenko, A.D. and Funt, B. and Mirzaei, H. and Tokunaga, R.},\n  journal = {PLOS ONE},\n  year = {2015},\n  doi = {10.1371/journal.pone.0135029}\n}"
+    },
+    {
+      "title": "Robust chroma and lightness descriptors",
+      "year": 2015,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "H. Mirzaei",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2015.23.1.art00014",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2015.23.1.art00014",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mirzaei2015robust,\n  title = {{Robust chroma and lightness descriptors}},\n  author = {Mirzaei, H. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2015},\n  doi = {10.2352/cic.2015.23.1.art00014}\n}"
+    },
+    {
+      "title": "Evaluating combinational illumination estimation methods on real-world images",
+      "year": 2014,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Image Processing",
+      "authors": [
+        "B. Li",
+        "W. Xiong",
+        "W. Hu",
+        "B. Funt"
+      ],
+      "doi": "10.1109/TIP.2013.2277943",
+      "links": {
+        "doi": "https://doi.org/10.1109/TIP.2013.2277943",
+        "paperPage": null,
+        "code": null,
+        "data": "https://www.cs.sfu.ca/~colour/data/ThreeManuallyLabeledDatasets.zip"
+      },
+      "bibtex": "@article{li2014evaluating,\n  title = {{Evaluating combinational illumination estimation methods on real-world images}},\n  author = {Li, B. and Xiong, W. and Hu, W. and Funt, B.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2014},\n  doi = {10.1109/TIP.2013.2277943}\n}"
+    },
+    {
+      "title": "Irradiance-independent camera color calibration",
+      "year": 2014,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "B. Funt",
+        "P. Bastani"
+      ],
+      "doi": "10.1002/col.21849",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.21849",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt2014irradiance,\n  title = {{Irradiance-independent camera color calibration}},\n  author = {Funt, B. and Bastani, P.},\n  journal = {Color Research and Application},\n  year = {2014},\n  doi = {10.1002/col.21849}\n}"
+    },
+    {
+      "title": "Metamer mismatching",
+      "year": 2014,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Image Processing",
+      "authors": [
+        "A.D. Logvinenko",
+        "B. Funt",
+        "C. Godau"
+      ],
+      "doi": "10.1109/TIP.2013.2283148",
+      "links": {
+        "doi": "https://doi.org/10.1109/TIP.2013.2283148",
+        "paperPage": null,
+        "code": "/code/adl2lms/",
+        "data": "https://www.cs.sfu.ca/~colour/data/XYZ%20of%2020%20metameric%205-transition%20points.docx"
+      },
+      "bibtex": "@article{logvinenko2014metamer,\n  title = {{Metamer mismatching}},\n  author = {Logvinenko, A.D. and Funt, B. and Godau, C.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2014},\n  doi = {10.1109/TIP.2013.2283148}\n}"
+    },
+    {
+      "title": "Object-color-signal prediction using wraparound Gaussian metamers",
+      "year": 2014,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "H. Mirzaei",
+        "B. Funt"
+      ],
+      "doi": "10.1364/JOSAA.31.001680",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.31.001680",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{mirzaei2014object,\n  title = {{Object-color-signal prediction using wraparound Gaussian metamers}},\n  author = {Mirzaei, H. and Funt, B.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2014},\n  doi = {10.1364/JOSAA.31.001680}\n}"
+    },
+    {
+      "title": "Outlier modeling for spectral data reduction",
+      "year": 2014,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "F. Agahian",
+        "B. Funt"
+      ],
+      "doi": "10.1364/JOSAA.31.001445",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.31.001445",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{agahian2014outlier,\n  title = {{Outlier modeling for spectral data reduction}},\n  author = {Agahian, F. and Funt, B.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2014},\n  doi = {10.1364/JOSAA.31.001445}\n}"
+    },
+    {
+      "title": "Perceptual uniformity in digital image representation and display",
+      "year": 2014,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "C. Poynton",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.21768",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.21768",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{poynton2014perceptual,\n  title = {{Perceptual uniformity in digital image representation and display}},\n  author = {Poynton, C. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2014},\n  doi = {10.1002/col.21768}\n}"
+    },
+    {
+      "title": "Gaussian illuminants and reflectances for colour signal prediction",
+      "year": 2014,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "H. Mirzaei",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2014.22.1.art00037",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2014.22.1.art00037",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mirzaei2014gaussian,\n  title = {{Gaussian illuminants and reflectances for colour signal prediction}},\n  author = {Mirzaei, H. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2014},\n  doi = {10.2352/cic.2014.22.1.art00037}\n}"
+    },
+    {
+      "title": "Metamer mismatch volumes of flat grey",
+      "year": 2014,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "H. Mirzaei",
+        "A.D. Logvinenko"
+      ],
+      "doi": "10.2352/CIC.2014.22.1.art00042",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2014.22.1.art00042",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2014metamer,\n  title = {{Metamer mismatch volumes of flat grey}},\n  author = {Funt, B. and Mirzaei, H. and Logvinenko, A.D.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2014},\n  doi = {10.2352/CIC.2014.22.1.art00042}\n}"
+    },
+    {
+      "title": "Simplifying irradiance independent color calibration",
+      "year": 2014,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "P. Bastani",
+        "B. Funt"
+      ],
+      "doi": "10.1117/12.2042507",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.2042507",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{bastani2014simplifying,\n  title = {{Simplifying irradiance independent color calibration}},\n  author = {Bastani, P. and Funt, B.},\n  booktitle = {Proceedings of SPIE},\n  year = {2014},\n  doi = {10.1117/12.2042507}\n}"
+    },
+    {
+      "title": "Spectral compression: Weighted principal component analysis versus weighted least squares",
+      "year": 2014,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "F. Agahian",
+        "B. Funt",
+        "S.H. Amirshahi"
+      ],
+      "doi": "10.1117/12.2042300",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.2042300",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{agahian2014spectral,\n  title = {{Spectral compression: Weighted principal component analysis versus weighted least squares}},\n  author = {Agahian, F. and Funt, B. and Amirshahi, S.H.},\n  booktitle = {Proceedings of SPIE},\n  year = {2014},\n  doi = {10.1117/12.2042300}\n}"
+    },
+    {
+      "title": "Subspace-clustering-based multispectral image compression",
+      "year": 2014,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "F. Agahian",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2014.22.1.art00012",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2014.22.1.art00012",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{agahian2014subspace,\n  title = {{Subspace-clustering-based multispectral image compression}},\n  author = {Agahian, F. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2014},\n  doi = {10.2352/cic.2014.22.1.art00012}\n}"
+    },
+    {
+      "title": "A robust hue descriptor",
+      "year": 2013,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "H. Mirzaei",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2013.21.1.art00013",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2013.21.1.art00013",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mirzaei2013robust,\n  title = {{A robust hue descriptor}},\n  author = {Mirzaei, H. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2013},\n  doi = {10.2352/cic.2013.21.1.art00013}\n}"
+    },
+    {
+      "title": "Rank-based illumination estimation",
+      "year": 2013,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "L. Shi",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2013.21.1.art00021",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2013.21.1.art00021",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{shi2013rank,\n  title = {{Rank-based illumination estimation}},\n  author = {Shi, L. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2013},\n  doi = {10.2352/cic.2013.21.1.art00021}\n}"
+    },
+    {
+      "title": "Color invariants for object recognition",
+      "year": 2013,
+      "month": null,
+      "type": "Book chapter",
+      "venue": "Advanced Color Image Processing and Analysis",
+      "authors": [
+        "D. Muselet",
+        "B. Funt"
+      ],
+      "doi": "10.1007/978-1-4419-6190-7_10",
+      "links": {
+        "doi": "https://doi.org/10.1007/978-1-4419-6190-7_10",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@incollection{muselet2013color,\n  title = {{Color invariants for object recognition}},\n  author = {Muselet, D. and Funt, B.},\n  booktitle = {Advanced Color Image Processing and Analysis},\n  year = {2013},\n  doi = {10.1007/978-1-4419-6190-7_10}\n}"
+    },
+    {
+      "title": "Color fidelity evaluation using fruit and paper colors",
+      "year": 2012,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Imaging Science and Technology",
+      "authors": [
+        "B. Funt",
+        "M. Mosny"
+      ],
+      "doi": "10.2352/J.ImagingSci.Technol.2012.56.2.020401",
+      "links": {
+        "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.2012.56.2.020401",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt2012color,\n  title = {{Color fidelity evaluation using fruit and paper colors}},\n  author = {Funt, B. and Mosny, M.},\n  journal = {Journal of Imaging Science and Technology},\n  year = {2012},\n  doi = {10.2352/J.ImagingSci.Technol.2012.56.2.020401}\n}"
+    },
+    {
+      "title": "Illumination estimation via nonnegative matrix factorization",
+      "year": 2012,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Electronic Imaging",
+      "authors": [
+        "L. Shi",
+        "B. Funt",
+        "W. Xiong"
+      ],
+      "doi": "10.1117/1.JEI.21.3.033022",
+      "links": {
+        "doi": "https://doi.org/10.1117/1.JEI.21.3.033022",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{shi2012illumination,\n  title = {{Illumination estimation via nonnegative matrix factorization}},\n  author = {Shi, L. and Funt, B. and Xiong, W.},\n  journal = {Journal of Electronic Imaging},\n  year = {2012},\n  doi = {10.1117/1.JEI.21.3.033022}\n}"
+    },
+    {
+      "title": "MaxRGB reconsidered",
+      "year": 2012,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Imaging Science and Technology",
+      "authors": [
+        "B. Funt",
+        "L. Shi"
+      ],
+      "doi": "10.2352/J.ImagingSci.Technol.2012.56.2.020501",
+      "links": {
+        "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.2012.56.2.020501",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt2012maxrgb,\n  title = {{MaxRGB reconsidered}},\n  author = {Funt, B. and Shi, L.},\n  journal = {Journal of Imaging Science and Technology},\n  year = {2012},\n  doi = {10.2352/J.ImagingSci.Technol.2012.56.2.020501}\n}"
+    },
+    {
+      "title": "The Logvinenko object color atlas in practice",
+      "year": 2012,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "C. Godau",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.20680",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.20680",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{godau2012logvinenko,\n  title = {{The Logvinenko object color atlas in practice}},\n  author = {Godau, C. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2012},\n  doi = {10.1002/col.20680}\n}"
+    },
+    {
+      "title": "Metamer mismatch volumes",
+      "year": 2012,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "A. Logvinenko",
+        "C. Godau",
+        "B. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{logvinenko2012metamer,\n  title = {{Metamer mismatch volumes}},\n  author = {Logvinenko, A. and Godau, C. and Funt, B.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2012}\n}"
+    },
+    {
+      "title": "Reducing worst-case illumination estimates for better automatic white balance",
+      "year": 2012,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "M. Mosny",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2012.20.1.art00010",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2012.20.1.art00010",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mosny2012reducing,\n  title = {{Reducing worst-case illumination estimates for better automatic white balance}},\n  author = {Mosny, M. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2012},\n  doi = {10.2352/cic.2012.20.1.art00010}\n}"
+    },
+    {
+      "title": "Removing outliers in illumination estimation",
+      "year": 2012,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "M. Mosny"
+      ],
+      "doi": "10.2352/CIC.2012.20.1.art00019",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2012.20.1.art00019",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2012removing,\n  title = {{Removing outliers in illumination estimation}},\n  author = {Funt, B. and Mosny, M.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2012},\n  doi = {10.2352/CIC.2012.20.1.art00019}\n}"
+    },
+    {
+      "title": "Representing outliers for improved multi-spectral data reduction",
+      "year": 2012,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "F. Agahian",
+        "B. Funt",
+        "S.H. Amirshahi"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{agahian2012representing,\n  title = {{Representing outliers for improved multi-spectral data reduction}},\n  author = {Agahian, F. and Funt, B. and Amirshahi, S.H.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2012}\n}"
+    },
+    {
+      "title": "Illumination estimation via thin-plate spline interpolation",
+      "year": 2011,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "L. Shi",
+        "W. Xiong",
+        "B. Funt"
+      ],
+      "doi": "10.1364/JOSAA.28.000940",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.28.000940",
+        "paperPage": null,
+        "code": "/code/tps/",
+        "data": null
+      },
+      "bibtex": "@article{shi2011illumination,\n  title = {{Illumination estimation via thin-plate spline interpolation}},\n  author = {Shi, L. and Xiong, W. and Funt, B.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2011},\n  doi = {10.1364/JOSAA.28.000940}\n}"
+    },
+    {
+      "title": "Intersecting color manifolds",
+      "year": 2011,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "H. Mirzaei"
+      ],
+      "doi": "10.2352/CIC.2011.19.1.art00034",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2011.19.1.art00034",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2011intersecting,\n  title = {{Intersecting color manifolds}},\n  author = {Funt, B. and Mirzaei, H.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2011},\n  doi = {10.2352/CIC.2011.19.1.art00034}\n}"
+    },
+    {
+      "title": "Video-based illumination estimation",
+      "year": 2011,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "N. Wang",
+        "B. Funt",
+        "C. Lang",
+        "D. Xu"
+      ],
+      "doi": "10.1007/978-3-642-20404-3_15",
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-642-20404-3_15",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{wang2011video,\n  title = {{Video-based illumination estimation}},\n  author = {Wang, N. and Funt, B. and Lang, C. and Xu, D.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {2011},\n  doi = {10.1007/978-3-642-20404-3_15}\n}"
+    },
+    {
+      "title": "Calculating Logvinenko's Object Color Coordinates",
+      "year": 2010,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{anon2010calculating,\n  title = {{Calculating Logvinenko's Object Color Coordinates}},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2010}\n}"
+    },
+    {
+      "title": "Cubical Gamut Mapping colour constancy",
+      "year": 2010,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "M. Mosny",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cgiv.2010.5.1.art00073",
+      "links": {
+        "doi": "https://doi.org/10.2352/cgiv.2010.5.1.art00073",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CGIV-2010/index_CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mosny2010cubical,\n  title = {{Cubical Gamut Mapping colour constancy}},\n  author = {Mosny, M. and Funt, B.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2010},\n  doi = {10.2352/cgiv.2010.5.1.art00073}\n}"
+    },
+    {
+      "title": "The effect of exposure on MaxRGB color constancy",
+      "year": 2010,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "B. Funt",
+        "L. Shi"
+      ],
+      "doi": "10.1117/12.845394",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.845394",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-2010/index_SPIE2010_SHI.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2010effect,\n  title = {{The effect of exposure on MaxRGB color constancy}},\n  author = {Funt, B. and Shi, L.},\n  booktitle = {Proceedings of SPIE},\n  year = {2010},\n  doi = {10.1117/12.845394}\n}"
+    },
+    {
+      "title": "The rehabilitation of MaxRGB",
+      "year": 2010,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "L. Shi"
+      ],
+      "doi": "10.5446/31094",
+      "links": {
+        "doi": "https://doi.org/10.5446/31094",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2010rehabilitation,\n  title = {{The rehabilitation of MaxRGB}},\n  author = {Funt, B. and Shi, L.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2010},\n  doi = {10.5446/31094}\n}"
+    },
+    {
+      "title": "XYZ to ADL: Calculating Logvinenko's object color coordinates",
+      "year": 2010,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "C. Godau",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2010.18.1.art00059",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2010.18.1.art00059",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_ADL_FinalVersionwithCitation.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{godau2010calculating,\n  title = {{XYZ to ADL: Calculating Logvinenko's object color coordinates}},\n  author = {Godau, C. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2010},\n  doi = {10.2352/cic.2010.18.1.art00059}\n}"
+    },
+    {
+      "title": "Stereo retinex",
+      "year": 2009,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Image and Vision Computing",
+      "authors": [
+        "W. Xiong",
+        "B. Funt"
+      ],
+      "doi": "10.1016/j.imavis.2007.11.012",
+      "links": {
+        "doi": "https://doi.org/10.1016/j.imavis.2007.11.012",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IVC-2009/index_Xiong-Funt_StereoRetinexPrintVersion.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{xiong2009stereo,\n  title = {{Stereo retinex}},\n  author = {Xiong, W. and Funt, B.},\n  journal = {Image and Vision Computing},\n  year = {2009},\n  doi = {10.1016/j.imavis.2007.11.012}\n}"
+    },
+    {
+      "title": "A new type of ART2 architecture and application to color image segmentation",
+      "year": 2008,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "J. Ai",
+        "B. Funt",
+        "L. Shi"
+      ],
+      "doi": "10.1007/978-3-540-87536-9_10",
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-540-87536-9_10",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ICANN-2008/index_ICANN2008_AI.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{ai2008type,\n  title = {{A new type of ART2 architecture and application to color image segmentation}},\n  author = {Ai, J. and Funt, B. and Shi, L.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {2008},\n  doi = {10.1007/978-3-540-87536-9_10}\n}"
+    },
+    {
+      "title": "Dichromatic illumination estimation via hough transforms in 3D",
+      "year": 2008,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "L. Shi",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cgiv.2008.4.1.art00056",
+      "links": {
+        "doi": "https://doi.org/10.2352/cgiv.2008.4.1.art00056",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CGIV-2008/index_CGIV2008_SHI.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{shi2008dichromatic,\n  title = {{Dichromatic illumination estimation via hough transforms in 3D}},\n  author = {Shi, L. and Funt, B.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2008},\n  doi = {10.2352/cgiv.2008.4.1.art00056}\n}"
+    },
+    {
+      "title": "Geodesic based ink separation for spectral printing",
+      "year": 2008,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Baatani",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.2008.16.1.art00013",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2008.16.1.art00013",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_BASTANI.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{baatani2008geodesic,\n  title = {{Geodesic based ink separation for spectral printing}},\n  author = {Baatani, B. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2008},\n  doi = {10.2352/CIC.2008.16.1.art00013}\n}"
+    },
+    {
+      "title": "Quaternion color curvature",
+      "year": 2008,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "L. Shi",
+        "B. Funt",
+        "G. Hamarneh"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_SHI.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{shi2008quaternion,\n  title = {{Quaternion color curvature}},\n  author = {Shi, L. and Funt, B. and Hamarneh, G.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2008}\n}"
+    },
+    {
+      "title": "Spectral modeling of an n-ink printer via thin plate spline interpolation",
+      "year": 2008,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "International Conference on Digital Printing Technologies",
+      "authors": [
+        "B. Bastani",
+        "B. Funt"
+      ],
+      "doi": "10.2352/issn.2169-4451.2008.24.1.art00042_2",
+      "links": {
+        "doi": "https://doi.org/10.2352/issn.2169-4451.2008.24.1.art00042_2",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{bastani2008spectral,\n  title = {{Spectral modeling of an n-ink printer via thin plate spline interpolation}},\n  author = {Bastani, B. and Funt, B.},\n  booktitle = {International Conference on Digital Printing Technologies},\n  year = {2008},\n  doi = {10.2352/issn.2169-4451.2008.24.1.art00042_2}\n}"
+    },
+    {
+      "title": "A multilinear constraint on dichromatic planes for illumination estimation",
+      "year": 2007,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Image Processing",
+      "authors": [
+        "J. Toro",
+        "B. Funt"
+      ],
+      "doi": "10.1109/TIP.2006.884953",
+      "links": {
+        "doi": "https://doi.org/10.1109/TIP.2006.884953",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{toro2007multilinear,\n  title = {{A multilinear constraint on dichromatic planes for illumination estimation}},\n  author = {Toro, J. and Funt, B.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2007},\n  doi = {10.1109/TIP.2006.884953}\n}"
+    },
+    {
+      "title": "Quaternion color texture segmentation",
+      "year": 2007,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Computer Vision and Image Understanding",
+      "authors": [
+        "L. Shi",
+        "B. Funt"
+      ],
+      "doi": "10.1016/j.cviu.2006.11.014",
+      "links": {
+        "doi": "https://doi.org/10.1016/j.cviu.2006.11.014",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CVIU-2007/index_Shi+Funt_CVIU_QuaternioinTexture.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{shi2007quaternion,\n  title = {{Quaternion color texture segmentation}},\n  author = {Shi, L. and Funt, B.},\n  journal = {Computer Vision and Image Understanding},\n  year = {2007},\n  doi = {10.1016/j.cviu.2006.11.014}\n}"
+    },
+    {
+      "title": "Automatic white balancing via gray surface identification",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "W. Xiong",
+        "B. Funt",
+        "L. Shi",
+        "S.-S. Kim",
+        "B.-H. Kang",
+        "S.-D. Lee",
+        "C.-Y. Kim"
+      ],
+      "doi": "10.2352/cic.2007.15.1.art00027",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2007.15.1.art00027",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG_PG143.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xiong2007automatic,\n  title = {{Automatic white balancing via gray surface identification}},\n  author = {Xiong, W. and Funt, B. and Shi, L. and Kim, S.-S. and Kang, B.-H. and Lee, S.-D. and Kim, C.-Y.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2007},\n  doi = {10.2352/cic.2007.15.1.art00027}\n}"
+    },
+    {
+      "title": "Eigen local color histograms for object recognition and orientation estimation",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "D. Muselet",
+        "B. Funt",
+        "L. Macaire"
+      ],
+      "doi": "10.1117/12.711007",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.711007",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{muselet2007eigen,\n  title = {{Eigen local color histograms for object recognition and orientation estimation}},\n  author = {Muselet, D. and Funt, B. and Macaire, L.},\n  booktitle = {Proceedings of SPIE},\n  year = {2007},\n  doi = {10.1117/12.711007}\n}"
+    },
+    {
+      "title": "Illumination estimation via thin-plate spline interpolation",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "W. Xiong",
+        "L. Shi",
+        "B. Funt",
+        "S.-S. Kim",
+        "B.-H. Kang",
+        "S.-D. Lee",
+        "C.-Y. Kim"
+      ],
+      "doi": "10.2352/CIC.2007.15.1.art00006",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2007.15.1.art00006",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xiong2007illumination,\n  title = {{Illumination estimation via thin-plate spline interpolation}},\n  author = {Xiong, W. and Shi, L. and Funt, B. and Kim, S.-S. and Kang, B.-H. and Lee, S.-D. and Kim, C.-Y.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2007},\n  doi = {10.2352/CIC.2007.15.1.art00006}\n}"
+    },
+    {
+      "title": "Multispectral color constancy: Real image tests",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "M. Mosny",
+        "B. Funt"
+      ],
+      "doi": "10.1117/12.707273",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.707273",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mosny2007multispectral,\n  title = {{Multispectral color constancy: Real image tests}},\n  author = {Mosny, M. and Funt, B.},\n  booktitle = {Proceedings of SPIE},\n  year = {2007},\n  doi = {10.1117/12.707273}\n}"
+    },
+    {
+      "title": "Object recognition and pose estimation across illumination changes",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "VISAPP 2007: Proceedings of the Second International Conference on Computer Vision Theory and Applications, Volume IU/MTSV",
+      "authors": [
+        "D. Muselet",
+        "B. Funt",
+        "L. Shi",
+        "L. Macaire"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{muselet2007object,\n  title = {{Object recognition and pose estimation across illumination changes}},\n  author = {Muselet, D. and Funt, B. and Shi, L. and Macaire, L.},\n  booktitle = {VISAPP 2007: Proceedings of the Second International Conference on Computer Vision Theory and Applications, Volume IU/MTSV},\n  year = {2007}\n}"
+    },
+    {
+      "title": "Spectral gamut mapping and gamut concavity",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Bastani",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2007.15.1.art00041",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2007.15.1.art00041",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_BASTANI_PG218.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{bastani2007spectral,\n  title = {{Spectral gamut mapping and gamut concavity}},\n  author = {Bastani, B. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2007},\n  doi = {10.2352/cic.2007.15.1.art00041}\n}"
+    },
+    {
+      "title": "Spectral reproduction - How many primaries are needed?",
+      "year": 2007,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "NIP 23: 23rd International Conference on Digital Printing Technologies, Technical Program and Proceedings/Digital Fabrication 2007",
+      "authors": [
+        "B. Bastani",
+        "B. Funt",
+        "J. DiCarlo"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{bastani2007spectral,\n  title = {{Spectral reproduction - How many primaries are needed?}},\n  author = {Bastani, B. and Funt, B. and DiCarlo, J.},\n  booktitle = {NIP 23: 23rd International Conference on Digital Printing Technologies, Technical Program and Proceedings/Digital Fabrication 2007},\n  year = {2007}\n}"
+    },
+    {
+      "title": "Estimating illumination chromaticity via support vector regression",
+      "year": 2006,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Imaging Science and Technology",
+      "authors": [
+        "W. Xiong",
+        "B. Funt"
+      ],
+      "doi": "10.2352/J.ImagingSci.Technol.(2006)50:4(341)",
+      "links": {
+        "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.(2006)50:4(341)",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JIST2006/Xiong-Funt_SVR_JIST2006.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{xiong2006estimating,\n  title = {{Estimating illumination chromaticity via support vector regression}},\n  author = {Xiong, W. and Funt, B.},\n  journal = {Journal of Imaging Science and Technology},\n  year = {2006},\n  doi = {10.2352/J.ImagingSci.Technol.(2006)50:4(341)}\n}"
+    },
+    {
+      "title": "A basis for cones",
+      "year": 2006,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "B. Funt",
+        "W. Xiong"
+      ],
+      "doi": "10.1117/12.643211",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.643211",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2006basis,\n  title = {{A basis for cones}},\n  author = {Funt, B. and Xiong, W.},\n  booktitle = {Proceedings of SPIE},\n  year = {2006},\n  doi = {10.1117/12.643211}\n}"
+    },
+    {
+      "title": "Color channels for stereo retinex",
+      "year": 2006,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "B. Funt",
+        "W. Xiong"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2006color,\n  title = {{Color channels for stereo retinex}},\n  author = {Funt, B. and Xiong, W.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2006}\n}"
+    },
+    {
+      "title": "Color constancy for multiple-illuminant scenes using retinex and SVR",
+      "year": 2006,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "W. Xiong",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.2006.14.1.art00056",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2006.14.1.art00056",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xiong2006color,\n  title = {{Color constancy for multiple-illuminant scenes using retinex and SVR}},\n  author = {Xiong, W. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2006},\n  doi = {10.2352/CIC.2006.14.1.art00056}\n}"
+    },
+    {
+      "title": "End-user display calibration via support vector regression",
+      "year": 2006,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "B. Bastani",
+        "B. Funt",
+        "W. Xiong"
+      ],
+      "doi": "10.1117/12.643655",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.643655",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{bastani2006user,\n  title = {{End-user display calibration via support vector regression}},\n  author = {Bastani, B. and Funt, B. and Xiong, W.},\n  booktitle = {Proceedings of SPIE},\n  year = {2006},\n  doi = {10.1117/12.643655}\n}"
+    },
+    {
+      "title": "Multispectral colour constancy",
+      "year": 2006,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "M. Mosny",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.2006.14.1.art00057",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2006.14.1.art00057",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mosny2006multispectral,\n  title = {{Multispectral colour constancy}},\n  author = {Mosny, M. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2006},\n  doi = {10.2352/CIC.2006.14.1.art00057}\n}"
+    },
+    {
+      "title": "Stereo Retinex",
+      "year": 2006,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Third Canadian Conference on Computer and Robot Vision CRV 2006",
+      "authors": [
+        "W. Xiong",
+        "B. Funt"
+      ],
+      "doi": "10.1109/CRV.2006.70",
+      "links": {
+        "doi": "https://doi.org/10.1109/CRV.2006.70",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xiong2006stereo,\n  title = {{Stereo Retinex}},\n  author = {Xiong, W. and Funt, B.},\n  booktitle = {Third Canadian Conference on Computer and Robot Vision CRV 2006},\n  year = {2006},\n  doi = {10.1109/CRV.2006.70}\n}"
+    },
+    {
+      "title": "Calibrated color mapping between LCD and CRT displays: A case study",
+      "year": 2005,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "B. Bastani",
+        "B. Cressman",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.20156",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.20156",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CRA-2004/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{bastani2005calibrated,\n  title = {{Calibrated color mapping between LCD and CRT displays: A case study}},\n  author = {Bastani, B. and Cressman, B. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2005},\n  doi = {10.1002/col.20156}\n}"
+    },
+    {
+      "title": "Illumination estimation from dichromatic planes",
+      "year": 2005,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "J. Toro",
+        "D. Ziou",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.2005.13.1.art00018",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2005.13.1.art00018",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{toro2005illumination,\n  title = {{Illumination estimation from dichromatic planes}},\n  author = {Toro, J. and Ziou, D. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2005},\n  doi = {10.2352/CIC.2005.13.1.art00018}\n}"
+    },
+    {
+      "title": "Illumination estimation using a multilinear constraint on dichromatic planes",
+      "year": 2005,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "BMVC 2005 Proceedings of the British Machine Vision Conference 2005",
+      "authors": [
+        "J. Toro",
+        "B. Funt"
+      ],
+      "doi": "10.5244/C.19.54",
+      "links": {
+        "doi": "https://doi.org/10.5244/C.19.54",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/PBMVC05/index_Toro_Funt_BMVC_2005.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{toro2005illumination,\n  title = {{Illumination estimation using a multilinear constraint on dichromatic planes}},\n  author = {Toro, J. and Funt, B.},\n  booktitle = {BMVC 2005 Proceedings of the British Machine Vision Conference 2005},\n  year = {2005},\n  doi = {10.5244/C.19.54}\n}"
+    },
+    {
+      "title": "Nonlinear RGB-to-XYZ mapping for device calibration",
+      "year": 2005,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "W. Xiong",
+        "B. Funt"
+      ],
+      "doi": "10.2352/cic.2005.13.1.art00037",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2005.13.1.art00037",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xiong2005nonlinear,\n  title = {{Nonlinear RGB-to-XYZ mapping for device calibration}},\n  author = {Xiong, W. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2005},\n  doi = {10.2352/cic.2005.13.1.art00037}\n}"
+    },
+    {
+      "title": "Retinex in MATLAB™",
+      "year": 2004,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Electronic Imaging",
+      "authors": [
+        "B. Funt",
+        "F. Ciurea",
+        "J. McCann"
+      ],
+      "doi": "10.1117/1.1636761",
+      "links": {
+        "doi": "https://doi.org/10.1117/1.1636761",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/RetinexInMatlab.html",
+        "code": "/code/retinex-matlab/",
+        "data": null
+      },
+      "bibtex": "@article{funt2004retinex,\n  title = {{Retinex in MATLAB™}},\n  author = {Funt, B. and Ciurea, F. and McCann, J.},\n  journal = {Journal of Electronic Imaging},\n  year = {2004},\n  doi = {10.1117/1.1636761}\n}"
+    },
+    {
+      "title": "Tuning Retinex parameters",
+      "year": 2004,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Electronic Imaging",
+      "authors": [
+        "F. Ciurea",
+        "B. Funt"
+      ],
+      "doi": "10.1117/1.1635365",
+      "links": {
+        "doi": "https://doi.org/10.1117/1.1635365",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/TuningRetinexParamaters.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{ciurea2004tuning,\n  title = {{Tuning Retinex parameters}},\n  author = {Ciurea, F. and Funt, B.},\n  journal = {Journal of Electronic Imaging},\n  year = {2004},\n  doi = {10.1117/1.1635365}\n}"
+    },
+    {
+      "title": "Calibrated colour mapping between LCD and CRT Displays: A case study",
+      "year": 2004,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "B. Cressman",
+        "B. Bastani",
+        "B. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CRA-2004/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{cressman2004calibrated,\n  title = {{Calibrated colour mapping between LCD and CRT Displays: A case study}},\n  author = {Cressman, B. and Bastani, B. and Funt, B.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2004}\n}"
+    },
+    {
+      "title": "Estimating illumination chromaticity via support vector regression",
+      "year": 2004,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "W. Xiong"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/SVR_WebVersion.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2004estimating,\n  title = {{Estimating illumination chromaticity via support vector regression}},\n  author = {Funt, B. and Xiong, W.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2004}\n}"
+    },
+    {
+      "title": "Failure of luminance-redness correlation for illuminant estimation",
+      "year": 2004,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "F. Ciurea",
+        "B. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/LuminanceRedness_Final_with_Citation.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{ciurea2004failure,\n  title = {{Failure of luminance-redness correlation for illuminant estimation}},\n  author = {Ciurea, F. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2004}\n}"
+    },
+    {
+      "title": "Optimal linear RGB-to-XYZ mapping for color display calibration",
+      "year": 2004,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "R. Ghaffari",
+        "B. Bastani"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/CIC12-OptimalColorCorrectionProceedings.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2004optimal,\n  title = {{Optimal linear RGB-to-XYZ mapping for color display calibration}},\n  author = {Funt, B. and Ghaffari, R. and Bastani, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2004}\n}"
+    },
+    {
+      "title": "Imprecise color constancy versus color realism",
+      "year": 2003,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Behavioral and Brain Sciences",
+      "authors": [
+        "B.V. Funt"
+      ],
+      "doi": "10.1017/S0140525X03300019",
+      "links": {
+        "doi": "https://doi.org/10.1017/S0140525X03300019",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/BBS-2003/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt2003imprecise,\n  title = {{Imprecise color constancy versus color realism}},\n  author = {Funt, B.V.},\n  journal = {Behavioral and Brain Sciences},\n  year = {2003},\n  doi = {10.1017/S0140525X03300019}\n}"
+    },
+    {
+      "title": "A Large Image Database for Color Constancy Research",
+      "year": 2003,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "F. Ciurea",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.2003.11.1.art00028",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2003.11.1.art00028",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/PCIC-2003/LargeImageDatabase.html",
+        "code": null,
+        "data": "https://www.cs.sfu.ca/~colour/data/gray_ball/index.html"
+      },
+      "bibtex": "@inproceedings{ciurea2003large,\n  title = {{A Large Image Database for Color Constancy Research}},\n  author = {Ciurea, F. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2003},\n  doi = {10.2352/CIC.2003.11.1.art00028}\n}"
+    },
+    {
+      "title": "Non-diagonal color correction",
+      "year": 2003,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IEEE International Conference on Image Processing",
+      "authors": [
+        "B. Funt",
+        "H. Jiang"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/PICIP-2003/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2003diagonal,\n  title = {{Non-diagonal color correction}},\n  author = {Funt, B. and Jiang, H.},\n  booktitle = {IEEE International Conference on Image Processing},\n  year = {2003}\n}"
+    },
+    {
+      "title": "Non-von-Kries 3-Parameter Color Prediction",
+      "year": 2003,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "B. Funt",
+        "H. Jiang"
+      ],
+      "doi": "10.1117/12.473897",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.473897",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-2003/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2003kries,\n  title = {{Non-von-Kries 3-Parameter Color Prediction}},\n  author = {Funt, B. and Jiang, H.},\n  booktitle = {Proceedings of SPIE},\n  year = {2003},\n  doi = {10.1117/12.473897}\n}"
+    },
+    {
+      "title": "The 10th color imaging conference",
+      "year": 2003,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Information Display",
+      "authors": [
+        "B. Funt",
+        "G. Marcu"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt200310th,\n  title = {{The 10th color imaging conference}},\n  author = {Funt, B. and Marcu, G.},\n  booktitle = {Information Display},\n  year = {2003}\n}"
+    },
+    {
+      "title": "Welcome to the Conference",
+      "year": 2003,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "G. Marcu"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2003welcome,\n  title = {{Welcome to the Conference}},\n  author = {Funt, B. and Marcu, G.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2003}\n}"
+    },
+    {
+      "title": "A comparison of computational color constancy algorithms - Part I: Methodology and experiments with synthesized data",
+      "year": 2002,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Image Processing",
+      "authors": [
+        "K. Barnard",
+        "V. Cardei",
+        "B. Funt"
+      ],
+      "doi": "10.1109/TIP.2002.802531",
+      "links": {
+        "doi": "https://doi.org/10.1109/TIP.2002.802531",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{barnard2002comparison,\n  title = {{A comparison of computational color constancy algorithms - Part I: Methodology and experiments with synthesized data}},\n  author = {Barnard, K. and Cardei, V. and Funt, B.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2002},\n  doi = {10.1109/TIP.2002.802531}\n}"
+    },
+    {
+      "title": "A comparison of computational color constancy algorithms - Part II: Experiments with image data",
+      "year": 2002,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Image Processing",
+      "authors": [
+        "K. Barnard",
+        "L. Martin",
+        "A. Coath",
+        "B. Funt"
+      ],
+      "doi": "10.1109/TIP.2002.802529",
+      "links": {
+        "doi": "https://doi.org/10.1109/TIP.2002.802529",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{barnard2002comparison,\n  title = {{A comparison of computational color constancy algorithms - Part II: Experiments with image data}},\n  author = {Barnard, K. and Martin, L. and Coath, A. and Funt, B.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2002},\n  doi = {10.1109/TIP.2002.802529}\n}"
+    },
+    {
+      "title": "A data set for color research",
+      "year": 2002,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "K. Barnard",
+        "L. Martin",
+        "B. Funt",
+        "A. Coath"
+      ],
+      "doi": "10.1002/col.10049",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.10049",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CRA-2002/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{barnard2002data,\n  title = {{A data set for color research}},\n  author = {Barnard, K. and Martin, L. and Funt, B. and Coath, A.},\n  journal = {Color Research and Application},\n  year = {2002},\n  doi = {10.1002/col.10049}\n}"
+    },
+    {
+      "title": "Camera characterization for color research",
+      "year": 2002,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "K. Barnard",
+        "B. Funt"
+      ],
+      "doi": "10.1002/col.10050",
+      "links": {
+        "doi": "https://doi.org/10.1002/col.10050",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{barnard2002camera,\n  title = {{Camera characterization for color research}},\n  author = {Barnard, K. and Funt, B.},\n  journal = {Color Research and Application},\n  year = {2002},\n  doi = {10.1002/col.10050}\n}"
+    },
+    {
+      "title": "Estimating the scene illumination chromaticity by using a neural network",
+      "year": 2002,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "V.C. Cardei",
+        "B. Funt",
+        "K. Barnard"
+      ],
+      "doi": "10.1364/JOSAA.19.002374",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.19.002374",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-2002/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{cardei2002estimating,\n  title = {{Estimating the scene illumination chromaticity by using a neural network}},\n  author = {Cardei, V.C. and Funt, B. and Barnard, K.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2002},\n  doi = {10.1364/JOSAA.19.002374}\n}"
+    },
+    {
+      "title": "Chromatic Adaptation Transforms with Tuned Sharpening",
+      "year": 2002,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "B. Funt",
+        "F. Ciurea"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CGIV-2002/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2002chromatic,\n  title = {{Chromatic Adaptation Transforms with Tuned Sharpening}},\n  author = {Funt, B. and Ciurea, F.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2002}\n}"
+    },
+    {
+      "title": "Tuning retinex parameters",
+      "year": 2002,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "B. Funt",
+        "F. Ciurea",
+        "J. McCann"
+      ],
+      "doi": "10.1117/12.469533",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.469533",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-2002/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2002tuning,\n  title = {{Tuning retinex parameters}},\n  author = {Funt, B. and Ciurea, F. and McCann, J.},\n  booktitle = {Proceedings of SPIE},\n  year = {2002},\n  doi = {10.1117/12.469533}\n}"
+    },
+    {
+      "title": "Sensor sharpening for computational color constancy",
+      "year": 2001,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "K. Barnard",
+        "F. Ciurea",
+        "B. Funt"
+      ],
+      "doi": "10.1364/JOSAA.18.002728",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.18.002728",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-2001/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{barnard2001sensor,\n  title = {{Sensor sharpening for computational color constancy}},\n  author = {Barnard, K. and Ciurea, F. and Funt, B.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2001},\n  doi = {10.1364/JOSAA.18.002728}\n}"
+    },
+    {
+      "title": "Control parameters for retinex",
+      "year": 2001,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "B. Funt",
+        "F. Ciurea"
+      ],
+      "doi": "10.1117/12.464727",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.464727",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/AIC-2001/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2001control,\n  title = {{Control parameters for retinex}},\n  author = {Funt, B. and Ciurea, F.},\n  booktitle = {Proceedings of SPIE},\n  year = {2001},\n  doi = {10.1117/12.464727}\n}"
+    },
+    {
+      "title": "Non-linear embeddings and the underlying dimensionality of reflectance spectra and chromaticity histograms",
+      "year": 2001,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "D. Kulpinski",
+        "V. Cardei"
+      ],
+      "doi": "10.2352/CIC.2001.9.1.art00023",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2001.9.1.art00023",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-2001/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2001linear,\n  title = {{Non-linear embeddings and the underlying dimensionality of reflectance spectra and chromaticity histograms}},\n  author = {Funt, B. and Kulpinski, D. and Cardei, V.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2001},\n  doi = {10.2352/CIC.2001.9.1.art00023}\n}"
+    },
+    {
+      "title": "Color correcting uncalibrated digital images",
+      "year": 2000,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of Imaging Science and Technology",
+      "authors": [
+        "V.C. Cardei",
+        "B. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{cardei2000color,\n  title = {{Color correcting uncalibrated digital images}},\n  author = {Cardei, V.C. and Funt, B.},\n  journal = {Journal of Imaging Science and Technology},\n  year = {2000}\n}"
+    },
+    {
+      "title": "Diagonal versus affine transformations for color correction",
+      "year": 2000,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "B.V. Funt",
+        "B.C. Lewis"
+      ],
+      "doi": "10.1364/JOSAA.17.002108",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.17.002108",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-2000/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt2000diagonal,\n  title = {{Diagonal versus affine transformations for color correction}},\n  author = {Funt, B.V. and Lewis, B.C.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2000},\n  doi = {10.1364/JOSAA.17.002108}\n}"
+    },
+    {
+      "title": "Colour by correlation in a three-dimensional colour space",
+      "year": 2000,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "K. Barnard",
+        "L. Martin",
+        "B. Funt"
+      ],
+      "doi": "10.1007/3-540-45054-8_25",
+      "links": {
+        "doi": "https://doi.org/10.1007/3-540-45054-8_25",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-2000/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard2000colour,\n  title = {{Colour by correlation in a three-dimensional colour space}},\n  author = {Barnard, K. and Martin, L. and Funt, B.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {2000},\n  doi = {10.1007/3-540-45054-8_25}\n}"
+    },
+    {
+      "title": "Retinex in Matlab",
+      "year": 2000,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "B. Funt",
+        "F. Ciurea",
+        "J. McCann"
+      ],
+      "doi": "10.2352/CIC.2000.8.1.art00022",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.2000.8.1.art00022",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-2000/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2000retinex,\n  title = {{Retinex in Matlab}},\n  author = {Funt, B. and Ciurea, F. and McCann, J.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2000},\n  doi = {10.2352/CIC.2000.8.1.art00022}\n}"
+    },
+    {
+      "title": "Bootstrapping color constancy",
+      "year": 1999,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "Brian Funt",
+        "Vlad C. Cardei"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE99/spie99bcc_abs.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1999bootstrapping,\n  title = {{Bootstrapping color constancy}},\n  author = {Funt, Brian and Cardei, Vlad C.},\n  booktitle = {Proceedings of SPIE},\n  year = {1999}\n}"
+    },
+    {
+      "title": "Camera calibration for color research",
+      "year": 1999,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Human Vision and Electronic Imaging IV",
+      "authors": [
+        "Kobus Barnard",
+        "Brian Funt"
+      ],
+      "doi": "10.1117/12.348476",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.348476",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-99/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1999camera,\n  title = {{Camera calibration for color research}},\n  author = {Barnard, Kobus and Funt, Brian},\n  booktitle = {Human Vision and Electronic Imaging IV},\n  year = {1999},\n  doi = {10.1117/12.348476}\n}"
+    },
+    {
+      "title": "Color constancy in digital imagery",
+      "year": 1999,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IEEE International Conference on Image Processing",
+      "authors": [
+        "Brian V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1999color,\n  title = {{Color constancy in digital imagery}},\n  author = {Funt, Brian V.},\n  booktitle = {IEEE International Conference on Image Processing},\n  year = {1999}\n}"
+    },
+    {
+      "title": "Color constancy with specular and non-specular surfaces",
+      "year": 1999,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "K. Barnard",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.1999.7.1.art00022",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00022",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/specularSurfaces.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1999color,\n  title = {{Color constancy with specular and non-specular surfaces}},\n  author = {Barnard, K. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1999},\n  doi = {10.2352/CIC.1999.7.1.art00022}\n}"
+    },
+    {
+      "title": "Committee-based color constancy",
+      "year": 1999,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "V.C. Cardei",
+        "B. Funt"
+      ],
+      "doi": "10.2352/CIC.1999.7.1.art00059",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00059",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-99/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{cardei1999committee,\n  title = {{Committee-based color constancy}},\n  author = {Cardei, V.C. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1999},\n  doi = {10.2352/CIC.1999.7.1.art00059}\n}"
+    },
+    {
+      "title": "White point estimation for uncalibrated images",
+      "year": 1999,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "V.C. Cardei",
+        "B. Funt",
+        "K. Barnard"
+      ],
+      "doi": "10.2352/CIC.1999.7.1.art00019",
+      "links": {
+        "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00019",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/whitePointEstimation.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{cardei1999white,\n  title = {{White point estimation for uncalibrated images}},\n  author = {Cardei, V.C. and Funt, B. and Barnard, K.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1999},\n  doi = {10.2352/CIC.1999.7.1.art00019}\n}"
+    },
+    {
+      "title": "Experiments in sensor sharpening for color constancy",
+      "year": 1998,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "K. Barnard",
+        "B. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-98/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1998experiments,\n  title = {{Experiments in sensor sharpening for color constancy}},\n  author = {Barnard, K. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1998}\n}"
+    },
+    {
+      "title": "Is machine colour constancy good enough?",
+      "year": 1998,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "B. Funt",
+        "K. Barnard",
+        "L. Martin"
+      ],
+      "doi": "10.1007/BFb0055683",
+      "links": {
+        "doi": "https://doi.org/10.1007/BFb0055683",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-98/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1998machine,\n  title = {{Is machine colour constancy good enough?}},\n  author = {Funt, B. and Barnard, K. and Martin, L.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1998},\n  doi = {10.1007/BFb0055683}\n}"
+    },
+    {
+      "title": "Color Constancy for Scenes with Varying Illumination",
+      "year": 1997,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Computer Vision and Image Understanding",
+      "authors": [
+        "K. Barnard",
+        "G. Finlayson",
+        "B. Funt"
+      ],
+      "doi": "10.1006/cviu.1996.0567",
+      "links": {
+        "doi": "https://doi.org/10.1006/cviu.1996.0567",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-96/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{barnard1997color,\n  title = {{Color Constancy for Scenes with Varying Illumination}},\n  author = {Barnard, K. and Finlayson, G. and Funt, B.},\n  journal = {Computer Vision and Image Understanding},\n  year = {1997},\n  doi = {10.1006/cviu.1996.0567}\n}"
+    },
+    {
+      "title": "Digital color imaging",
+      "year": 1997,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Image Processing",
+      "authors": [],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{anon1997digital,\n  title = {{Digital color imaging}},\n  journal = {IEEE Transactions on Image Processing},\n  year = {1997}\n}"
+    },
+    {
+      "title": "Analysis and improvement of multi-scale retinex",
+      "year": 1997,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Kobus Barnard",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1997analysis,\n  title = {{Analysis and improvement of multi-scale retinex}},\n  author = {Barnard, Kobus and Funt, Brian},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1997}\n}"
+    },
+    {
+      "title": "The state of color vision research",
+      "year": 1997,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "B. Funt"
+      ],
+      "doi": "10.1007/3-540-63931-4_223",
+      "links": {
+        "doi": "https://doi.org/10.1007/3-540-63931-4_223",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1997state,\n  title = {{The state of color vision research}},\n  author = {Funt, B.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1997},\n  doi = {10.1007/3-540-63931-4_223}\n}"
+    },
+    {
+      "title": "Coefficient channels: Derivation and relationship to other theoretical studies",
+      "year": 1996,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Color Research and Application",
+      "authors": [
+        "G.D. Finlayson",
+        "B.V. Funt"
+      ],
+      "doi": "10.1002/(SICI)1520-6378(199604)21:2<87::AID-COL2>3.0.CO;2-0",
+      "links": {
+        "doi": "https://doi.org/10.1002/(SICI)1520-6378(199604)21:2<87::AID-COL2>3.0.CO;2-0",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{finlayson1996coefficient,\n  title = {{Coefficient channels: Derivation and relationship to other theoretical studies}},\n  author = {Finlayson, G.D. and Funt, B.V.},\n  journal = {Color Research and Application},\n  year = {1996},\n  doi = {10.1002/(SICI)1520-6378(199604)21:2<87::AID-COL2>3.0.CO;2-0}\n}"
+    },
+    {
+      "title": "Color angular indexing",
+      "year": 1996,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "G.D. Finlayson",
+        "S.S. Chatterjee",
+        "B.V. Funt"
+      ],
+      "doi": "10.1007/3-540-61123-1_124",
+      "links": {
+        "doi": "https://doi.org/10.1007/3-540-61123-1_124",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson1996color,\n  title = {{Color angular indexing}},\n  author = {Finlayson, G.D. and Chatterjee, S.S. and Funt, B.V.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1996},\n  doi = {10.1007/3-540-61123-1_124}\n}"
+    },
+    {
+      "title": "Colour constancy for scenes with varying illumination",
+      "year": 1996,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "K. Barnard",
+        "G. Finlayson",
+        "B. Funt"
+      ],
+      "doi": "10.1007/3-540-61123-1_123",
+      "links": {
+        "doi": "https://doi.org/10.1007/3-540-61123-1_123",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-96/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1996colour,\n  title = {{Colour constancy for scenes with varying illumination}},\n  author = {Barnard, K. and Finlayson, G. and Funt, B.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1996},\n  doi = {10.1007/3-540-61123-1_123}\n}"
+    },
+    {
+      "title": "Colour-texture indexing",
+      "year": 1996,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IEE Colloquium Digest",
+      "authors": [
+        "G.D. Finlayson",
+        "S.S. Chatterjee",
+        "B.V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson1996colour,\n  title = {{Colour-texture indexing}},\n  author = {Finlayson, G.D. and Chatterjee, S.S. and Funt, B.V.},\n  booktitle = {IEE Colloquium Digest},\n  year = {1996}\n}"
+    },
+    {
+      "title": "Learning color constancy",
+      "year": 1996,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Brian Funt",
+        "Vlad Cardei",
+        "Kobus Barnard"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ARIZONA/arizona_abs.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1996learning,\n  title = {{Learning color constancy}},\n  author = {Funt, Brian and Cardei, Vlad and Barnard, Kobus},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1996}\n}"
+    },
+    {
+      "title": "Color Constant Color Indexing",
+      "year": 1995,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "authors": [
+        "B.V. Funt",
+        "G.D. Finlayson"
+      ],
+      "doi": "10.1109/34.391390",
+      "links": {
+        "doi": "https://doi.org/10.1109/34.391390",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1995/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt1995color,\n  title = {{Color Constant Color Indexing}},\n  author = {Funt, B.V. and Finlayson, G.D.},\n  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n  year = {1995},\n  doi = {10.1109/34.391390}\n}"
+    },
+    {
+      "title": "Color angle invariants for object recognition",
+      "year": 1995,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "G.D. Finlayson",
+        "S.S. Chatterjee",
+        "B.V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson1995color,\n  title = {{Color angle invariants for object recognition}},\n  author = {Finlayson, G.D. and Chatterjee, S.S. and Funt, B.V.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1995}\n}"
+    },
+    {
+      "title": "Color constancy under varying illumination",
+      "year": 1995,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IEEE International Conference on Computer Vision",
+      "authors": [
+        "G.D. Finlayson",
+        "B.V. Funt",
+        "K. Barnard"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson1995color,\n  title = {{Color constancy under varying illumination}},\n  author = {Finlayson, G.D. and Funt, B.V. and Barnard, K.},\n  booktitle = {IEEE International Conference on Computer Vision},\n  year = {1995}\n}"
+    },
+    {
+      "title": "Computational view of colour",
+      "year": 1995,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IEEE Pacific RIM Conference on Communications Computers and Signal Processing Proceedings",
+      "authors": [
+        "Brian V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1995computational,\n  title = {{Computational view of colour}},\n  author = {Funt, Brian V.},\n  booktitle = {IEEE Pacific RIM Conference on Communications Computers and Signal Processing Proceedings},\n  year = {1995}\n}"
+    },
+    {
+      "title": "Linear models and computational color constancy",
+      "year": 1995,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1995linear,\n  title = {{Linear models and computational color constancy}},\n  author = {Funt, Brian},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1995}\n}"
+    },
+    {
+      "title": "Color constancy:Generalized diagonal transforms suffice",
+      "year": 1994,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "G.D. Finlayson",
+        "M.S. Drew",
+        "B.V. Funt"
+      ],
+      "doi": "10.1364/JOSAA.11.003011",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.11.003011",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-1994/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{finlayson1994color,\n  title = {{Color constancy:Generalized diagonal transforms suffice}},\n  author = {Finlayson, G.D. and Drew, M.S. and Funt, B.V.},\n  journal = {Journal of the Optical Society of America A},\n  year = {1994},\n  doi = {10.1364/JOSAA.11.003011}\n}"
+    },
+    {
+      "title": "Spectral sharpening: Sensor transformations for improved color constancy",
+      "year": 1994,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "G.D. Finlayson",
+        "M.S. Drew",
+        "B.V. Funt"
+      ],
+      "doi": "10.1364/JOSAA.11.001553",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.11.001553",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{finlayson1994spectral,\n  title = {{Spectral sharpening: Sensor transformations for improved color constancy}},\n  author = {Finlayson, G.D. and Drew, M.S. and Funt, B.V.},\n  journal = {Journal of the Optical Society of America A},\n  year = {1994},\n  doi = {10.1364/JOSAA.11.001553}\n}"
+    },
+    {
+      "title": "Color Space Analysis of Mutual Illumination",
+      "year": 1993,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "authors": [
+        "B.V. Funt",
+        "M.S. Drew"
+      ],
+      "doi": "10.1109/34.250838",
+      "links": {
+        "doi": "https://doi.org/10.1109/34.250838",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1993/index.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt1993color,\n  title = {{Color Space Analysis of Mutual Illumination}},\n  author = {Funt, B.V. and Drew, M.S.},\n  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n  year = {1993},\n  doi = {10.1109/34.250838}\n}"
+    },
+    {
+      "title": "Color constancy: Enhancing von Kries adaptation via sensor transformations",
+      "year": 1993,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of SPIE",
+      "authors": [
+        "G.D. Finlayson",
+        "M.S. Drew",
+        "B.V. Funt"
+      ],
+      "doi": "10.1117/12.152721",
+      "links": {
+        "doi": "https://doi.org/10.1117/12.152721",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson1993color,\n  title = {{Color constancy: Enhancing von Kries adaptation via sensor transformations}},\n  author = {Finlayson, G.D. and Drew, M.S. and Funt, B.V.},\n  booktitle = {Proceedings of SPIE},\n  year = {1993},\n  doi = {10.1117/12.152721}\n}"
+    },
+    {
+      "title": "Conformal transplantation of lightness to varying resolution sensors",
+      "year": 1993,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "IEEE Computer Vision and Pattern Recognition",
+      "authors": [
+        "Brian V. Funt",
+        "Michael Brockington",
+        "Frank Tong"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/Conformal/conf2_abs.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1993conformal,\n  title = {{Conformal transplantation of lightness to varying resolution sensors}},\n  author = {Funt, Brian V. and Brockington, Michael and Tong, Frank},\n  booktitle = {IEEE Computer Vision and Pattern Recognition},\n  year = {1993}\n}"
+    },
+    {
+      "title": "Diagonal transforms suffice for color constancy",
+      "year": 1993,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "1993 IEEE 4th International Conference on Computer Vision",
+      "authors": [
+        "Graham D. Finlayson",
+        "Mark S. Drew",
+        "Brian V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ICCV/iccv_abs.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson1993diagonal,\n  title = {{Diagonal transforms suffice for color constancy}},\n  author = {Finlayson, Graham D. and Drew, Mark S. and Funt, Brian V.},\n  booktitle = {1993 IEEE 4th International Conference on Computer Vision},\n  year = {1993}\n}"
+    },
+    {
+      "title": "Natural metamers",
+      "year": 1992,
+      "month": null,
+      "type": "Journal article",
+      "venue": "CVGIP Image Understanding",
+      "authors": [
+        "M.S. Drew",
+        "B.V. Funt"
+      ],
+      "doi": "10.1016/1049-9660(92)90036-3",
+      "links": {
+        "doi": "https://doi.org/10.1016/1049-9660(92)90036-3",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{drew1992natural,\n  title = {{Natural metamers}},\n  author = {Drew, M.S. and Funt, B.V.},\n  journal = {CVGIP Image Understanding},\n  year = {1992},\n  doi = {10.1016/1049-9660(92)90036-3}\n}"
+    },
+    {
+      "title": "Variational approach to interreflection in color images",
+      "year": 1992,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Journal of the Optical Society of America A",
+      "authors": [
+        "M.S. Drew",
+        "B.V. Funt"
+      ],
+      "doi": "10.1364/JOSAA.9.001255",
+      "links": {
+        "doi": "https://doi.org/10.1364/JOSAA.9.001255",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{drew1992variational,\n  title = {{Variational approach to interreflection in color images}},\n  author = {Drew, M.S. and Funt, B.V.},\n  journal = {Journal of the Optical Society of America A},\n  year = {1992},\n  doi = {10.1364/JOSAA.9.001255}\n}"
+    },
+    {
+      "title": "Recovering shading from color images",
+      "year": 1992,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Lecture Notes in Computer Science",
+      "authors": [
+        "B.V. Funt",
+        "M.S. Drew",
+        "M. Brockington"
+      ],
+      "doi": "10.1007/3-540-55426-2_15",
+      "links": {
+        "doi": "https://doi.org/10.1007/3-540-55426-2_15",
+        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV92/eccv92_abs.html",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1992recovering,\n  title = {{Recovering shading from color images}},\n  author = {Funt, B.V. and Drew, M.S. and Brockington, M.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1992},\n  doi = {10.1007/3-540-55426-2_15}\n}"
+    },
+    {
+      "title": "Color constancy from mutual reflection",
+      "year": 1991,
+      "month": null,
+      "type": "Journal article",
+      "venue": "International Journal of Computer Vision",
+      "authors": [
+        "B.V. Funt",
+        "M.S. Drew",
+        "J. Ho"
+      ],
+      "doi": "10.1007/BF00127123",
+      "links": {
+        "doi": "https://doi.org/10.1007/BF00127123",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt1991color,\n  title = {{Color constancy from mutual reflection}},\n  author = {Funt, B.V. and Drew, M.S. and Ho, J.},\n  journal = {International Journal of Computer Vision},\n  year = {1991},\n  doi = {10.1007/BF00127123}\n}"
+    },
+    {
+      "title": "Separating a Color Signal into Illumination and Surface Reflectance Components: Theory and Applications",
+      "year": 1990,
+      "month": null,
+      "type": "Journal article",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "authors": [
+        "H.o. Jian",
+        "B.V. Funt",
+        "M.S. Drew"
+      ],
+      "doi": "10.1109/34.58869",
+      "links": {
+        "doi": "https://doi.org/10.1109/34.58869",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{jian1990separating,\n  title = {{Separating a Color Signal into Illumination and Surface Reflectance Components: Theory and Applications}},\n  author = {Jian, H.o. and Funt, B.V. and Drew, M.S.},\n  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n  year = {1990},\n  doi = {10.1109/34.58869}\n}"
+    },
+    {
+      "title": "Calculating surface reflectance using a single-bounce model of mutual reflection",
+      "year": 1990,
+      "month": null,
+      "type": "Conference paper",
+      "venue": null,
+      "authors": [
+        "Mark S. Drew",
+        "Brian V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{drew1990calculating,\n  title = {{Calculating surface reflectance using a single-bounce model of mutual reflection}},\n  author = {Drew, Mark S. and Funt, Brian V.},\n  year = {1990}\n}"
+    },
+    {
+      "title": "Synthesis of Acoustic Timbres using Principal Component Analysis",
+      "year": 1990,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of the 1990 International Computer Music Conference ICMC 1990",
+      "authors": [
+        "R.G. Laughlin",
+        "B.D. Truax",
+        "B.V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{laughlin1990synthesis,\n  title = {{Synthesis of Acoustic Timbres using Principal Component Analysis}},\n  author = {Laughlin, R.G. and Truax, B.D. and Funt, B.V.},\n  booktitle = {Proceedings of the 1990 International Computer Music Conference ICMC 1990},\n  year = {1990}\n}"
+    },
+    {
+      "title": "Color from black and white",
+      "year": 1989,
+      "month": null,
+      "type": "Journal article",
+      "venue": "International Journal of Computer Vision",
+      "authors": [
+        "B. Funt",
+        "J. Ho"
+      ],
+      "doi": "10.1007/BF00126427",
+      "links": {
+        "doi": "https://doi.org/10.1007/BF00126427",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt1989color,\n  title = {{Color from black and white}},\n  author = {Funt, B. and Ho, J.},\n  journal = {International Journal of Computer Vision},\n  year = {1989},\n  doi = {10.1007/BF00126427}\n}"
+    },
+    {
+      "title": "Color constancy computation in near-Mondrian scenes using a finite dimensional linear model",
+      "year": 1988,
+      "month": null,
+      "type": "Conference paper",
+      "venue": null,
+      "authors": [
+        "Brian V. Funt",
+        "Mark S. Drew"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1988color,\n  title = {{Color constancy computation in near-Mondrian scenes using a finite dimensional linear model}},\n  author = {Funt, Brian V. and Drew, Mark S.},\n  year = {1988}\n}"
+    },
+    {
+      "title": "Color from black and white",
+      "year": 1988,
+      "month": null,
+      "type": "Conference paper",
+      "venue": null,
+      "authors": [
+        "Brian Funt",
+        "Jian Ho"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1988color,\n  title = {{Color from black and white}},\n  author = {Funt, Brian and Ho, Jian},\n  year = {1988}\n}"
+    },
+    {
+      "title": "Detection of internal log defects by automatic interpretation of computer tomography images",
+      "year": 1987,
+      "month": 1,
+      "type": "Journal article",
+      "venue": "Forest products journal",
+      "authors": [
+        "Funt BV",
+        "Bryant EC"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{bv1987detection,\n  title = {{Detection of internal log defects by automatic interpretation of computer tomography images}},\n  author = {BV, Funt and EC, Bryant},\n  journal = {Forest products journal},\n  year = {1987}\n}"
+    },
+    {
+      "title": "Computer Vision System That Analyses CT-Scans of Sawlogs",
+      "year": 1985,
+      "month": null,
+      "type": "Conference paper",
+      "venue": null,
+      "authors": [
+        "Brian V. Funt",
+        "Edwin C. Bryant"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1985computer,\n  title = {{Computer Vision System That Analyses CT-Scans of Sawlogs}},\n  author = {Funt, Brian V. and Bryant, Edwin C.},\n  year = {1985}\n}"
+    },
+    {
+      "title": "A parallel-process model of mental rotation",
+      "year": 1983,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Cognitive Science",
+      "authors": [
+        "B.V. Funt"
+      ],
+      "doi": "10.1016/S0364-0213(83)80018-4",
+      "links": {
+        "doi": "https://doi.org/10.1016/S0364-0213(83)80018-4",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt1983parallel,\n  title = {{A parallel-process model of mental rotation}},\n  author = {Funt, B.V.},\n  journal = {Cognitive Science},\n  year = {1983},\n  doi = {10.1016/S0364-0213(83)80018-4}\n}"
+    },
+    {
+      "title": "Raster Display of a Rotating Object Using Parallel Processing",
+      "year": 1983,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Computer Graphics Forum",
+      "authors": [
+        "T. Strothotte",
+        "B. Funt"
+      ],
+      "doi": "10.1111/j.1467-8659.1983.tb00148.x",
+      "links": {
+        "doi": "https://doi.org/10.1111/j.1467-8659.1983.tb00148.x",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{strothotte1983raster,\n  title = {{Raster Display of a Rotating Object Using Parallel Processing}},\n  author = {Strothotte, T. and Funt, B.},\n  journal = {Computer Graphics Forum},\n  year = {1983},\n  doi = {10.1111/j.1467-8659.1983.tb00148.x}\n}"
+    },
+    {
+      "title": "Analogical Modes of Reasoning and Process Modeling",
+      "year": 1983,
+      "month": null,
+      "type": "Other",
+      "venue": "Computer",
+      "authors": [
+        "B.V. Funt"
+      ],
+      "doi": "10.1109/MC.1983.1654205",
+      "links": {
+        "doi": "https://doi.org/10.1109/MC.1983.1654205",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@misc{funt1983analogical,\n  title = {{Analogical Modes of Reasoning and Process Modeling}},\n  author = {Funt, B.V.},\n  howpublished = {Computer},\n  year = {1983},\n  doi = {10.1109/MC.1983.1654205}\n}"
+    },
+    {
+      "title": "Multi-Processor Rotation and Comparison of Objects",
+      "year": 1981,
+      "month": null,
+      "type": "Conference paper",
+      "venue": null,
+      "authors": [
+        "Brian V. Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1981multi,\n  title = {{Multi-Processor Rotation and Comparison of Objects}},\n  author = {Funt, Brian V.},\n  year = {1981}\n}"
+    },
+    {
+      "title": "Problem-solving with diagrammatic representations",
+      "year": 1980,
+      "month": null,
+      "type": "Journal article",
+      "venue": "Artificial Intelligence",
+      "authors": [
+        "B.V. Funt"
+      ],
+      "doi": "10.1016/0004-3702(80)90002-8",
+      "links": {
+        "doi": "https://doi.org/10.1016/0004-3702(80)90002-8",
+        "paperPage": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{funt1980problem,\n  title = {{Problem-solving with diagrammatic representations}},\n  author = {Funt, B.V.},\n  journal = {Artificial Intelligence},\n  year = {1980},\n  doi = {10.1016/0004-3702(80)90002-8}\n}"
+    }
+  ]
+}

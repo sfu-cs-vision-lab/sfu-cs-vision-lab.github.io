@@ -1,0 +1,35 @@
+services:
+  fetch:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      args:
+        ZENODO_COMMUNITY: "sfu-cs-vision-lab"   # <- your Zenodo community slug, no %
+    command: ["npm", "run", "fetch:data"]
+    volumes:
+      - .:/app
+      - ./data:/app/data
+    restart: "no"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      args:
+        ZENODO_COMMUNITY: "sfu-cs-vision-lab"
+    depends_on:
+      fetch:
+        condition: service_completed_successfully
+    ports:
+      - "3000:3000"
+    environment:
+      HOST: "0.0.0.0"
+      NEXT_TELEMETRY_DISABLED: "1"
+      CHOKIDAR_USEPOLLING: "1"
+      WATCHPACK_POLLING: "true"
+      NEXT_BASE_PATH: ""
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - ./data:/app/data
+    command: ["npm", "run", "dev"]
