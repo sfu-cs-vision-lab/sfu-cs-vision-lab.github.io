@@ -7,7 +7,6 @@ import CiteButton from "@/components/CiteButton";
 export const metadata = { title: "Data" };
 
 type Paper = (typeof publications.publications)[number];
-type Link = { label: string; href: string };
 
 const paperByDoi = new Map(publications.publications.map(p => [p.doi?.toLowerCase(), p]));
 
@@ -66,7 +65,6 @@ const entry = "border-b border-rule py-6 first:pt-0 last:border-b-0 [&>*]:max-w-
 export default function DataPage() {
   // The fetch lists every version, newest first; show the newest of each.
   const records = zenodo.datasets.filter((d, i, all) => all.findIndex(e => e.conceptdoi === d.conceptdoi) === i);
-  const extra = earlier.alsoOnZenodo as Record<string, Link>;
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-24 pt-14 sm:px-6 md:pt-20">
@@ -100,7 +98,6 @@ export default function DataPage() {
                 </div>
                 <p className={linkRow}>
                   <a href={`https://doi.org/${d.doi}`}>Zenodo record</a>
-                  {extra[d.doi] && <a href={extra[d.doi].href}>{extra[d.doi].label}</a>}
                   <CiteButton text={d.bibtex} label="Copy BibTeX" className={textButton} />
                 </p>
               </li>

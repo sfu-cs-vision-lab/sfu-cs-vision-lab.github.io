@@ -1,5 +1,5 @@
 {
-  "about": "Datasets listed on the lab's earlier data page (https://www.cs.sfu.ca/~colour/data/, last updated May 07, 2014), in that page's own words. Status lines that are out of date (a paper 'in press' or 'under review') are replaced by the published paper, by the owner's decision of 2026-11-19. Files stay on the department's server.",
+  "about": "Datasets listed on the lab's earlier data page (https://www.cs.sfu.ca/~colour/data/, last updated May 07, 2014), in that page's own words. Status lines that are out of date (a paper 'in press' or 'under review') are replaced by the published paper, by the owner's decision of 2026-11-19. Files stay on the department's server. Two of Barnard's datasets (Images of Objects Under Different Illuminants, and the 1998 Object Recognition Image Database) were dropped on 2026-11-19: their files return 404 on SFU's server.",
   "source": "https://www.cs.sfu.ca/~colour/data/",
   "datasets": [
     {
@@ -50,7 +50,9 @@
       "papers": [
         "10.2352/CIC.2003.11.1.art00028"
       ],
-      "description": []
+      "description": [
+        "The database is available for download free for non-commercial research purposes. Please write to Brian Funt for the URL for downloading. The download directory contains several files. The .zip file contains the images. The .mat file is a Matlab matrix file containing an 11346 by 3 matrix. Each row is the RGB of illuminant for the corresponding file in file."
+      ]
     },
     {
       "title": "Shi’s Re-processed Version of the Gehler Color Constancy Dataset of 568 Images",
@@ -124,23 +126,9 @@
         "href": "https://www.cs.sfu.ca/~colour/data/colour_constancy_test_images/index.html"
       },
       {
-        "title": "Images of Objects Under Different Illuminants",
-        "href": "https://www.cs.sfu.ca/~colour/data/objects_under_different_lights/index.html"
-      },
-      {
         "title": "Spectra of Fluorescent Surfaces",
         "href": "https://www.cs.sfu.ca/~colour/data/fluorescent_surface_spectra/index.html"
-      },
-      {
-        "title": "Object Recognition Image Database (Old Version - 1998)",
-        "href": "https://www.cs.sfu.ca/~colour/image_db/index.html"
       }
     ]
-  },
-  "alsoOnZenodo": {
-    "10.5281/zenodo.17114535": {
-      "label": "MATLAB .mat files",
-      "href": "https://www2.cs.sfu.ca/~colour/data/Zhang_41MillionReflectances/"
-    }
   }
 }
