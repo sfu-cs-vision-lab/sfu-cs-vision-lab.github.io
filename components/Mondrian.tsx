@@ -120,7 +120,7 @@ export default function Mondrian() {
               <div key={p.chip} className={`${styles.paper} ${styles.title}`} style={style}>
                 {notation}
                 <h1>Computational Vision Lab</h1>
-                <p>Simon Fraser University · School of Computing Science</p>
+                <p><a href="https://www.sfu.ca/">Simon Fraser University</a> · <a href="https://www.sfu.ca/computing.html">School of Computing Science</a></p>
               </div>
             );
           }

@@ -2,8 +2,6 @@ import Link from "next/link";
 import { SECTIONS } from "@/lib/mondrian";
 
 const elsewhere = [
-  { label: "Simon Fraser University", href: "https://www.sfu.ca/" },
-  { label: "School of Computing Science", href: "https://www.sfu.ca/computing.html" },
   { label: "GitHub", href: "https://github.com/sfu-cs-vision-lab" },
   { label: "Zenodo", href: "https://zenodo.org/communities/sfu-cs-vision-lab" },
 ];
@@ -15,9 +13,9 @@ export default function SiteFooter() {
         <div>
           <p className="text-[19px] font-semibold [font-stretch:112.5%]">Computational Vision Lab</p>
           <address className="mt-3 text-[15px] not-italic leading-relaxed text-ink-2">
-            School of Computing Science
+            <a href="https://www.sfu.ca/computing.html">School of Computing Science</a>
             <br />
-            Simon Fraser University
+            <a href="https://www.sfu.ca/">Simon Fraser University</a>
             <br />
             Burnaby, BC V5A 1S6, Canada
           </address>

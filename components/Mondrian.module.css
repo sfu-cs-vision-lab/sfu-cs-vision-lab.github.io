@@ -90,6 +90,22 @@
   line-height: 1.4;
 }
 
+/* Links on the title paper take the paper's own ink (black or white), not the page ink. */
+.title a {
+  color: inherit;
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;
+}
+
+.title a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.title a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
 /* Controls stay pinned to the bottom of the display while it is on screen. */
 .controls {
   position: sticky;

@@ -36,6 +36,16 @@ const date = (iso: string) => new Date(iso).toLocaleDateString("en-CA", { year: 
 // "Forsythe, Alexander G." as "Alexander G. Forsythe", as on Publications.
 const displayName = (n: string) => n.split(", ").reverse().join(" ");
 
+// Descriptions are plain text from data/legacy-datasets.json; the university and the School are linked.
+const PLACES: Record<string, string> = {
+  "Simon Fraser University": "https://www.sfu.ca/",
+  "School of Computing Science": "https://www.sfu.ca/computing.html",
+};
+const withPlaceLinks = (text: string) =>
+  text.split(/(Simon Fraser University|School of Computing Science)/).map((part, i) =>
+    PLACES[part] ? <a key={i} href={PLACES[part]}>{part}</a> : part,
+  );
+
 const linkRow = "mt-2 flex flex-wrap items-center gap-x-5 text-[15px] leading-[2]";
 const textButton =
   "cursor-pointer bg-transparent p-0 text-ink underline decoration-ink-2 decoration-1 underline-offset-4 hover:decoration-ink hover:decoration-2";
@@ -114,7 +124,7 @@ export default function DataPage() {
               {d.byline && <p className="mt-1 text-[16px] leading-[1.6] text-ink-2">{d.byline}</p>}
               {d.description.length > 0 && (
                 <div className="mt-3 space-y-3 text-[16px] leading-[1.65] text-ink">
-                  {d.description.map(p => <p key={p}>{p}</p>)}
+                  {d.description.map(p => <p key={p}>{withPlaceLinks(p)}</p>)}
                 </div>
               )}
               <Papers papers={(d.papers ?? []).map(doi => paperByDoi.get(doi.toLowerCase())).filter(p => p !== undefined)} />
