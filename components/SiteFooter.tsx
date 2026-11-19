@@ -17,7 +17,7 @@ export default function SiteFooter() {
             <br />
             <a href="https://www.sfu.ca/">Simon Fraser University</a>
             <br />
-            Burnaby, BC V5A 1S6, Canada
+            <a href="https://maps.app.goo.gl/NWBZUYLgQrukSJ918">Burnaby, BC V5A 1S6, Canada</a>
           </address>
         </div>
         <nav aria-label="Sections">
