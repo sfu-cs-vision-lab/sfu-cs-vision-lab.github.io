@@ -54,6 +54,28 @@ export default function CodePage() {
           </section>
         ))
       )}
+
+      <section
+        aria-labelledby="elsewhere"
+        className="mt-14 grid gap-x-12 border-t border-rule pt-6 md:mt-20 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]"
+      >
+        <h2 id="elsewhere" className="self-start text-[19px] font-semibold leading-snug text-ink md:sticky md:top-24">
+          Elsewhere
+        </h2>
+        <ul className="mt-4 md:mt-0">
+          <li className="py-0">
+            <h3 className="text-[17px] font-semibold leading-snug">
+              <a href="https://ivilab.cs.arizona.edu/kobus/research/code/colour_constancy/index.html">
+                Computational colour constancy
+              </a>
+            </h3>
+            <p className="mt-2 max-w-[65ch] text-[16px] leading-[1.6] text-ink-2">
+              Kobus Barnard’s colour constancy source code, from his research in the lab, on his own site at the
+              University of Arizona.
+            </p>
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }
