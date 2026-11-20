@@ -2,7 +2,7 @@ import Link from "next/link";
 import data from "@/data/publications.json";
 import CiteButton from "@/components/CiteButton";
 import PublicationFilter from "@/components/PublicationFilter";
-import { publicationText } from "@/lib/search";
+import { publicationAnchor, publicationText } from "@/lib/search";
 
 export const metadata = { title: "Publications" };
 
@@ -14,9 +14,10 @@ function Entry({ p }: { p: Publication }) {
   const { doi, paperPage, code, data: dataset } = p.links;
   return (
     <li
+      id={publicationAnchor(p)}
       data-pub
       data-text={publicationText(p)}
-      className="border-b border-rule py-5 first:pt-0 last:border-b-0 [&>*]:max-w-[62ch]"
+      className="scroll-mt-24 border-b border-rule py-5 first:pt-0 last:border-b-0 [&>*]:max-w-[62ch]"
     >
       <h3 className="text-[17px] font-semibold leading-snug text-ink">{p.title}</h3>
       {p.authors.length > 0 && <p className="mt-1 text-[16px] leading-[1.6] text-ink-2">{p.authors.join(", ")}</p>}

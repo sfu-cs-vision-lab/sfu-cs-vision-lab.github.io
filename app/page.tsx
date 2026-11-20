@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Mondrian from "@/components/Mondrian";
 import { REPOS } from "@/lib/github";
+import { publicationAnchor } from "@/lib/search";
 
 // The four most recently updated repos.
 const recent = REPOS.slice(0, 4);
@@ -81,7 +82,9 @@ export default function Home() {
               <a href="https://doi.org/10.1109/CVPR.1988.196288"><cite>Color constancy computation in near-Mondrian scenes
               using a finite dimensional linear model</cite></a> (CVPR). The Retinex option uses the McCann99 algorithm, converted for the web from the{" "}
               <Link href="/code/retinex-matlab/">code</Link> published with Funt, Ciurea and McCann&rsquo;s{" "}
-              <a href="https://doi.org/10.1117/1.1636761"><cite>Retinex in MATLAB</cite></a>.
+              <Link href={`/publications/#${publicationAnchor({ doi: "10.1117/1.1636761", title: "" })}`}>
+                <cite>Retinex in MATLAB</cite>
+              </Link>.
             </p>
             <p className="max-w-[58ch] pt-2 text-[14px] leading-relaxed text-ink-2">
               Sources:{" "}
