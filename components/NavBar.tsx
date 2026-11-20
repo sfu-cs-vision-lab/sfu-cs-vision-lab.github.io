@@ -43,6 +43,18 @@ export default function NavBar() {
   }, [home]);
   useEffect(() => { if (!shown) setOpen(false); }, [shown]);
 
+  // About is a section of the home page, not a page: it is the current place while the section fills the upper
+  // part of the screen, below the header.
+  const [atAbout, setAtAbout] = useState(false);
+  useEffect(() => {
+    if (!home) return setAtAbout(false);
+    const about = document.getElementById("about");
+    if (!about) return;
+    const watch = new IntersectionObserver(([entry]) => setAtAbout(entry.isIntersecting), { rootMargin: "-64px 0px -40% 0px" });
+    watch.observe(about);
+    return () => watch.disconnect();
+  }, [home]);
+
   // Clicks on the site's own links. On the home page a link to one of its sections (About) always glides there;
   // left to the router, a link to the hash already in the address jumps. A link to another page crossfades to
   // it where the browser can (View Transitions).
@@ -98,13 +110,14 @@ export default function NavBar() {
 
 
   const links = SECTIONS.map(s => {
-    const active = pathname?.startsWith(s.href.slice(0, -1));
+    const section = s.href.startsWith("/#");
+    const active = section ? atAbout : pathname?.startsWith(s.href.slice(0, -1));
     return (
       <li key={s.href}>
         <Link
           href={s.href}
-          aria-current={active ? "page" : undefined}
-          className="flex min-h-[44px] items-center gap-2 px-3 text-[15px] text-ink-2 no-underline hover:text-ink aria-[current=page]:text-ink aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]"
+          aria-current={active ? (section ? "location" : "page") : undefined}
+          className="flex min-h-[44px] items-center gap-2 px-3 text-[15px] text-ink-2 no-underline hover:text-ink [&[aria-current]]:text-ink [&[aria-current]]:underline [&[aria-current]]:decoration-2 [&[aria-current]]:underline-offset-[6px]"
         >
           <span aria-hidden="true" className="h-3 w-3 shrink-0" style={{ background: paperHex(s.chip) }} />
           {s.name}
