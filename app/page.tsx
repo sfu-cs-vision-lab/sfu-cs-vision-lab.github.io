@@ -31,9 +31,14 @@ export default function Home() {
           </p>
           <p>
             Since 1988 members of the lab have worked on how a camera or an eye can recover the colours of surfaces when
-            the light changes. Major areas of research have been the calculation of the physical extent of metamerism
-            using <Link href="/research/#metamer-mismatching">metamer mismatch bodies</Link> and, more recently,{" "}
-            <Link href="/research/#cinema-colour">colour for cinema</Link>. The lab publishes its{" "}
+            the light changes. Major areas of research have been{" "}
+            <Link href="/research/#illumination-estimation">colour constancy and the estimation of the scene illumination</Link>,
+            including <Link href="/code/retinex-matlab/">retinex</Link>; the calculation of the physical extent of
+            metamerism using <Link href="/research/#metamer-mismatching">metamer mismatch bodies</Link>; models of surface
+            reflectance and illumination spectra; <Link href="/research/sensor-sharpening/">spectral sharpening</Link> of
+            camera sensors; <Link href="/research/colour-indexing/">colour-based object recognition</Link>; camera and
+            display calibration; and, more recently, <Link href="/research/#cinema-colour">colour for cinema</Link>. The
+            lab publishes its{" "}
             <Link href="/data/">datasets</Link> and <Link href="/code/">code</Link> openly.
           </p>
         </div>
