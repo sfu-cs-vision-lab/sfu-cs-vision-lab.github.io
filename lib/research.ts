@@ -26,7 +26,7 @@ export const AREAS: Area[] = [
     query: "metamer",
     repos: /metamer/i,
     datasets: /metamer/i,
-    draft: true,
+    draft: false,
     description: [
       "Two surfaces that match under one light can differ under another. The set of colours a surface can take under a second light, given its colour under the first, is its metamer mismatch body.",
       "The lab computes these bodies exactly, by zonotope tiling, and studies what they predict: colour difference ellipsoids, and how accurately a camera's sensors record colour. Related work describes the object-colour solid, the set of all colours surfaces can have under a light.",
@@ -46,7 +46,7 @@ export const AREAS: Area[] = [
     query: "illumin|constancy",
     repos: /illumination|retinex|white balanc|constancy/i,
     datasets: /illumin|constancy/i,
-    draft: true,
+    draft: false,
     description: [
       "The lab estimates the chromaticity of the scene illumination from an image, which can be used to provide colour constancy and automatic white balancing. Its methods include thin-plate spline interpolation of that chromaticity across a training set of images, and MATLAB implementations of retinex.",
       "More recent work proposes the Laplacian of the logarithm of an image as an illuminant-invariant input space.",
@@ -64,7 +64,7 @@ export const AREAS: Area[] = [
     query: "cinema|aces",
     repos: /color transformation language|cinema|\bACES\b/i,
     datasets: /cinema|\bACES\b/i,
-    draft: true,
+    draft: false,
     description: [
       "Recent work assesses colour-rendering differences in cinematic lighting with a new metamer mismatch metric, and modernizes the Color Transformation Language (CTL).",
     ],
