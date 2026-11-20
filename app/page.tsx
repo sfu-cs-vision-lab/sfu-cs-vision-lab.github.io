@@ -27,7 +27,7 @@ export default function Home() {
             The Computational Vision Lab is part of the{" "}
             <a href="https://www.sfu.ca/computing.html">School of Computing Science</a> at{" "}
             <a href="https://www.sfu.ca/">Simon Fraser University</a> in Burnaby, British Columbia, and is directed by{" "}
-            <Link href="/people/">Brian Funt</Link>.
+            <Link href="/people/">Dr. Brian Funt</Link>.
           </p>
           <p>
             Since 1988 members of the lab have worked on how a camera or an eye can recover the colours of surfaces when
@@ -37,8 +37,10 @@ export default function Home() {
             metamerism using <Link href="/research/#metamer-mismatching">metamer mismatch bodies</Link>; models of surface
             reflectance and illumination spectra; <Link href="/research/sensor-sharpening/">spectral sharpening</Link> of
             camera sensors; <Link href="/research/colour-indexing/">colour-based object recognition</Link>; camera and
-            display calibration; and, more recently, <Link href="/research/#cinema-colour">colour for cinema</Link>. The
-            lab publishes its{" "}
+            display calibration; and, more recently, <Link href="/research/#cinema-colour">colour for cinema</Link>. Much
+            of this work applies directly to photographic imaging systems: automatic white balance and colour correction
+            in digital cameras, camera calibration and the accuracy of colour sensors, and the colour pipelines of film
+            production. The lab publishes its{" "}
             <Link href="/data/">datasets</Link> and <Link href="/code/">code</Link> openly.
           </p>
         </div>
