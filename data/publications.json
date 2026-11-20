@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T20:29:11.198Z",
+  "fetchedAt": "2026-11-20T21:09:50.171Z",
   "sources": [
     {
       "name": "Dr. Brian Funt",
@@ -1878,6 +1878,26 @@
       "bibtex": "@inproceedings{xiong2005nonlinear,\n  title = {{Nonlinear RGB-to-XYZ mapping for device calibration}},\n  author = {Xiong, W. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2005},\n  doi = {10.2352/cic.2005.13.1.art00037}\n}"
     },
     {
+      "title": "Calibrated Colour Mapping Between LCD and CRT Displays: A Case Study",
+      "year": 2004,
+      "month": 1,
+      "type": "Conference paper",
+      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
+      "authors": [
+        "Bill Cressman",
+        "Behnam Bastani",
+        "Brian Funt"
+      ],
+      "doi": "10.2352/cgiv.2004.2.1.art00110",
+      "links": {
+        "doi": "https://doi.org/10.2352/cgiv.2004.2.1.art00110",
+        "pdf": "/papers/CGIV-2004/CGIV-2004.pdf",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{cressman2004calibrated,\n  title = {{Calibrated Colour Mapping Between LCD and CRT Displays: A Case Study}},\n  author = {Cressman, Bill and Bastani, Behnam and Funt, Brian},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2004},\n  doi = {10.2352/cgiv.2004.2.1.art00110}\n}"
+    },
+    {
       "title": "Retinex in MATLAB™",
       "year": 2004,
       "month": null,
@@ -1915,26 +1935,6 @@
         "data": null
       },
       "bibtex": "@article{ciurea2004tuning,\n  title = {{Tuning Retinex parameters}},\n  author = {Ciurea, F. and Funt, B.},\n  journal = {Journal of Electronic Imaging},\n  year = {2004},\n  doi = {10.1117/1.1635365}\n}"
-    },
-    {
-      "title": "Calibrated colour mapping between LCD and CRT Displays: A case study",
-      "year": 2004,
-      "month": null,
-      "type": "Conference paper",
-      "venue": "European Conference on Colour in Graphics, Imaging and Vision (CGIV)",
-      "authors": [
-        "B. Cressman",
-        "B. Bastani",
-        "B. Funt"
-      ],
-      "doi": null,
-      "links": {
-        "doi": null,
-        "pdf": "/papers/CRA-2004/CRA-BastaniCressmanFinalVersion.pdf",
-        "code": null,
-        "data": null
-      },
-      "bibtex": "@inproceedings{cressman2004calibrated,\n  title = {{Calibrated colour mapping between LCD and CRT Displays: A case study}},\n  author = {Cressman, B. and Bastani, B. and Funt, B.},\n  booktitle = {European Conference on Colour in Graphics, Imaging and Vision (CGIV)},\n  year = {2004}\n}"
     },
     {
       "title": "Estimating illumination chromaticity via support vector regression",
@@ -1993,6 +1993,26 @@
         "data": null
       },
       "bibtex": "@inproceedings{funt2004optimal,\n  title = {{Optimal linear RGB-to-XYZ mapping for color display calibration}},\n  author = {Funt, B. and Ghaffari, R. and Bastani, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2004}\n}"
+    },
+    {
+      "title": "Predicting Cone Quantum Catches under Illuminant Change",
+      "year": 2003,
+      "month": 1,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Graham Finlayson",
+        "Brian Funt",
+        "Hao Jiang"
+      ],
+      "doi": "10.2352/cic.2003.11.1.art00030",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.2003.11.1.art00030",
+        "pdf": "/papers/PCIC-2003/PredictingConeQuantumCatches.pdf",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{finlayson2003predicting,\n  title = {{Predicting Cone Quantum Catches under Illuminant Change}},\n  author = {Finlayson, Graham and Funt, Brian and Jiang, Hao},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2003},\n  doi = {10.2352/cic.2003.11.1.art00030}\n}"
     },
     {
       "title": "Imprecise color constancy versus color realism",
@@ -2121,7 +2141,7 @@
       "doi": "10.1109/TIP.2002.802531",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2002.802531",
-        "pdf": null,
+        "pdf": "/papers/IEEE_TIP-2002/IEEE_TIP-2002A.pdf",
         "code": null,
         "data": null
       },
@@ -2142,7 +2162,7 @@
       "doi": "10.1109/TIP.2002.802529",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2002.802529",
-        "pdf": null,
+        "pdf": "/papers/IEEE_TIP-2002/IEEE_TIP-2002B.pdf",
         "code": null,
         "data": null
       },
@@ -2182,7 +2202,7 @@
       "doi": "10.1002/col.10050",
       "links": {
         "doi": "https://doi.org/10.1002/col.10050",
-        "pdf": null,
+        "pdf": "/papers/CRA-2002/CameraCalibration.pdf",
         "code": null,
         "data": null
       },
@@ -2538,6 +2558,25 @@
       "bibtex": "@inproceedings{funt1998machine,\n  title = {{Is machine colour constancy good enough?}},\n  author = {Funt, B. and Barnard, K. and Martin, L.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1998},\n  doi = {10.1007/BFb0055683}\n}"
     },
     {
+      "title": "Analysis and Improvement of Multi-Scale Retinex",
+      "year": 1997,
+      "month": 1,
+      "type": "Conference paper",
+      "venue": "IS&T Color Imaging Conference (CIC)",
+      "authors": [
+        "Kobus Barnard",
+        "Brian Funt"
+      ],
+      "doi": "10.2352/cic.1997.5.1.art00043",
+      "links": {
+        "doi": "https://doi.org/10.2352/cic.1997.5.1.art00043",
+        "pdf": "/papers/IST-97/IST-97.pdf",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1997analysis,\n  title = {{Analysis and Improvement of Multi-Scale Retinex}},\n  author = {Barnard, Kobus and Funt, Brian},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1997},\n  doi = {10.2352/cic.1997.5.1.art00043}\n}"
+    },
+    {
       "title": "Color Constancy for Scenes with Varying Illumination",
       "year": 1997,
       "month": null,
@@ -2551,7 +2590,7 @@
       "doi": "10.1006/cviu.1996.0567",
       "links": {
         "doi": "https://doi.org/10.1006/cviu.1996.0567",
-        "pdf": "/papers/ECCV-96/ECCV-96.pdf",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2572,25 +2611,6 @@
         "data": null
       },
       "bibtex": "@article{anon1997digital,\n  title = {{Digital color imaging}},\n  journal = {IEEE Transactions on Image Processing},\n  year = {1997}\n}"
-    },
-    {
-      "title": "Analysis and improvement of multi-scale retinex",
-      "year": 1997,
-      "month": null,
-      "type": "Conference paper",
-      "venue": "IS&T Color Imaging Conference (CIC)",
-      "authors": [
-        "Kobus Barnard",
-        "Brian Funt"
-      ],
-      "doi": null,
-      "links": {
-        "doi": null,
-        "pdf": null,
-        "code": null,
-        "data": null
-      },
-      "bibtex": "@inproceedings{barnard1997analysis,\n  title = {{Analysis and improvement of multi-scale retinex}},\n  author = {Barnard, Kobus and Funt, Brian},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1997}\n}"
     },
     {
       "title": "The state of color vision research",

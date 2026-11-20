@@ -116,6 +116,15 @@ const RECORDING = /\bTV\b|video/i;
 // at its source when possible.
 const TITLE_FIXES = [[/\bballmulti-illuminant\b/i, "ball multi-illuminant"]];
 
+// Old-site papers whose titles there are worded too differently for the title match, tied by DOI.
+const OLD_PAGE_FOR_DOI = {
+  "10.1109/tip.2002.802531": "IEEE_TIP-2002/IEEE_TIP-2002A.html",
+  "10.1109/tip.2002.802529": "IEEE_TIP-2002/IEEE_TIP-2002B.html",
+  "10.1002/col.10050": "CRA-2002/CameraCalibration.html",
+  "10.2352/cic.1997.5.1.art00043": "IST-97/index.html",
+  "10.2352/cgiv.2004.2.1.art00110": "CGIV-2004/index.html",
+};
+
 function normalise(w, owner) {
   const raw = w["journal-title"]?.value?.trim();
   const venue = raw && !/^undefined$/i.test(raw) ? cleanVenue(raw) : null;
@@ -213,14 +222,35 @@ async function main() {
     return { name: r.name, dois: [r.homepage ?? "", ...bib].join(" ").toLowerCase() };
   });
 
+  // Each old-site paper goes to one publication at most: the closest title within a year, if close enough,
+  // preferring the same year (a conference paper and its journal version often share a title). Papers whose
+  // old-site title is worded too differently are tied by DOI in OLD_PAGE_FOR_DOI.
+  const pageFor = new Map();
+  for (const [doi, path] of Object.entries(OLD_PAGE_FOR_DOI)) {
+    const l = legacy.find(l => l.url.endsWith(path));
+    if (l) pageFor.set(doi, l);
+  }
+  const taken = new Set(pageFor.values());
+  const candidates = [];
+  for (const p of publications) {
+    if (pageFor.has(p.doi?.toLowerCase())) continue;
+    for (const l of legacy) {
+      if (taken.has(l) || (l.year && p.year && Math.abs(Number(l.year) - p.year) > 1)) continue;
+      const score = similarity(l.title, p.title);
+      if (score >= 0.85) candidates.push({ p, l, score, yearGap: l.year && p.year ? Math.abs(Number(l.year) - p.year) : 1 });
+    }
+  }
+  candidates.sort((a, b) => b.score - a.score || a.yearGap - b.yearGap);
+  const pageOf = new Map([...publications].filter(p => pageFor.has(p.doi?.toLowerCase())).map(p => [p, pageFor.get(p.doi.toLowerCase())]));
+  for (const c of candidates) {
+    if (pageOf.has(c.p) || taken.has(c.l)) continue;
+    pageOf.set(c.p, c.l);
+    taken.add(c.l);
+  }
+
   const out = publications.map(p => {
     const doi = p.doi?.toLowerCase();
-    // The old list's titles differ in spelling and small wording; take the closest within a year, if close enough.
-    const page = legacy
-      .filter(l => !l.year || !p.year || Math.abs(Number(l.year) - p.year) <= 1)
-      .map(l => ({ l, score: similarity(l.title, p.title) }))
-      .filter(m => m.score >= 0.85)
-      .sort((a, b) => b.score - a.score)[0]?.l;
+    const page = pageOf.get(p);
     const code = doi && repoDois.find(r => r.dois.includes(doi));
     const data = doi && datasets.find(d => d.doi.toLowerCase() !== doi && (d.description ?? "").toLowerCase().includes(doi));
     const earlier = doi && earlierData.find(d => d.papers?.some(x => x.toLowerCase() === doi));
