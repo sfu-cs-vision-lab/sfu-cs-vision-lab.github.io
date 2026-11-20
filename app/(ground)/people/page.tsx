@@ -76,8 +76,8 @@ function List({ title, items }: { title: string; items: string[] }) {
   return (
     <div>
       <h4 className="text-[15px] font-semibold text-ink">{title}</h4>
-      <ul className="mt-1 text-[15px] leading-[1.6] text-ink-2">
-        {items.map(x => <li key={x} className="mt-1">{x}</li>)}
+      <ul className="mt-2 text-[15px] leading-[1.6] text-ink-2">
+        {items.map(x => <li key={x} className="mt-1.5 first:mt-0">{x}</li>)}
       </ul>
     </div>
   );
@@ -108,14 +108,14 @@ export default function PeoplePage() {
           <div>
             <h3 className="text-[17px] font-semibold leading-snug text-ink">{director.name}</h3>
             <p className="text-[16px] leading-[1.6] text-ink-2">{director.title}</p>
-            <p className={linkRow}>
+            <p className={`${linkRow} mt-3`}>
               <a href="/publications/">All {pubs.length} publications</a>
               {director.links?.orcid && <a href={director.links.orcid}>ORCID</a>}
               {director.links?.scholar && <a href={director.links.scholar}>Google Scholar</a>}
               {director.links?.github && <a href={director.links.github}>GitHub</a>}
             </p>
           </div>
-          <div className="col-span-2 mt-8 grid gap-6 sm:grid-cols-2 md:col-span-1 md:col-start-2">
+          <div className="col-span-2 mt-10 grid gap-8 sm:grid-cols-2 md:col-span-1 md:col-start-2">
             <List title="Research interests" items={director.researchInterests} />
             <List title="Education" items={director.education} />
           </div>
