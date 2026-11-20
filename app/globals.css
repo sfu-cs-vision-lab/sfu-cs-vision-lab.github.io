@@ -21,6 +21,14 @@
 }
 
 /* Element defaults live in the base layer so Tailwind classes on a component always win. */
+/* Links within a page (the About paper, "On this page", decades) glide to their target; page changes still
+   start at the top, since Next.js turns this off while it navigates. Reduced motion keeps the jump. */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 @layer base {
   body {
     @apply font-sans text-gray-900 bg-white antialiased;
