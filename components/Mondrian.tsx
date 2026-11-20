@@ -106,7 +106,7 @@ export default function Mondrian() {
 
   return (
     <section data-mondrian className={styles.stage} style={{ background: hex(scene.ground) }} aria-label="Colour Mondrian">
-      <div className={styles.grid}>
+      <div data-mondrian-grid className={styles.grid}>
         {PAPERS.map((p, i) => {
           const style = {
             "--wide": p.wide.join(" / "),

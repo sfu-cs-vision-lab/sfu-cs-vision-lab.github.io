@@ -1,15 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { PAPERS, SECTIONS, paperHex } from "@/lib/mondrian";
 
 /** The lab's mark: the home page Mondrian in miniature, each paper in its daylight colour. */
 function Mark() {
   return (
-    <svg width="30" height="20" viewBox="0 0 12 8" aria-hidden="true" className="shrink-0">
+    <svg data-lab-mark width="30" height="20" viewBox="0 0 12 8" aria-hidden="true" className="shrink-0">
       {PAPERS.map(p => {
         const [r0, c0, r1, c1] = p.wide;
         return <rect key={p.chip} x={c0 - 1 + 0.15} y={r0 - 1 + 0.15} width={c1 - c0 - 0.3} height={r1 - r0 - 0.3} fill={paperHex(p.chip)} />;
@@ -18,9 +18,27 @@ function Mark() {
   );
 }
 
+type StartViewTransition = (update: () => Promise<void>) => unknown;
+
+/**
+ * Names the shapes that morph between pages. The header's mark and the home display share one name, and only
+ * one of them may carry it at a time: the display while it is on screen, otherwise the mark. Without a morph
+ * (links to a section, or between inner pages) neither is named and the page simply crossfades.
+ */
+function nameMark(morph: boolean) {
+  const grid = document.querySelector<HTMLElement>("[data-mondrian-grid]");
+  const mark = document.querySelector<HTMLElement>("[data-lab-mark]");
+  const gridInView = !!grid && grid.getBoundingClientRect().bottom > 0;
+  grid?.style.setProperty("view-transition-name", morph && gridInView ? "lab-mark" : "none");
+  mark?.style.setProperty("view-transition-name", morph && !gridInView ? "lab-mark" : "none");
+}
+
 export default function NavBar() {
   const pathname = usePathname();
+  const router = useRouter();
   const home = pathname === "/";
+  // A page change in progress: finished once the new page has rendered.
+  const arriving = useRef<{ done: () => void; morph: boolean } | null>(null);
   const [open, setOpen] = useState(false);
   // On the home page the papers are the navigation, so the bar only comes in once the whole display has
   // scrolled away, and leaves again as soon as any of it is back in view.
@@ -38,24 +56,54 @@ export default function NavBar() {
   }, [home]);
   useEffect(() => { if (!shown) setOpen(false); }, [shown]);
 
-  // On the home page, links to its own sections (the About paper, About in the header and footer) always glide
-  // there; left to the router, a link to the hash already in the address jumps instead.
+  // Clicks on the site's own links. On the home page a link to one of its sections (About) always glides there;
+  // left to the router, a link to the hash already in the address jumps. A link to another page crossfades to
+  // it where the browser can (View Transitions), and the logo and the home display morph into each other.
   useEffect(() => {
-    if (!home) return;
     const onClick = (e: MouseEvent) => {
       if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-      const link = (e.target as Element).closest?.('a[href^="/#"], a[href^="#"]');
-      const target = link && document.getElementById(link.getAttribute("href")!.split("#")[1]);
-      if (!target) return;
+      const link = (e.target as Element).closest?.("a[href]") as HTMLAnchorElement | null;
+      if (!link || (link.target && link.target !== "_self") || link.hasAttribute("download")) return;
+      const url = new URL(link.href, location.href);
+      if (url.origin !== location.origin || /\.[a-z0-9]+$/i.test(url.pathname)) return;
+      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      if (url.pathname === location.pathname) {
+        const target = home && url.hash ? document.getElementById(url.hash.slice(1)) : null;
+        if (!target) return; // elsewhere, the browser glides to the section itself
+        e.preventDefault();
+        e.stopPropagation();
+        target.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+        history.replaceState(history.state, "", url.hash);
+        return;
+      }
+
+      const start = (document as Document & { startViewTransition?: StartViewTransition }).startViewTransition;
+      if (!start || reduce) return; // the router changes page as before
       e.preventDefault();
       e.stopPropagation();
-      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-      target.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
-      history.replaceState(history.state, "", `#${target.id}`);
+      const morph = !url.hash && (home || url.pathname === "/");
+      nameMark(morph);
+      start.call(document, () => new Promise<void>(done => {
+        let ended = false;
+        const end = () => { if (!ended) { ended = true; done(); } };
+        arriving.current = { done: end, morph };
+        setTimeout(end, 1500); // never hold the page
+        router.push(url.pathname + url.search + url.hash);
+      }));
     };
     document.addEventListener("click", onClick, true);
     return () => document.removeEventListener("click", onClick, true);
-  }, [home]);
+  }, [home, router]);
+
+  useEffect(() => {
+    const page = arriving.current;
+    if (!page) return;
+    arriving.current = null;
+    // Directly, not in an animation frame: the browser does not paint (or run frames) until this resolves.
+    nameMark(page.morph);
+    page.done();
+  }, [pathname]);
 
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
@@ -92,7 +140,7 @@ export default function NavBar() {
                 : "invisible -translate-y-full [transition:transform_250ms_ease-in,visibility_0s_250ms]"
             }`
           : "sticky"
-      }`}
+      }${shown ? " [view-transition-name:site-header]" : ""}`}
     >
       <nav aria-label="Main" className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-3 text-[17px] font-semibold text-ink no-underline [font-stretch:112.5%]">
