@@ -30,11 +30,32 @@ export default function NavBar() {
     if (!home) return setShown(true);
     const display = document.querySelector("[data-mondrian]");
     if (!display) return;
-    const watch = new IntersectionObserver(([entry]) => setShown(!entry.isIntersecting));
+    // 2px allowance: after a jump to #about the display's bottom edge sits exactly at the top, which still
+    // counts as touching the view.
+    const watch = new IntersectionObserver(([entry]) => setShown(!entry.isIntersecting), { rootMargin: "-2px 0px 0px 0px" });
     watch.observe(display);
     return () => watch.disconnect();
   }, [home]);
   useEffect(() => { if (!shown) setOpen(false); }, [shown]);
+
+  // On the home page, links to its own sections (the About paper, About in the header and footer) always glide
+  // there; left to the router, a link to the hash already in the address jumps instead.
+  useEffect(() => {
+    if (!home) return;
+    const onClick = (e: MouseEvent) => {
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const link = (e.target as Element).closest?.('a[href^="/#"], a[href^="#"]');
+      const target = link && document.getElementById(link.getAttribute("href")!.split("#")[1]);
+      if (!target) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      target.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+      history.replaceState(history.state, "", `#${target.id}`);
+    };
+    document.addEventListener("click", onClick, true);
+    return () => document.removeEventListener("click", onClick, true);
+  }, [home]);
 
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
