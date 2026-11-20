@@ -31,9 +31,6 @@ export default function TopicPage({ params }: { params: { topic: string } }) {
       <h1 className="mt-8 max-w-[26ch] text-[28px] font-semibold leading-tight tracking-[-0.01em] text-ink [font-stretch:112.5%] md:text-[34px]">
         {topic.title}
       </h1>
-      <p className="mt-3 max-w-[62ch] text-[15px] leading-[1.6] text-ink-2">
-        Written for the lab’s website in {topic.written} and kept as it was, with spelling corrected.
-      </p>
 
       <div className="mt-12 grid gap-x-12 gap-y-8 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
         <nav aria-label="On this page" className="self-start md:sticky md:top-24">

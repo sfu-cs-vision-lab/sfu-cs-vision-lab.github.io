@@ -103,10 +103,7 @@ export default function ResearchPage() {
           Earlier work
         </h2>
         <div className="mt-4 md:mt-0">
-          <p className="max-w-[62ch] text-[17px] leading-[1.65] text-ink-2 md:text-[18px]">
-            Pages from the lab’s earlier website, kept as they were written.
-          </p>
-          <ol className="mt-4">
+          <ol>
             {TOPICS.map(t => (
               <li key={t.slug} className="max-w-[62ch] border-t border-rule py-5">
                 <h3 className="text-[17px] font-semibold leading-snug">

@@ -9,7 +9,6 @@ type Funder = {
   href?: string;
   papers?: string[];
   usedFor?: { label: string; href: string }[];
-  onOldPage?: boolean;
 };
 
 const paperByDoi = new Map(publications.publications.map(p => [p.doi?.toLowerCase(), p]));
@@ -28,8 +27,7 @@ export default function FundingPage() {
       </p>
       {funding.draft && (
         <p className="mt-3 max-w-[62ch] text-[14px] leading-relaxed text-ink-2">
-          Placeholder, to be confirmed with Brian Funt. Gathered from the funders credited in the papers’ publisher
-          records (Crossref), the lab’s earlier website (2007), and the computing settings in the lab’s code.
+          Placeholder, to be confirmed with Brian Funt.
         </p>
       )}
 
@@ -74,11 +72,6 @@ export default function FundingPage() {
                       {i < f.usedFor!.length - 1 ? ", " : "."}
                     </span>
                   ))}
-                </p>
-              )}
-              {f.onOldPage && (
-                <p className="mt-3 text-[15px] leading-[1.6] text-ink-2">
-                  Listed on the lab’s earlier website (2007).
                 </p>
               )}
             </div>

@@ -84,8 +84,7 @@ export default function DataPage() {
       <p className="mt-4 max-w-[65ch] text-[17px] leading-[1.65] text-ink-2 md:text-[18px]">
         Datasets from the lab, with the papers that describe them. New datasets are published in the lab’s{" "}
         <a href={`https://zenodo.org/communities/${zenodo.community}`}>Zenodo community</a>, each with a DOI, a version and a
-        licence. Earlier datasets stay on SFU’s servers for now, described in the words of the lab’s earlier
-        website (2014).
+        licence.
       </p>
 
       <Section id="zenodo" title="On Zenodo" count={records.length}>
