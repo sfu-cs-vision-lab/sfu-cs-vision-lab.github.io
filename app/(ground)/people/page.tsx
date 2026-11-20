@@ -111,9 +111,8 @@ export default function PeoplePage() {
             </p>
           </div>
         </div>
-        <div className="mt-8 grid gap-6 sm:grid-cols-3">
+        <div className="mt-8 grid gap-6 sm:grid-cols-2">
           <List title="Research interests" items={director.researchInterests} />
-          <List title="Teaching interests" items={director.teachingInterests} />
           <List title="Education" items={director.education} />
         </div>
       </Section>

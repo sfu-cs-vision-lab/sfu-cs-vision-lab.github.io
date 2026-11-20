@@ -24,7 +24,6 @@ export type Director = {
   title: string;
   image?: string | null;
   researchInterests: string[];
-  teachingInterests: string[];
   education: string[];
   links?: PersonLinks;
 };
