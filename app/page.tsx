@@ -30,10 +30,10 @@ export default function Home() {
             <Link href="/people/">Brian Funt</Link>.
           </p>
           <p>
-            Since 1988 it has worked on how a camera or an eye can recover the colours of surfaces when the light
-            changes. It also computes{" "}
-            <Link href="/research/#metamer-mismatching">metamer mismatch bodies</Link> exactly, works on{" "}
-            <Link href="/research/#cinema-colour">colour for cinema</Link>, and publishes its{" "}
+            Since 1988 members of the lab have worked on how a camera or an eye can recover the colours of surfaces when
+            the light changes. Major areas of research have been the calculation of the physical extent of metamerism
+            using <Link href="/research/#metamer-mismatching">metamer mismatch bodies</Link> and, more recently,{" "}
+            <Link href="/research/#cinema-colour">colour for cinema</Link>. The lab publishes its{" "}
             <Link href="/data/">datasets</Link> and <Link href="/code/">code</Link> openly.
           </p>
         </div>
