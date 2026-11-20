@@ -81,9 +81,8 @@ export default function Home() {
               Edwin Land and John McCann used displays like this, which they called Mondrians, to study why colours look
               stable when the light changes. In 1988 Brian Funt and Mark Drew published{" "}
               <a href="https://doi.org/10.1109/CVPR.1988.196288"><cite>Color constancy computation in near-Mondrian scenes
-              using a finite dimensional linear model</cite></a> (CVPR). The Retinex white balance runs the lab&rsquo;s
-              own code: the McCann99 retinex from Funt, Ciurea and McCann&rsquo;s <cite>Retinex in MATLAB</cite>, ported
-              to run in your browser.
+              using a finite dimensional linear model</cite></a> (CVPR). The Retinex option uses the McCann99 algorithm, converted for the web from the code
+              published with Funt, Ciurea and McCann&rsquo;s <cite>Retinex in MATLAB</cite>.
             </p>
             <p className="max-w-[58ch] pt-2 text-[14px] leading-relaxed text-ink-2">
               Sources:{" "}
