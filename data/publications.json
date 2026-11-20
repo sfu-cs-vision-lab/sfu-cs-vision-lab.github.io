@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T21:09:50.171Z",
+  "fetchedAt": "2026-11-20T22:32:46.168Z",
   "sources": [
     {
       "name": "Dr. Brian Funt",
@@ -26,6 +26,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -45,6 +46,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -64,6 +66,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -83,6 +86,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -102,6 +106,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -121,6 +126,7 @@
       "links": {
         "doi": "https://doi.org/10.5281/zenodo.22683533",
         "pdf": null,
+        "summit": null,
         "code": "/code/mmb-zonotope-tiling/",
         "data": null
       },
@@ -140,6 +146,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/ei.2026.38.10.hvei-216",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -159,6 +166,7 @@
       "links": {
         "doi": "https://doi.org/10.1088/1742-6596/3128/1/012011",
         "pdf": null,
+        "summit": null,
         "code": "/code/ColorMechanism/",
         "data": null
       },
@@ -178,6 +186,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -199,6 +208,7 @@
       "links": {
         "doi": "https://doi.org/10.3390/vaccines13090921",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -217,6 +227,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -245,6 +256,7 @@
       "links": {
         "doi": "https://doi.org/10.3389/fbioe.2025.1585003",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -264,6 +276,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.22976",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -284,6 +297,7 @@
       "links": {
         "doi": "https://doi.org/10.1167/jov.25.2.2",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -304,6 +318,7 @@
       "links": {
         "doi": "https://doi.org/10.5594/jmi.2024/scge4617",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -323,6 +338,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2024.32.1.4",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -341,6 +357,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -360,6 +377,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2023.31.1.17",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -379,6 +397,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2022.30.1.32",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -398,6 +417,7 @@
       "links": {
         "doi": "https://doi.org/10.1167/jov.21.12.11",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -417,6 +437,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": "https://www2.cs.sfu.ca/~colour/data2/DRONE-Dataset/"
       },
@@ -436,6 +457,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.22535",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
       },
@@ -455,6 +477,7 @@
       "links": {
         "doi": "https://doi.org/10.3390/s20154275",
         "pdf": null,
+        "summit": null,
         "code": "/code/CMMRI/",
         "data": null
       },
@@ -480,6 +503,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TPAMI.2019.2919824",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -500,6 +524,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-2629.2019.27.21",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
       },
@@ -519,6 +544,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.35.00B292",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -538,10 +564,51 @@
       "links": {
         "doi": "https://doi.org/10.2352/ISSN.2470-1173.2018.14.HVEI-541",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{zhu2018colorizing,\n  title = {{Colorizing color images}},\n  author = {Zhu, L. and Funt, B.},\n  booktitle = {IS&T International Symposium on Electronic Imaging Science and Technology},\n  year = {2018},\n  doi = {10.2352/ISSN.2470-1173.2018.14.HVEI-541}\n}"
+    },
+    {
+      "title": "Colour Discrimination Ellipses Explained by Metamer Mismatching",
+      "year": 2018,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2018 International Colour Association Conference, Lisbon",
+      "authors": [
+        "Brian Funt",
+        "Emitis Roshan"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18303",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2018colour,\n  title = {{Colour Discrimination Ellipses Explained by Metamer Mismatching}},\n  author = {Funt, Brian and Roshan, Emitis},\n  booktitle = {Proc. AIC 2018 International Colour Association Conference, Lisbon},\n  year = {2018}\n}"
+    },
+    {
+      "title": "Colourization of Dichromatic Images",
+      "year": 2018,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2018 International Colour Association Conference, Lisbon",
+      "authors": [
+        "Brian Funt",
+        "Ligeng Zhu"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18304",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2018colourization,\n  title = {{Colourization of Dichromatic Images}},\n  author = {Funt, Brian and Zhu, Ligeng},\n  booktitle = {Proc. AIC 2018 International Colour Association Conference, Lisbon},\n  year = {2018}\n}"
     },
     {
       "title": "Does colour really matter? Evaluation via object classification",
@@ -557,6 +624,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-2629.2018.26.268",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -582,10 +650,56 @@
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-2629.2018.26.350",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{hemrit2018rehabilitating,\n  title = {{Rehabilitating the colorchecker dataset for illuminant estimation}},\n  author = {Hemrit, G. and Finlayson, G.D. and Gijsenij, A. and Gehler, P. and Bianco, S. and Funt, B. and Drew, M. and Shi, L.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2018},\n  doi = {10.2352/issn.2169-2629.2018.26.350}\n}"
+    },
+    {
+      "title": "Foveated Pipeline for AR/VR Head‐Mounted Displays",
+      "year": 2017,
+      "month": 11,
+      "type": "Journal article",
+      "venue": "Information Display",
+      "authors": [
+        "Behnam Bastani",
+        "Eric Turner",
+        "Carlin Vieri",
+        "Haomiao Jiang",
+        "Brian Funt",
+        "Nikhil Balram"
+      ],
+      "doi": "10.1002/j.2637-496x.2017.tb01040.x",
+      "links": {
+        "doi": "https://doi.org/10.1002/j.2637-496x.2017.tb01040.x",
+        "pdf": null,
+        "summit": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@article{bastani2017foveated,\n  title = {{Foveated Pipeline for AR/VR Head‐Mounted Displays}},\n  author = {Bastani, Behnam and Turner, Eric and Vieri, Carlin and Jiang, Haomiao and Funt, Brian and Balram, Nikhil},\n  journal = {Information Display},\n  year = {2017},\n  doi = {10.1002/j.2637-496x.2017.tb01040.x}\n}"
+    },
+    {
+      "title": "Camera Color Accuracy Evaluated via Metamer Mismatch Moments",
+      "year": 2017,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proceedings of the AIC International Colour Association Conference",
+      "authors": [
+        "Emitis Roshan",
+        "Brian Funt",
+        "Hamidreza Mirzaei"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18176",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{roshan2017camera,\n  title = {{Camera Color Accuracy Evaluated via Metamer Mismatch Moments}},\n  author = {Roshan, Emitis and Funt, Brian and Mirzaei, Hamidreza},\n  booktitle = {Proceedings of the AIC International Colour Association Conference},\n  year = {2017}\n}"
     },
     {
       "title": "Evaluation of color prediction methods in terms of least-dissimilar asymmetric matching",
@@ -601,6 +715,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/ISSN.2470-1173.2017.14.HVEI-133",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -621,6 +736,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.33.00A238",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": "https://doi.org/10.5281/zenodo.17114535"
       },
@@ -643,6 +759,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/s11263-015-0844-7",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -662,6 +779,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.21942",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -682,6 +800,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/ISSN.2169-2629.2017.32.192",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -702,6 +821,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/ICCVW.2015.14",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -721,6 +841,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TPAMI.2015.2420560",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -741,6 +862,7 @@
       "links": {
         "doi": "https://doi.org/10.1016/j.visres.2015.05.009",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -762,10 +884,71 @@
       "links": {
         "doi": "https://doi.org/10.1371/journal.pone.0135029",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@article{logvinenko2015rethinking,\n  title = {{Rethinking colour constancy}},\n  author = {Logvinenko, A.D. and Funt, B. and Mirzaei, H. and Tokunaga, R.},\n  journal = {PLOS ONE},\n  year = {2015},\n  doi = {10.1371/journal.pone.0135029}\n}"
+    },
+    {
+      "title": "Comparing Colour Camera Sensors Using Metamer Mismatch Indices",
+      "year": 2015,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2015 International Colour Association Conference",
+      "authors": [
+        "Ben Hull",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18181",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{hull2015comparing,\n  title = {{Comparing Colour Camera Sensors Using Metamer Mismatch Indices}},\n  author = {Hull, Ben and Funt, Brian},\n  booktitle = {Proc. AIC 2015 International Colour Association Conference},\n  year = {2015}\n}"
+    },
+    {
+      "title": "How Multi-Illuminant Scenes Affect Automatic Colour Balancing",
+      "year": 2015,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2015 International Colour Association Conference",
+      "authors": [
+        "Liwen Xu",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18183",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xu2015multi,\n  title = {{How Multi-Illuminant Scenes Affect Automatic Colour Balancing}},\n  author = {Xu, Liwen and Funt, Brian},\n  booktitle = {Proc. AIC 2015 International Colour Association Conference},\n  year = {2015}\n}"
+    },
+    {
+      "title": "Metamer Mismatching as a Measure of the Color Rendering of Lights",
+      "year": 2015,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2015 International Colour Association Conference",
+      "authors": [
+        "Hamidreza Mirzaei",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18182",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mirzaei2015metamer,\n  title = {{Metamer Mismatching as a Measure of the Color Rendering of Lights}},\n  author = {Mirzaei, Hamidreza and Funt, Brian},\n  booktitle = {Proc. AIC 2015 International Colour Association Conference},\n  year = {2015}\n}"
     },
     {
       "title": "Robust chroma and lightness descriptors",
@@ -781,6 +964,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2015.23.1.art00014",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -802,6 +986,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2013.2277943",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": "https://www.cs.sfu.ca/~colour/data/ThreeManuallyLabeledDatasets.zip"
       },
@@ -821,6 +1006,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.21849",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -841,6 +1027,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2013.2283148",
         "pdf": null,
+        "summit": null,
         "code": "/code/adl2lms/",
         "data": "https://www.cs.sfu.ca/~colour/data/XYZ%20of%2020%20metameric%205-transition%20points.docx"
       },
@@ -860,6 +1047,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.31.001680",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -879,6 +1067,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.31.001445",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -898,6 +1087,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.21768",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -917,6 +1107,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2014.22.1.art00037",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -937,6 +1128,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2014.22.1.art00042",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -956,6 +1148,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.2042507",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -976,6 +1169,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.2042300",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -995,6 +1189,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2014.22.1.art00012",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1014,10 +1209,31 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2013.21.1.art00013",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{mirzaei2013robust,\n  title = {{A robust hue descriptor}},\n  author = {Mirzaei, H. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2013},\n  doi = {10.2352/cic.2013.21.1.art00013}\n}"
+    },
+    {
+      "title": "Hue Correlate Stability using a Gaussian versus Rectangular Object-Colour Atlas",
+      "year": 2013,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2013 International Colour Association Conference",
+      "authors": [
+        "Hamidreza Mirzaei",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18190",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mirzaei2013correlate,\n  title = {{Hue Correlate Stability using a Gaussian versus Rectangular Object-Colour Atlas}},\n  author = {Mirzaei, Hamidreza and Funt, Brian},\n  booktitle = {Proc. AIC 2013 International Colour Association Conference},\n  year = {2013}\n}"
     },
     {
       "title": "Rank-based illumination estimation",
@@ -1033,10 +1249,53 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2013.21.1.art00021",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{shi2013rank,\n  title = {{Rank-based illumination estimation}},\n  author = {Shi, L. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2013},\n  doi = {10.2352/cic.2013.21.1.art00021}\n}"
+    },
+    {
+      "title": "The Dichromatic Object Colour Solid",
+      "year": 2013,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2013 International Colour Association Conference",
+      "authors": [
+        "Alexander Logvinenko",
+        "Pouya Bastani",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18191",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{logvinenko2013dichromatic,\n  title = {{The Dichromatic Object Colour Solid}},\n  author = {Logvinenko, Alexander and Bastani, Pouya and Funt, Brian},\n  booktitle = {Proc. AIC 2013 International Colour Association Conference},\n  year = {2013}\n}"
+    },
+    {
+      "title": "The Extent of Metamer Mismatching",
+      "year": 2013,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2013 International Colour Association Conference",
+      "authors": [
+        "Alexander D. Logvinenko",
+        "Hamidreza Mirzaei",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18189",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{logvinenko2013extent,\n  title = {{The Extent of Metamer Mismatching}},\n  author = {Logvinenko, Alexander D. and Mirzaei, Hamidreza and Funt, Brian},\n  booktitle = {Proc. AIC 2013 International Colour Association Conference},\n  year = {2013}\n}"
     },
     {
       "title": "Color invariants for object recognition",
@@ -1052,6 +1311,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/978-1-4419-6190-7_10",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1071,6 +1331,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.2012.56.2.020401",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1091,6 +1352,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/1.JEI.21.3.033022",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1110,6 +1372,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.2012.56.2.020501",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1129,6 +1392,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.20680",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1149,6 +1413,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1168,6 +1433,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2012.20.1.art00010",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1187,6 +1453,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2012.20.1.art00019",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1207,6 +1474,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1227,10 +1495,31 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.28.000940",
         "pdf": null,
+        "summit": null,
         "code": "/code/tps/",
         "data": null
       },
       "bibtex": "@article{shi2011illumination,\n  title = {{Illumination estimation via thin-plate spline interpolation}},\n  author = {Shi, L. and Xiong, W. and Funt, B.},\n  journal = {Journal of the Optical Society of America A},\n  year = {2011},\n  doi = {10.1364/JOSAA.28.000940}\n}"
+    },
+    {
+      "title": "Gaussian-Metamer-Based Prediction of Colour Stimulus Change under Illuminant Change",
+      "year": 2011,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2011 Association Internationale de la Couleur",
+      "authors": [
+        "Hamid Mirzaei",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18222",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{mirzaei2011gaussian,\n  title = {{Gaussian-Metamer-Based Prediction of Colour Stimulus Change under Illuminant Change}},\n  author = {Mirzaei, Hamid and Funt, Brian},\n  booktitle = {Proc. AIC 2011 Association Internationale de la Couleur},\n  year = {2011}\n}"
     },
     {
       "title": "Intersecting color manifolds",
@@ -1246,6 +1535,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2011.19.1.art00034",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1267,6 +1557,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/978-3-642-20404-3_15",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1283,10 +1574,31 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{anon2010calculating,\n  title = {{Calculating Logvinenko's Object Color Coordinates}},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2010}\n}"
+    },
+    {
+      "title": "Color Calibration via Natural Food Colors",
+      "year": 2010,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC2010 Association Internationale de la Couleur",
+      "authors": [
+        "Brian Funt",
+        "Milan Mosny"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18224",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt2010color,\n  title = {{Color Calibration via Natural Food Colors}},\n  author = {Funt, Brian and Mosny, Milan},\n  booktitle = {Proc. AIC2010 Association Internationale de la Couleur},\n  year = {2010}\n}"
     },
     {
       "title": "Cubical Gamut Mapping colour constancy",
@@ -1302,6 +1614,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cgiv.2010.5.1.art00073",
         "pdf": "/papers/CGIV-2010/CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1321,6 +1634,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.845394",
         "pdf": "/papers/SPIE-2010/SPIE2010_SHI.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1340,6 +1654,7 @@
       "links": {
         "doi": "https://doi.org/10.5446/31094",
         "pdf": "/papers/CIC-2010/Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1359,6 +1674,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2010.18.1.art00059",
         "pdf": "/papers/CIC-2010/ADL_FinalVersionwithCitation.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1378,6 +1694,7 @@
       "links": {
         "doi": "https://doi.org/10.1016/j.imavis.2007.11.012",
         "pdf": "/papers/IVC-2009/Xiong-Funt_StereoRetinexPrintVersion.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1398,6 +1715,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/978-3-540-87536-9_10",
         "pdf": "/papers/ICANN-2008/ICANN2008_AI.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1417,6 +1735,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cgiv.2008.4.1.art00056",
         "pdf": "/papers/CGIV-2008/CGIV2008_SHI.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1436,6 +1755,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2008.16.1.art00013",
         "pdf": "/papers/CIC-2008/CIC16_BASTANI.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1456,10 +1776,31 @@
       "links": {
         "doi": null,
         "pdf": "/papers/CIC-2008/CIC16_SHI.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{shi2008quaternion,\n  title = {{Quaternion color curvature}},\n  author = {Shi, L. and Funt, B. and Hamarneh, G.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {2008}\n}"
+    },
+    {
+      "title": "Skin Colour Imaging that is Insensitive to Lighting Conditions",
+      "year": 2008,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2008 Conference on Colour Effects and Affects",
+      "authors": [
+        "Lilong Shi",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": "/papers/AIC-2008/AIC08_SHI_FUNT_final.pdf",
+        "summit": "https://summit.sfu.ca/item/18253",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{shi2008skin,\n  title = {{Skin Colour Imaging that is Insensitive to Lighting Conditions}},\n  author = {Shi, Lilong and Funt, Brian},\n  booktitle = {Proc. AIC 2008 Conference on Colour Effects and Affects},\n  year = {2008}\n}"
     },
     {
       "title": "Spectral modeling of an n-ink printer via thin plate spline interpolation",
@@ -1475,6 +1816,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-4451.2008.24.1.art00042_2",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1494,6 +1836,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2006.884953",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1513,6 +1856,7 @@
       "links": {
         "doi": "https://doi.org/10.1016/j.cviu.2006.11.014",
         "pdf": "/papers/CVIU-2007/Shi+Funt_CVIU_QuaternioinTexture.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1537,6 +1881,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2007.15.1.art00027",
         "pdf": "/papers/CIC-2007/CIC15_XIONG_PG143.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1557,6 +1902,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.711007",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1581,6 +1927,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2007.15.1.art00006",
         "pdf": "/papers/CIC-2007/CIC15_XIONG.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1600,6 +1947,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.707273",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1621,6 +1969,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1640,6 +1989,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2007.15.1.art00041",
         "pdf": "/papers/CIC-2007/CIC15_BASTANI_PG218.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1660,6 +2010,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1679,6 +2030,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.(2006)50:4(341)",
         "pdf": "/papers/JIST2006/Xiong-Funt_SVR_JIST2006.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1698,6 +2050,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.643211",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1717,6 +2070,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1736,6 +2090,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2006.14.1.art00056",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1756,6 +2111,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.643655",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1775,6 +2131,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2006.14.1.art00057",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1794,6 +2151,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/CRV.2006.70",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1814,6 +2172,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.20156",
         "pdf": "/papers/CRA-2004/CRA-BastaniCressmanFinalVersion.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1834,6 +2193,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2005.13.1.art00018",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1853,10 +2213,31 @@
       "links": {
         "doi": "https://doi.org/10.5244/C.19.54",
         "pdf": "/papers/PBMVC05/Toro_Funt_BMVC_2005.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{toro2005illumination,\n  title = {{Illumination estimation using a multilinear constraint on dichromatic planes}},\n  author = {Toro, J. and Funt, B.},\n  booktitle = {BMVC 2005 Proceedings of the British Machine Vision Conference 2005},\n  year = {2005},\n  doi = {10.5244/C.19.54}\n}"
+    },
+    {
+      "title": "Independent Component Analysis and Nonnegative Linear Model Analysis of Illuminant and Reflectance Spectra",
+      "year": 2005,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC 2005, 10th Congress of the International Colour Association, Granada",
+      "authors": [
+        "Weihua Xiong",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": "/papers/AIC05/ICA_AIC_Final_Web_Version.pdf",
+        "summit": "https://summit.sfu.ca/item/18296",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{xiong2005independent,\n  title = {{Independent Component Analysis and Nonnegative Linear Model Analysis of Illuminant and Reflectance Spectra}},\n  author = {Xiong, Weihua and Funt, Brian},\n  booktitle = {Proc. AIC 2005, 10th Congress of the International Colour Association, Granada},\n  year = {2005}\n}"
     },
     {
       "title": "Nonlinear RGB-to-XYZ mapping for device calibration",
@@ -1872,6 +2253,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2005.13.1.art00037",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1892,6 +2274,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cgiv.2004.2.1.art00110",
         "pdf": "/papers/CGIV-2004/CGIV-2004.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1912,6 +2295,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/1.1636761",
         "pdf": "/papers/JEI-2004/RetinexInMatlab_JEI2004.pdf",
+        "summit": null,
         "code": "/code/retinex-matlab/",
         "data": null
       },
@@ -1931,6 +2315,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/1.1635365",
         "pdf": "/papers/JEI-2004/TuningRetinexParamaters_JEI2004.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1950,6 +2335,7 @@
       "links": {
         "doi": null,
         "pdf": "/papers/CIC-2004/SVR_WebVersion.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1969,6 +2355,7 @@
       "links": {
         "doi": null,
         "pdf": "/papers/CIC-2004/LuminanceRedness_Final_with_Citation.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -1989,6 +2376,7 @@
       "links": {
         "doi": null,
         "pdf": "/papers/CIC-2004/CIC12-OptimalColorCorrectionProceedings.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2009,6 +2397,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.2003.11.1.art00030",
         "pdf": "/papers/PCIC-2003/PredictingConeQuantumCatches.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2027,6 +2416,7 @@
       "links": {
         "doi": "https://doi.org/10.1017/S0140525X03300019",
         "pdf": "/papers/BBS-2003/BBS-2003.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2046,6 +2436,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2003.11.1.art00028",
         "pdf": "/papers/PCIC-2003/LargeImageDatabase.pdf",
+        "summit": null,
         "code": null,
         "data": "https://www.cs.sfu.ca/~colour/data/gray_ball/index.html"
       },
@@ -2065,6 +2456,7 @@
       "links": {
         "doi": null,
         "pdf": "/papers/PICIP-2003/PICIP-2003.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2084,6 +2476,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.473897",
         "pdf": "/papers/SPIE-2003/Non-vonKriesChromatic.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2103,6 +2496,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2122,6 +2516,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2142,6 +2537,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2002.802531",
         "pdf": "/papers/IEEE_TIP-2002/IEEE_TIP-2002A.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2163,6 +2559,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2002.802529",
         "pdf": "/papers/IEEE_TIP-2002/IEEE_TIP-2002B.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2184,6 +2581,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.10049",
         "pdf": "/papers/CRA-2002/CRA-2002.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2203,6 +2601,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/col.10050",
         "pdf": "/papers/CRA-2002/CameraCalibration.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2223,6 +2622,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.19.002374",
         "pdf": "/papers/JOSA-2002/JOSA-2002.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2242,6 +2642,7 @@
       "links": {
         "doi": null,
         "pdf": "/papers/CGIV-2002/CGIV-2002.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2262,6 +2663,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.469533",
         "pdf": "/papers/SPIE-2002/EI-2002.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2282,6 +2684,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.18.002728",
         "pdf": "/papers/JOSA-2001/JOSA-2001.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2301,6 +2704,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.464727",
         "pdf": "/papers/AIC-2001/AIC-2001.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2321,6 +2725,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2001.9.1.art00023",
         "pdf": "/papers/IST-2001/IST-2001.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2340,6 +2745,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2359,6 +2765,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.17.002108",
         "pdf": "/papers/JOSA-2000/JOSA-2000.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2379,6 +2786,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/3-540-45054-8_25",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2398,7 +2806,8 @@
       "doi": "10.2352/CIC.2000.8.1.art00022",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2000.8.1.art00022",
-        "pdf": null,
+        "pdf": "/papers/IST-2000/IST-2000.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2418,6 +2827,7 @@
       "links": {
         "doi": null,
         "pdf": "/papers/SPIE99/spie99bcc.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2437,6 +2847,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.348476",
         "pdf": "/papers/SPIE-99/SPIE-99.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2455,6 +2866,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2474,6 +2886,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00022",
         "pdf": "/papers/ISTSID-1999/specularSurfaces.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2493,6 +2906,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00059",
         "pdf": "/papers/IST-99/IST-99-CBCC.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2513,6 +2927,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00019",
         "pdf": "/papers/ISTSID-1999/whitePointEsitmation.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2532,10 +2947,31 @@
       "links": {
         "doi": null,
         "pdf": "/papers/IST-98/IST-98.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{barnard1998experiments,\n  title = {{Experiments in sensor sharpening for color constancy}},\n  author = {Barnard, K. and Funt, B.},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1998}\n}"
+    },
+    {
+      "title": "Investigations into Multi-Scale Retinex",
+      "year": 1998,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. Colour Imaging in Multimedia '98",
+      "authors": [
+        "Kobus Barnard",
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": "/papers/CIM-98/CIM-98.pdf",
+        "summit": "https://summit.sfu.ca/item/18299",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{barnard1998investigations,\n  title = {{Investigations into Multi-Scale Retinex}},\n  author = {Barnard, Kobus and Funt, Brian},\n  booktitle = {Proc. Colour Imaging in Multimedia '98},\n  year = {1998}\n}"
     },
     {
       "title": "Is machine colour constancy good enough?",
@@ -2552,10 +2988,53 @@
       "links": {
         "doi": "https://doi.org/10.1007/BFb0055683",
         "pdf": "/papers/ECCV-98/ECCV-98.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{funt1998machine,\n  title = {{Is machine colour constancy good enough?}},\n  author = {Funt, B. and Barnard, K. and Martin, L.},\n  booktitle = {Lecture Notes in Computer Science},\n  year = {1998},\n  doi = {10.1007/BFb0055683}\n}"
+    },
+    {
+      "title": "Adaptive Illuminant Estimation Using Neural Networks",
+      "year": 1998,
+      "month": null,
+      "type": "Book chapter",
+      "venue": "Perspectives in Neural Computing",
+      "authors": [
+        "Vlad C. Cardei",
+        "Brian Funt",
+        "Kobus Barnard"
+      ],
+      "doi": "10.1007/978-1-4471-1599-1_115",
+      "links": {
+        "doi": "https://doi.org/10.1007/978-1-4471-1599-1_115",
+        "pdf": null,
+        "summit": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@incollection{cardei1998adaptive,\n  title = {{Adaptive Illuminant Estimation Using Neural Networks}},\n  author = {Cardei, Vlad C. and Funt, Brian and Barnard, Kobus},\n  booktitle = {Perspectives in Neural Computing},\n  year = {1998},\n  doi = {10.1007/978-1-4471-1599-1_115}\n}"
+    },
+    {
+      "title": "Color Angular Indexing and Image Retrieval",
+      "year": 1998,
+      "month": null,
+      "type": "Book chapter",
+      "venue": "Image Description and Retrieval",
+      "authors": [
+        "Graham D. Finlayson",
+        "S. S. Chatterjee",
+        "B. V. Funt"
+      ],
+      "doi": "10.1007/978-1-4615-4825-6_4",
+      "links": {
+        "doi": "https://doi.org/10.1007/978-1-4615-4825-6_4",
+        "pdf": null,
+        "summit": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@incollection{finlayson1998color,\n  title = {{Color Angular Indexing and Image Retrieval}},\n  author = {Finlayson, Graham D. and Chatterjee, S. S. and Funt, B. V.},\n  booktitle = {Image Description and Retrieval},\n  year = {1998},\n  doi = {10.1007/978-1-4615-4825-6_4}\n}"
     },
     {
       "title": "Analysis and Improvement of Multi-Scale Retinex",
@@ -2571,6 +3050,7 @@
       "links": {
         "doi": "https://doi.org/10.2352/cic.1997.5.1.art00043",
         "pdf": "/papers/IST-97/IST-97.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2591,6 +3071,7 @@
       "links": {
         "doi": "https://doi.org/10.1006/cviu.1996.0567",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2607,10 +3088,33 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@article{anon1997digital,\n  title = {{Digital color imaging}},\n  journal = {IEEE Transactions on Image Processing},\n  year = {1997}\n}"
+    },
+    {
+      "title": "Luminance-Based Multi-Scale Retinex",
+      "year": 1997,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AIC Colour 97, 8th Congress of the International Colour Association, Kyoto",
+      "authors": [
+        "Brian Funt",
+        "Kobus Barnard",
+        "Michael Brockington",
+        "Vlad Cardei"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": "/papers/AIC97RET/aic97ret.pdf",
+        "summit": "https://summit.sfu.ca/item/18301",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1997luminance,\n  title = {{Luminance-Based Multi-Scale Retinex}},\n  author = {Funt, Brian and Barnard, Kobus and Brockington, Michael and Cardei, Vlad},\n  booktitle = {Proc. AIC Colour 97, 8th Congress of the International Colour Association, Kyoto},\n  year = {1997}\n}"
     },
     {
       "title": "The state of color vision research",
@@ -2625,6 +3129,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/3-540-63931-4_223",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2644,6 +3149,7 @@
       "links": {
         "doi": "https://doi.org/10.1002/(SICI)1520-6378(199604)21:2<87::AID-COL2>3.0.CO;2-0",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2664,6 +3170,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/3-540-61123-1_124",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2684,6 +3191,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/3-540-61123-1_123",
         "pdf": "/papers/ECCV-96/ECCV-96.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2704,6 +3212,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2723,11 +3232,34 @@
       "doi": null,
       "links": {
         "doi": null,
-        "pdf": null,
+        "pdf": "/papers/ARIZONA/arizona.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{funt1996learning,\n  title = {{Learning color constancy}},\n  author = {Funt, Brian and Cardei, Vlad and Barnard, Kobus},\n  booktitle = {IS&T Color Imaging Conference (CIC)},\n  year = {1996}\n}"
+    },
+    {
+      "title": "Colour Eigenfaces",
+      "year": 1996,
+      "month": null,
+      "type": "Book chapter",
+      "venue": "Proceedings IWISP '96",
+      "authors": [
+        "Graham D. Finlayson",
+        "Janet Dueck",
+        "Brian V. Funt",
+        "Mark S. Drew"
+      ],
+      "doi": "10.1016/b978-044482587-2/50133-6",
+      "links": {
+        "doi": "https://doi.org/10.1016/b978-044482587-2/50133-6",
+        "pdf": null,
+        "summit": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@incollection{finlayson1996colour,\n  title = {{Colour Eigenfaces}},\n  author = {Finlayson, Graham D. and Dueck, Janet and Funt, Brian V. and Drew, Mark S.},\n  booktitle = {Proceedings IWISP '96},\n  year = {1996},\n  doi = {10.1016/b978-044482587-2/50133-6}\n}"
     },
     {
       "title": "Color Constant Color Indexing",
@@ -2743,6 +3275,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/34.391390",
         "pdf": "/papers/IEEE_TPAMI-1995/IEEE_TPAMI-1995.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2763,6 +3296,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2783,6 +3317,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2801,6 +3336,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2819,6 +3355,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2839,6 +3376,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.11.003011",
         "pdf": "/papers/JOSA-1994/JOSA-1994.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2859,6 +3397,7 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.11.001553",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2878,6 +3417,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/34.250838",
         "pdf": "/papers/IEEE_TPAMI-1993/ColorSpaceMutualIllumination_PAMI1993.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2898,6 +3438,7 @@
       "links": {
         "doi": "https://doi.org/10.1117/12.152721",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2917,7 +3458,8 @@
       "doi": null,
       "links": {
         "doi": null,
-        "pdf": null,
+        "pdf": "/papers/Conformal/conf2.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2937,7 +3479,8 @@
       "doi": null,
       "links": {
         "doi": null,
-        "pdf": null,
+        "pdf": "/papers/ICCV/iccv.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2957,6 +3500,7 @@
       "links": {
         "doi": "https://doi.org/10.1016/1049-9660(92)90036-3",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -2976,10 +3520,30 @@
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.9.001255",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@article{drew1992variational,\n  title = {{Variational approach to interreflection in color images}},\n  author = {Drew, M.S. and Funt, B.V.},\n  journal = {Journal of the Optical Society of America A},\n  year = {1992},\n  doi = {10.1364/JOSAA.9.001255}\n}"
+    },
+    {
+      "title": "Experiential Reasoning",
+      "year": 1992,
+      "month": null,
+      "type": "Conference paper",
+      "venue": "Proc. AAAI Spring Symposium on Reasoning with Diagrammatic Representations",
+      "authors": [
+        "Brian Funt"
+      ],
+      "doi": null,
+      "links": {
+        "doi": null,
+        "pdf": null,
+        "summit": "https://summit.sfu.ca/item/18279",
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@inproceedings{funt1992experiential,\n  title = {{Experiential Reasoning}},\n  author = {Funt, Brian},\n  booktitle = {Proc. AAAI Spring Symposium on Reasoning with Diagrammatic Representations},\n  year = {1992}\n}"
     },
     {
       "title": "Recovering shading from color images",
@@ -2995,7 +3559,8 @@
       "doi": "10.1007/3-540-55426-2_15",
       "links": {
         "doi": "https://doi.org/10.1007/3-540-55426-2_15",
-        "pdf": null,
+        "pdf": "/papers/ECCV92/eccv92.pdf",
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3016,6 +3581,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/BF00127123",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3036,6 +3602,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/34.58869",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3055,6 +3622,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3075,10 +3643,31 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{laughlin1990synthesis,\n  title = {{Synthesis of Acoustic Timbres using Principal Component Analysis}},\n  author = {Laughlin, R.G. and Truax, B.D. and Funt, B.V.},\n  booktitle = {Proceedings of the 1990 International Computer Music Conference ICMC 1990},\n  year = {1990}\n}"
+    },
+    {
+      "title": "Removing Specularities From Color Images for Shape From Shading",
+      "year": 1989,
+      "month": 4,
+      "type": "Book chapter",
+      "venue": "Computer Vision and Shape Recognition",
+      "authors": [
+        "Frank Tong",
+        "Brian V. Funt"
+      ],
+      "doi": "10.1142/9789814434362_0014",
+      "links": {
+        "doi": "https://doi.org/10.1142/9789814434362_0014",
+        "pdf": null,
+        "summit": null,
+        "code": null,
+        "data": null
+      },
+      "bibtex": "@incollection{tong1989removing,\n  title = {{Removing Specularities From Color Images for Shape From Shading}},\n  author = {Tong, Frank and Funt, Brian V.},\n  booktitle = {Computer Vision and Shape Recognition},\n  year = {1989},\n  doi = {10.1142/9789814434362_0014}\n}"
     },
     {
       "title": "Color from black and white",
@@ -3094,6 +3683,7 @@
       "links": {
         "doi": "https://doi.org/10.1007/BF00126427",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3113,6 +3703,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3132,29 +3723,31 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
       "bibtex": "@inproceedings{funt1988color,\n  title = {{Color from black and white}},\n  author = {Funt, Brian and Ho, Jian},\n  year = {1988}\n}"
     },
     {
-      "title": "Detection of internal log defects by automatic interpretation of computer tomography images",
+      "title": "Detection of Internal Log Defects by Automatic Interpretation of Computer Tomography Images",
       "year": 1987,
       "month": 1,
       "type": "Journal article",
-      "venue": "Forest products journal",
+      "venue": "Forest Products Journal",
       "authors": [
-        "Funt BV",
-        "Bryant EC"
+        "Brian V. Funt",
+        "Edwin C. Bryant"
       ],
       "doi": null,
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
-      "bibtex": "@article{bv1987detection,\n  title = {{Detection of internal log defects by automatic interpretation of computer tomography images}},\n  author = {BV, Funt and EC, Bryant},\n  journal = {Forest products journal},\n  year = {1987}\n}"
+      "bibtex": "@article{funt1987detection,\n  title = {{Detection of Internal Log Defects by Automatic Interpretation of Computer Tomography Images}},\n  author = {Funt, Brian V. and Bryant, Edwin C.},\n  journal = {Forest Products Journal},\n  year = {1987}\n}"
     },
     {
       "title": "Computer Vision System That Analyses CT-Scans of Sawlogs",
@@ -3170,6 +3763,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3188,6 +3782,7 @@
       "links": {
         "doi": "https://doi.org/10.1016/S0364-0213(83)80018-4",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3207,6 +3802,7 @@
       "links": {
         "doi": "https://doi.org/10.1111/j.1467-8659.1983.tb00148.x",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3225,6 +3821,7 @@
       "links": {
         "doi": "https://doi.org/10.1109/MC.1983.1654205",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3243,6 +3840,7 @@
       "links": {
         "doi": null,
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },
@@ -3261,6 +3859,7 @@
       "links": {
         "doi": "https://doi.org/10.1016/0004-3702(80)90002-8",
         "pdf": null,
+        "summit": null,
         "code": null,
         "data": null
       },

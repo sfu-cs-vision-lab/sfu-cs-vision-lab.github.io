@@ -143,6 +143,7 @@ function normalise(w, owner) {
     venue,
     authors: authorsOf(w, owner),
     doi: (w["external-ids"]?.["external-id"] ?? []).find(e => e["external-id-type"] === "doi")?.["external-id-value"]?.trim() || null,
+    url: w.url?.value?.trim() || null,
   };
 }
 
@@ -169,6 +170,7 @@ function merge(list) {
     const keep = weight(p) > weight(q) || (weight(p) === weight(q) && (p.year ?? 9999) < (q.year ?? 9999)) ? { ...p } : q;
     const other = keep === q ? p : q;
     keep.doi ??= other.doi;
+    keep.url ??= other.url;
     keep.venue ??= other.venue;
     keep.month ??= other.month;
     if (other.authors.length > keep.authors.length) keep.authors = other.authors;
@@ -256,10 +258,12 @@ async function main() {
     const earlier = doi && earlierData.find(d => d.papers?.some(x => x.toLowerCase() === doi));
     return {
       ...p,
+      url: undefined, // most are Scopus pages that need a subscription; only SFU Summit records are kept, below
       authors: p.authors.map(displayName),
       links: {
         doi: p.doi ? `https://doi.org/${p.doi}` : null,
         pdf: page?.pdf ?? null, // a copy on this site, saved from the old one
+        summit: /^https?:\/\/summit\.sfu\.ca\//.test(p.url ?? "") ? p.url : null, // SFU Library's open repository
         code: code ? `/code/${code.name}/` : null,
         data: data ? `https://doi.org/${data.doi}` : (earlier?.links[0].href ?? null),
       },
