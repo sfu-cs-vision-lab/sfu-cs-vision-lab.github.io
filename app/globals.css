@@ -29,23 +29,12 @@
   }
 }
 
-/* Page changes (View Transitions, where the browser has them): a short crossfade of the page, the header
-   held still, and the logo and the home display morphing into each other. Reduced motion gets none of it. */
+/* Page changes (View Transitions, where the browser has them): a short crossfade of the page, with the header
+   held still. Reduced motion gets none of it. */
 @media (prefers-reduced-motion: no-preference) {
   ::view-transition-old(root),
   ::view-transition-new(root) {
     animation-duration: 220ms;
-  }
-
-  ::view-transition-group(lab-mark) {
-    animation-duration: 520ms;
-    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  ::view-transition-old(lab-mark),
-  ::view-transition-new(lab-mark) {
-    height: 100%;
-    animation-duration: 520ms;
   }
 }
 

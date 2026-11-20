@@ -9,7 +9,7 @@ import { PAPERS, SECTIONS, paperHex } from "@/lib/mondrian";
 /** The lab's mark: the home page Mondrian in miniature, each paper in its daylight colour. */
 function Mark() {
   return (
-    <svg data-lab-mark width="30" height="20" viewBox="0 0 12 8" aria-hidden="true" className="shrink-0">
+    <svg width="30" height="20" viewBox="0 0 12 8" aria-hidden="true" className="shrink-0">
       {PAPERS.map(p => {
         const [r0, c0, r1, c1] = p.wide;
         return <rect key={p.chip} x={c0 - 1 + 0.15} y={r0 - 1 + 0.15} width={c1 - c0 - 0.3} height={r1 - r0 - 0.3} fill={paperHex(p.chip)} />;
@@ -20,25 +20,12 @@ function Mark() {
 
 type StartViewTransition = (update: () => Promise<void>) => unknown;
 
-/**
- * Names the shapes that morph between pages. The header's mark and the home display share one name, and only
- * one of them may carry it at a time: the display while it is on screen, otherwise the mark. Without a morph
- * (links to a section, or between inner pages) neither is named and the page simply crossfades.
- */
-function nameMark(morph: boolean) {
-  const grid = document.querySelector<HTMLElement>("[data-mondrian-grid]");
-  const mark = document.querySelector<HTMLElement>("[data-lab-mark]");
-  const gridInView = !!grid && grid.getBoundingClientRect().bottom > 0;
-  grid?.style.setProperty("view-transition-name", morph && gridInView ? "lab-mark" : "none");
-  mark?.style.setProperty("view-transition-name", morph && !gridInView ? "lab-mark" : "none");
-}
-
 export default function NavBar() {
   const pathname = usePathname();
   const router = useRouter();
   const home = pathname === "/";
   // A page change in progress: finished once the new page has rendered.
-  const arriving = useRef<{ done: () => void; morph: boolean } | null>(null);
+  const arriving = useRef<(() => void) | null>(null);
   const [open, setOpen] = useState(false);
   // On the home page the papers are the navigation, so the bar only comes in once the whole display has
   // scrolled away, and leaves again as soon as any of it is back in view.
@@ -58,7 +45,7 @@ export default function NavBar() {
 
   // Clicks on the site's own links. On the home page a link to one of its sections (About) always glides there;
   // left to the router, a link to the hash already in the address jumps. A link to another page crossfades to
-  // it where the browser can (View Transitions), and the logo and the home display morph into each other.
+  // it where the browser can (View Transitions).
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
@@ -82,12 +69,10 @@ export default function NavBar() {
       if (!start || reduce) return; // the router changes page as before
       e.preventDefault();
       e.stopPropagation();
-      const morph = !url.hash && (home || url.pathname === "/");
-      nameMark(morph);
       start.call(document, () => new Promise<void>(done => {
         let ended = false;
         const end = () => { if (!ended) { ended = true; done(); } };
-        arriving.current = { done: end, morph };
+        arriving.current = end;
         setTimeout(end, 1500); // never hold the page
         router.push(url.pathname + url.search + url.hash);
       }));
@@ -97,12 +82,10 @@ export default function NavBar() {
   }, [home, router]);
 
   useEffect(() => {
-    const page = arriving.current;
-    if (!page) return;
+    const done = arriving.current;
+    if (!done) return;
     arriving.current = null;
-    // Directly, not in an animation frame: the browser does not paint (or run frames) until this resolves.
-    nameMark(page.morph);
-    page.done();
+    done(); // directly, not in an animation frame: the browser runs no frames until this resolves
   }, [pathname]);
 
   useEffect(() => setOpen(false), [pathname]);
