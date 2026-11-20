@@ -77,7 +77,7 @@ export default function DataPage() {
   const records = zenodo.datasets.filter((d, i, all) => all.findIndex(e => e.conceptdoi === d.conceptdoi) === i);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 pb-24 pt-14 sm:px-6 md:pt-20">
+    <div className="mx-auto max-w-6xl px-4 pb-24 pt-8 sm:px-6 md:pt-16">
       <h1 className="text-[28px] font-semibold leading-tight tracking-[-0.01em] text-ink [font-stretch:112.5%] md:text-[34px]">
         Data
       </h1>

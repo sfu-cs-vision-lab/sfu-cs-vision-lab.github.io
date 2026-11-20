@@ -46,7 +46,7 @@ export default function PublicationsPage() {
   const decades = [...new Set(years.map(decadeOf))];
 
   return (
-    <div className="mx-auto max-w-6xl px-4 pb-24 pt-14 sm:px-6 md:pt-20">
+    <div className="mx-auto max-w-6xl px-4 pb-24 pt-8 sm:px-6 md:pt-16">
       <h1 className="text-[28px] font-semibold leading-tight tracking-[-0.01em] text-ink [font-stretch:112.5%] md:text-[34px]">
         Publications
       </h1>
