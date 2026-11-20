@@ -1,6 +1,6 @@
 {
   "source": "https://www.cs.sfu.ca/~colour/publications/",
-  "savedAt": "2026-11-20T20:29:10.106Z",
+  "savedAt": "2026-11-20T22:30:59.097Z",
   "links": [
     {
       "title": "The Rehabilitation of MaxRGB",
@@ -270,7 +270,7 @@
       "title": "Retinex in Matlab",
       "year": "2000",
       "url": "https://www.cs.sfu.ca/~colour/publications/IST-2000/index.html",
-      "pdf": null
+      "pdf": "/papers/IST-2000/IST-2000.pdf"
     },
     {
       "title": "Colour by correlation in a three-dimensional colour space",
@@ -360,7 +360,7 @@
       "title": "Modeling color constancy with neural networks",
       "year": "1997",
       "url": "https://www.cs.sfu.ca/~colour/publications/BOSTON/boston_abs.html",
-      "pdf": null
+      "pdf": "/papers/BOSTON/boston.pdf"
     },
     {
       "title": "Luminance-based multi-Scale retinex",
@@ -372,7 +372,7 @@
       "title": "Learning color constancy",
       "year": "1996",
       "url": "https://www.cs.sfu.ca/~colour/publications/ARIZONA/arizona_abs.html",
-      "pdf": null
+      "pdf": "/papers/ARIZONA/arizona.pdf"
     },
     {
       "title": "Colour constancy for scenes with varying illumination",
@@ -402,25 +402,25 @@
       "title": "Modelling reflectance by logarithmic basis functions",
       "year": "1993",
       "url": "https://www.cs.sfu.ca/~colour/publications/MRLBF/logbasis_abs.html",
-      "pdf": null
+      "pdf": "/papers/MRLBF/logbasis.pdf"
     },
     {
       "title": "Conformal transplantation of lightness to varying resolution sensors",
       "year": "1993",
       "url": "https://www.cs.sfu.ca/~colour/publications/Conformal/conf2_abs.html",
-      "pdf": null
+      "pdf": "/papers/Conformal/conf2.pdf"
     },
     {
       "title": "Diagonal transforms suffice for color constancy",
       "year": "1993",
       "url": "https://www.cs.sfu.ca/~colour/publications/ICCV/iccv_abs.html",
-      "pdf": null
+      "pdf": "/papers/ICCV/iccv.pdf"
     },
     {
       "title": "Recovering shading from color images",
       "year": "1992",
       "url": "https://www.cs.sfu.ca/~colour/publications/ECCV92/eccv92_abs.html",
-      "pdf": null
+      "pdf": "/papers/ECCV92/eccv92.pdf"
     }
   ]
 }

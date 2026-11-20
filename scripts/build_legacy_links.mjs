@@ -2,10 +2,14 @@
 // One-time copy of the papers on the old site (https://www.cs.sfu.ca/~colour/publications/), which this site
 // replaces: each old paper page's PDF is saved under public/papers/ and recorded in
 // data/legacy-publications.json, so Publications can offer the PDF from this site once the old one is gone.
+// Pages with only PostScript are converted to PDF, which needs Ghostscript (brew install ghostscript).
 // The old pages themselves are not linked. Run by hand:
 //   node scripts/build_legacy_links.mjs
+import { execFileSync } from "node:child_process";
 import fs from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
+import zlib from "node:zlib";
 
 const PAGE = "https://www.cs.sfu.ca/~colour/publications/";
 
@@ -48,6 +52,22 @@ async function main() {
         const file = await fetch(url, { headers: { "User-Agent": "static-site-data-fetch/1.0" }, signal: AbortSignal.timeout(120000) });
         await fs.mkdir(path.join("public/papers", path.dirname(rel)), { recursive: true });
         await fs.writeFile(path.join("public/papers", rel), Buffer.from(await file.arrayBuffer()));
+        link.pdf = `/papers/${rel}`;
+      }
+      // Older pages offer only PostScript (.ps or .ps.gz): convert it to PDF with Ghostscript's ps2pdf.
+      const ps = !link.pdf && body.match(/href\s*=\s*["']?([^"'\s>#]+\.ps(?:\.gz)?)["'\s>]/i)?.[1];
+      if (ps) {
+        const psUrl = new URL(ps, link.url).href.replace(/%7E/gi, "~").replace(/^http:/, "https:");
+        const file = await fetch(psUrl, { headers: { "User-Agent": "static-site-data-fetch/1.0" }, signal: AbortSignal.timeout(120000) });
+        if (!file.ok) throw new Error(`${psUrl} returned ${file.status}`);
+        let bytes = Buffer.from(await file.arrayBuffer());
+        if (psUrl.endsWith(".gz")) bytes = zlib.gunzipSync(bytes);
+        const rel = decodeURIComponent(new URL(psUrl).pathname.replace(/^.*?\/publications\//, "")).replace(/\.ps(\.gz)?$/, ".pdf");
+        const tmp = await fs.mkdtemp(path.join(os.tmpdir(), "legacy-ps-"));
+        await fs.writeFile(path.join(tmp, "paper.ps"), bytes);
+        await fs.mkdir(path.join("public/papers", path.dirname(rel)), { recursive: true });
+        execFileSync("ps2pdf", ["-dSAFER", path.join(tmp, "paper.ps"), path.join("public/papers", rel)]);
+        await fs.rm(tmp, { recursive: true });
         link.pdf = `/papers/${rel}`;
       }
     } catch {
