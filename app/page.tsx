@@ -17,16 +17,21 @@ export default function Home() {
     <main id="content" className="on-ground bg-ground font-archivo text-ink">
       <Mondrian />
 
-      <section aria-label="About the lab" className="mx-auto max-w-6xl px-4 pt-24 sm:px-6 md:pt-32">
+      {/* About: reached from the menu and the About paper at /#about; it has no page of its own. */}
+      <section id="about" aria-labelledby="about-heading" className="mx-auto grid max-w-6xl gap-x-12 gap-y-6 px-4 pt-24 sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] md:pt-32">
+        <h2 id="about-heading" className="text-[28px] font-semibold leading-tight tracking-[-0.01em] text-ink [font-stretch:112.5%] [text-wrap:balance] md:text-[34px]">
+          About the lab
+        </h2>
         <div className="max-w-[40ch] space-y-6 text-[22px] leading-[1.45] text-ink md:text-[28px] md:leading-[1.4]">
           <p>
-            Every colour on this display is computed from measured spectra. Move the light and, with the white balance
-            fixed, the colours shift with it; switch the white balance to Retinex and the lab&rsquo;s own code keeps them
-            nearly steady.
+            The Computational Vision Lab is part of the{" "}
+            <a href="https://www.sfu.ca/computing.html">School of Computing Science</a> at{" "}
+            <a href="https://www.sfu.ca/">Simon Fraser University</a> in Burnaby, British Columbia, and is directed by{" "}
+            <Link href="/people/">Brian Funt</Link>.
           </p>
           <p>
-            Since 1988 the Computational Vision Lab has worked on how a camera or an eye can recover the colours of
-            surfaces when the light changes. It also computes{" "}
+            Since 1988 it has worked on how a camera or an eye can recover the colours of surfaces when the light
+            changes. It also computes{" "}
             <Link href="/research/#metamer-mismatching">metamer mismatch bodies</Link> exactly, works on{" "}
             <Link href="/research/#cinema-colour">colour for cinema</Link>, and publishes its{" "}
             <Link href="/data/">datasets</Link> and <Link href="/code/">code</Link> openly.
@@ -39,6 +44,11 @@ export default function Home() {
           What you&rsquo;re looking at
         </h2>
         <div className="max-w-[65ch] space-y-5 text-[17px] leading-[1.65] md:text-[18px]">
+          <p>
+            Every colour on this display is computed from measured spectra. Move the light and, with the white balance
+            fixed, the colours shift with it; switch the white balance to Retinex and the lab&rsquo;s own code keeps them
+            nearly steady.
+          </p>
           <p>
             Twelve papers from the Munsell Book of Color, matte collection, on a black ground of flat 1.2% reflectance.
             The colour of each paper on your screen is computed from its measured reflectance spectrum, the spectrum of
@@ -61,7 +71,7 @@ export default function Home() {
             Edwin Land and John McCann used displays like this, which they called Mondrians, to study why colours look
             stable when the light changes. In 1988 Brian Funt and Mark Drew published{" "}
             <a href="https://doi.org/10.1109/CVPR.1988.196288"><cite>Color constancy computation in near-Mondrian scenes
-            using a finite dimensional linear model</cite></a> (CVPR). The Retinex view runs the lab&rsquo;s
+            using a finite dimensional linear model</cite></a> (CVPR). The Retinex white balance runs the lab&rsquo;s
             own code: the McCann99 retinex from Funt, Ciurea and McCann&rsquo;s <cite>Retinex in MATLAB</cite>, ported
             to run in your browser.
           </p>

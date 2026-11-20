@@ -27,13 +27,13 @@ export const PAPERS: Paper[] = [
   { chip: "5Y 8/8", label: "Funding", href: "/funding/", wide: [4, 11, 9, 13], narrow: [7, 4, 10, 7] },
   { chip: "7.5PB 5/6", wide: [5, 1, 9, 3], narrow: [10, 1, 13, 2] },
   { chip: "7.5GY 7/4", label: "Research", href: "/research/", wide: [5, 3, 7, 6], narrow: [4, 1, 6, 4] },
-  { chip: "10R 7/6", wide: [7, 3, 9, 6], narrow: [12, 2, 13, 4] },
-  { chip: "2.5PB 4/6", wide: [6, 6, 9, 9], narrow: [10, 4, 13, 6] },
+  { chip: "10R 7/6", label: "About", href: "/#about", wide: [7, 3, 9, 6], narrow: [10, 4, 13, 6] },
+  { chip: "2.5PB 4/6", wide: [6, 6, 9, 9], narrow: [12, 2, 13, 4] },
   { chip: "5Y 8/2", wide: [7, 9, 9, 11], narrow: [10, 6, 13, 7] },
 ];
 
 /** The site's sections in menu order, each tied to the paper that carries it on the home page. */
-const MENU = ["Research", "Publications", "Data", "Code", "People", "Funding"];
+const MENU = ["About", "Research", "Publications", "Data", "Code", "People", "Funding"];
 export const SECTIONS = PAPERS.filter(p => p.href)
   .map(p => ({ name: p.label!, href: p.href!, chip: p.chip }))
   .sort((a, b) => MENU.indexOf(a.name) - MENU.indexOf(b.name));
