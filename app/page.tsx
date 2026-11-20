@@ -25,7 +25,7 @@ export default function Home() {
           <h2 id="about-heading" className="text-[28px] font-semibold leading-tight tracking-[-0.01em] text-ink [font-stretch:112.5%] md:text-[34px]">
             About the lab
           </h2>
-          <div className="mt-4 max-w-[65ch] space-y-4 text-[17px] leading-[1.65] text-ink-2 md:text-[18px]">
+          <div className="mt-4 max-w-[65ch] space-y-4 text-[17px] leading-[1.65] text-ink md:text-[18px]">
             <p>
               The Computational Vision Lab is part of the{" "}
               <a href="https://www.sfu.ca/computing.html">School of Computing Science</a> at{" "}
