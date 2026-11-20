@@ -20,7 +20,21 @@ function Mark() {
 
 export default function NavBar() {
   const pathname = usePathname();
+  const home = pathname === "/";
   const [open, setOpen] = useState(false);
+  // On the home page the papers are the navigation, so the bar only comes in once the whole display has
+  // scrolled away, and leaves again as soon as any of it is back in view.
+  const [shown, setShown] = useState(!home);
+
+  useEffect(() => {
+    if (!home) return setShown(true);
+    const display = document.querySelector("[data-mondrian]");
+    if (!display) return;
+    const watch = new IntersectionObserver(([entry]) => setShown(!entry.isIntersecting));
+    watch.observe(display);
+    return () => watch.disconnect();
+  }, [home]);
+  useEffect(() => { if (!shown) setOpen(false); }, [shown]);
 
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
@@ -30,8 +44,6 @@ export default function NavBar() {
     return () => removeEventListener("keydown", onKey);
   }, [open]);
 
-  // On the home page the Mondrian's papers are the navigation.
-  if (pathname === "/") return null;
 
   const links = SECTIONS.map(s => {
     const active = pathname?.startsWith(s.href.slice(0, -1));
@@ -50,7 +62,17 @@ export default function NavBar() {
   });
 
   return (
-    <header className="on-ground sticky top-0 z-40 border-b border-rule bg-ground font-archivo text-ink">
+    <header
+      className={`on-ground top-0 z-40 border-b border-rule bg-ground font-archivo text-ink ${
+        home
+          ? `fixed inset-x-0 motion-reduce:transition-none ${
+              shown
+                ? "visible translate-y-0 [transition:transform_300ms_cubic-bezier(0.16,1,0.3,1)]"
+                : "invisible -translate-y-full [transition:transform_250ms_ease-in,visibility_0s_250ms]"
+            }`
+          : "sticky"
+      }`}
+    >
       <nav aria-label="Main" className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-3 text-[17px] font-semibold text-ink no-underline [font-stretch:112.5%]">
           <Mark />

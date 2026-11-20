@@ -105,7 +105,7 @@ export default function Mondrian() {
   const preset = LIGHTS.find(l => Math.abs(l.kelvin - kelvin) < 30);
 
   return (
-    <section className={styles.stage} style={{ background: hex(scene.ground) }} aria-label="Colour Mondrian">
+    <section data-mondrian className={styles.stage} style={{ background: hex(scene.ground) }} aria-label="Colour Mondrian">
       <div className={styles.grid}>
         {PAPERS.map((p, i) => {
           const style = {
