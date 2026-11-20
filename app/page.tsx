@@ -6,8 +6,6 @@ import { REPOS } from "@/lib/github";
 const recent = REPOS.slice(0, 4);
 
 const sources = [
-  { label: "Retinex in MATLAB (2004)", href: "https://doi.org/10.1117/1.1636761" },
-  { label: "retinex-matlab code", href: "https://github.com/sfu-cs-vision-lab/retinex-matlab" },
   { label: "Munsell matte spectra, University of Eastern Finland", href: "https://zenodo.org/records/3269912" },
   { label: "CIE 1931 colour-matching functions", href: "https://doi.org/10.25039/CIE.DS.xvudnb9b" },
 ];
@@ -81,8 +79,9 @@ export default function Home() {
               Edwin Land and John McCann used displays like this, which they called Mondrians, to study why colours look
               stable when the light changes. In 1988 Brian Funt and Mark Drew published{" "}
               <a href="https://doi.org/10.1109/CVPR.1988.196288"><cite>Color constancy computation in near-Mondrian scenes
-              using a finite dimensional linear model</cite></a> (CVPR). The Retinex option uses the McCann99 algorithm, converted for the web from the code
-              published with Funt, Ciurea and McCann&rsquo;s <cite>Retinex in MATLAB</cite>.
+              using a finite dimensional linear model</cite></a> (CVPR). The Retinex option uses the McCann99 algorithm, converted for the web from the{" "}
+              <Link href="/code/retinex-matlab/">code</Link> published with Funt, Ciurea and McCann&rsquo;s{" "}
+              <a href="https://doi.org/10.1117/1.1636761"><cite>Retinex in MATLAB</cite></a>.
             </p>
             <p className="max-w-[58ch] pt-2 text-[14px] leading-relaxed text-ink-2">
               Sources:{" "}
