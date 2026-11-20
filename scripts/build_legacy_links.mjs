@@ -1,8 +1,11 @@
 // scripts/build_legacy_links.mjs
-// One-time copy of the old site's paper-page links into data/legacy-publications.json, so Publications
-// can link "Paper page" even if https://www.cs.sfu.ca/~colour/publications/ changes. Run by hand:
+// One-time copy of the papers on the old site (https://www.cs.sfu.ca/~colour/publications/), which this site
+// replaces: each old paper page's PDF is saved under public/papers/ and recorded in
+// data/legacy-publications.json, so Publications can offer the PDF from this site once the old one is gone.
+// The old pages themselves are not linked. Run by hand:
 //   node scripts/build_legacy_links.mjs
 import fs from "node:fs/promises";
+import path from "node:path";
 
 const PAGE = "https://www.cs.sfu.ca/~colour/publications/";
 
@@ -28,8 +31,32 @@ async function main() {
     if (title) links.push({ title, year, url: href });
   }
 
+  // The paper's PDF on each page, if it has one (not the publisher's copyright form some pages also carry).
+  for (const link of links) {
+    try {
+      const page = await fetch(link.url, { headers: { "User-Agent": "static-site-data-fetch/1.0" }, signal: AbortSignal.timeout(30000) });
+      const body = new TextDecoder("latin1").decode(await page.arrayBuffer());
+      const pdf = [...body.matchAll(/href\s*=\s*["']?([^"'\s>#]+\.pdf)\b/gi)].map(m => new URL(m[1], link.url).href)
+        .find(u => !/copyrigh/i.test(u));
+      const url = pdf ? pdf.replace(/%7E/gi, "~").replace(/^http:/, "https:") : null;
+      // Only a link that opens as a PDF: some pages point at copies on hosts that no longer have them.
+      const check = url && await fetch(url, { method: "HEAD", headers: { "User-Agent": "static-site-data-fetch/1.0" }, signal: AbortSignal.timeout(30000) }).catch(() => null);
+      link.pdf = null;
+      if (check?.ok && /pdf/i.test(check.headers.get("content-type") ?? "")) {
+        // Saved at its path under the old publications folder, e.g. public/papers/JOSA-2002/JOSA-2002.pdf.
+        const rel = decodeURIComponent(new URL(url).pathname.replace(/^.*?\/publications\//, ""));
+        const file = await fetch(url, { headers: { "User-Agent": "static-site-data-fetch/1.0" }, signal: AbortSignal.timeout(120000) });
+        await fs.mkdir(path.join("public/papers", path.dirname(rel)), { recursive: true });
+        await fs.writeFile(path.join("public/papers", rel), Buffer.from(await file.arrayBuffer()));
+        link.pdf = `/papers/${rel}`;
+      }
+    } catch {
+      link.pdf = null;
+    }
+  }
+
   await fs.writeFile("data/legacy-publications.json", JSON.stringify({ source: PAGE, savedAt: new Date().toISOString(), links }, null, 2) + "\n");
-  console.log(`Wrote data/legacy-publications.json with ${links.length} paper pages`);
+  console.log(`Wrote data/legacy-publications.json with ${links.length} papers; saved ${links.filter(l => l.pdf).length} PDFs under public/papers/`);
 }
 
 main().catch(err => { console.error(err.message); process.exit(1); });

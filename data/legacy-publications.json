@@ -1,356 +1,426 @@
 {
   "source": "https://www.cs.sfu.ca/~colour/publications/",
-  "savedAt": "2026-11-19T15:00:22.199Z",
+  "savedAt": "2026-11-20T20:29:10.106Z",
   "links": [
     {
       "title": "The Rehabilitation of MaxRGB",
       "year": "2010",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.html",
+      "pdf": "/papers/CIC-2010/Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.pdf"
     },
     {
       "title": "XYZ to ADL: Calculating Logvinenko's Object Color Coordinates",
       "year": "2010",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_ADL_FinalVersionwithCitation.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_ADL_FinalVersionwithCitation.html",
+      "pdf": "/papers/CIC-2010/ADL_FinalVersionwithCitation.pdf"
     },
     {
       "title": "Cubical Gamut Mapping Colour Constancy",
       "year": "2010",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2010/index_CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2010/index_CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.html",
+      "pdf": "/papers/CGIV-2010/CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.pdf"
     },
     {
       "title": "The Effect of Exposure on MaxRGB Color Constancy",
       "year": "2010",
-      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-2010/index_SPIE2010_SHI.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-2010/index_SPIE2010_SHI.html",
+      "pdf": "/papers/SPIE-2010/SPIE2010_SHI.pdf"
     },
     {
       "title": "Monge's Unique Property of White Surfaces",
       "year": "2009",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2009/index_AIC_monge_final.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2009/index_AIC_monge_final.html",
+      "pdf": "/papers/AIC-2009/AIC_monge_final.pdf"
     },
     {
       "title": "Stereo Retinex",
       "year": "2009",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IVC-2009/index_Xiong-Funt_StereoRetinexPrintVersion.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IVC-2009/index_Xiong-Funt_StereoRetinexPrintVersion.html",
+      "pdf": "/papers/IVC-2009/Xiong-Funt_StereoRetinexPrintVersion.pdf"
     },
     {
       "title": "Quaternion Color Curvature",
       "year": "2008",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_SHI.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_SHI.html",
+      "pdf": "/papers/CIC-2008/CIC16_SHI.pdf"
     },
     {
       "title": "Geodesic Based Ink Separation for Spectral Printing",
       "year": "2008",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_BASTANI.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_BASTANI.html",
+      "pdf": "/papers/CIC-2008/CIC16_BASTANI.pdf"
     },
     {
       "title": "A New Type of ART2 Architecture and Application to Color Image Segmentation",
       "year": "2008",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ICANN-2008/index_ICANN2008_AI.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ICANN-2008/index_ICANN2008_AI.html",
+      "pdf": "/papers/ICANN-2008/ICANN2008_AI.pdf"
     },
     {
       "title": "Dichromatic Illumination Estimation via Hough Transforms in 3D",
       "year": "2008",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2008/index_CGIV2008_SHI.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2008/index_CGIV2008_SHI.html",
+      "pdf": "/papers/CGIV-2008/CGIV2008_SHI.pdf"
     },
     {
       "title": "Skin Colour Imaging That Is Insensitive to Lighting",
       "year": "2008",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2008/index_AIC08_SHI_FUNT_final.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2008/index_AIC08_SHI_FUNT_final.html",
+      "pdf": "/papers/AIC-2008/AIC08_SHI_FUNT_final.pdf"
     },
     {
       "title": "Illumination Estimation via Non-negative Matrix Factorization",
       "year": "2007",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2007/index_NNMF-AIC-manuscript3.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2007/index_NNMF-AIC-manuscript3.html",
+      "pdf": "/papers/AIC-2007/NNMF-AIC-manuscript3.pdf"
     },
     {
       "title": "Illumination Estimation via Thin-Plate Spline Interpolation",
       "year": "2007",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG.html",
+      "pdf": "/papers/CIC-2007/CIC15_XIONG.pdf"
     },
     {
       "title": "Automatic White Balancing via Gray Surface Identification",
       "year": "2007",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG_PG143.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG_PG143.html",
+      "pdf": "/papers/CIC-2007/CIC15_XIONG_PG143.pdf"
     },
     {
       "title": "Spectral Gamut Mapping and Gamut Concavity",
       "year": "2007",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_BASTANI_PG218.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_BASTANI_PG218.html",
+      "pdf": "/papers/CIC-2007/CIC15_BASTANI_PG218.pdf"
     },
     {
       "title": "Quaternion Colour Texture Segmentation",
       "year": "2007",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CVIU-2007/index_Shi+Funt_CVIU_QuaternioinTexture.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CVIU-2007/index_Shi+Funt_CVIU_QuaternioinTexture.html",
+      "pdf": "/papers/CVIU-2007/Shi+Funt_CVIU_QuaternioinTexture.pdf"
     },
     {
       "title": "Estimating Illumination Chromaticity via Support Vector Regression",
       "year": "2006",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JIST2006/Xiong-Funt_SVR_JIST2006.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JIST2006/Xiong-Funt_SVR_JIST2006.html",
+      "pdf": "/papers/JIST2006/Xiong-Funt_SVR_JIST2006.pdf"
     },
     {
       "title": "Illumination Estimation Using a Multilinear Constraint on Dichromatic Planes",
       "year": "2005",
-      "url": "https://www.cs.sfu.ca/~colour/publications/PBMVC05/index_Toro_Funt_BMVC_2005.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/PBMVC05/index_Toro_Funt_BMVC_2005.html",
+      "pdf": "/papers/PBMVC05/Toro_Funt_BMVC_2005.pdf"
     },
     {
       "title": "Quaternion Colour Texture",
       "year": "2005",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC05/index_Quaternion_Proceedings_WEB_version.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC05/index_Quaternion_Proceedings_WEB_version.html",
+      "pdf": "/papers/AIC05/Quaternion_Proceedings_WEB_version.pdf"
     },
     {
       "title": "End-User DLP Projector Colour Calibration",
       "year": "2005",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC05/index_DLP_AIC05_ProceedingsFinaWeblVersion.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC05/index_DLP_AIC05_ProceedingsFinaWeblVersion.html",
+      "pdf": "/papers/AIC05/DLP_AIC05_ProceedingsFinaWeblVersion.pdf"
     },
     {
       "title": "Independent Component Analysis and Nonnegative Linear Model Analysis of Illuminant and Reflectance Spectra",
       "year": "2005",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC05/index_ICA_AIC_Final_Web_Version.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC05/index_ICA_AIC_Final_Web_Version.html",
+      "pdf": "/papers/AIC05/ICA_AIC_Final_Web_Version.pdf"
     },
     {
       "title": "Estimating Illumination Chromaticity via Support Vector Regression",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/SVR_WebVersion.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/SVR_WebVersion.html",
+      "pdf": "/papers/CIC-2004/SVR_WebVersion.pdf"
     },
     {
       "title": "Optimal Linear RGB-to-XYZ Mapping for Color Display Calibration",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/CIC12-OptimalColorCorrectionProceedings.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/CIC12-OptimalColorCorrectionProceedings.html",
+      "pdf": "/papers/CIC-2004/CIC12-OptimalColorCorrectionProceedings.pdf"
     },
     {
       "title": "Failure of Redness-luminance Correlation for Illuminant Estimation",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/LuminanceRedness_Final_with_Citation.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/LuminanceRedness_Final_with_Citation.html",
+      "pdf": "/papers/CIC-2004/LuminanceRedness_Final_with_Citation.pdf"
     },
     {
       "title": "Calibrated Colour Mapping Between LCD and CRT Displays: A Case Study",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CRA-2004/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CRA-2004/index.html",
+      "pdf": "/papers/CRA-2004/CRA-BastaniCressmanFinalVersion.pdf"
     },
     {
       "title": "Calibrated Colour Mapping Between LCD and CRT Displays: A Case Study",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2004/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2004/index.html",
+      "pdf": "/papers/CGIV-2004/CGIV-2004.pdf"
     },
     {
       "title": "Tuning Retinex Parameters",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/TuningRetinexParamaters.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/TuningRetinexParamaters.html",
+      "pdf": "/papers/JEI-2004/TuningRetinexParamaters_JEI2004.pdf"
     },
     {
       "title": "Retinex in Matlab",
       "year": "2004",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/RetinexInMatlab.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/RetinexInMatlab.html",
+      "pdf": "/papers/JEI-2004/RetinexInMatlab_JEI2004.pdf"
     },
     {
       "title": "A Large Image Database for Color Constancy Research",
       "year": "2003",
-      "url": "https://www.cs.sfu.ca/~colour/publications/PCIC-2003/LargeImageDatabase.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/PCIC-2003/LargeImageDatabase.html",
+      "pdf": "/papers/PCIC-2003/LargeImageDatabase.pdf"
     },
     {
       "title": "Predicting Cone Quantum Catches under Illuminant Change",
       "year": "2003",
-      "url": "https://www.cs.sfu.ca/~colour/publications/PCIC-2003/PredictingConeQuantumCatches.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/PCIC-2003/PredictingConeQuantumCatches.html",
+      "pdf": "/papers/PCIC-2003/PredictingConeQuantumCatches.pdf"
     },
     {
       "title": "Non-Diagonal Colour Correction",
       "year": "2003",
-      "url": "https://www.cs.sfu.ca/~colour/publications/PICIP-2003/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/PICIP-2003/index.html",
+      "pdf": "/papers/PICIP-2003/PICIP-2003.pdf"
     },
     {
       "title": "Imprecise Color Constancy versus Color Realism",
       "year": "2003",
-      "url": "https://www.cs.sfu.ca/~colour/publications/BBS-2003/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/BBS-2003/index.html",
+      "pdf": "/papers/BBS-2003/BBS-2003.pdf"
     },
     {
       "title": "Non-von-Kries 3-Parameter Color Prediction",
       "year": "2003",
-      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-2003/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-2003/index.html",
+      "pdf": "/papers/SPIE-2003/Non-vonKriesChromatic.pdf"
     },
     {
       "title": "Estimating the Scene Illumination Chromaticity Using a Neural Network",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-2002/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-2002/index.html",
+      "pdf": "/papers/JOSA-2002/JOSA-2002.pdf"
     },
     {
       "title": "A Comparison of Computational Color Constancy Algorithms, Part One; Theory and Experiments with Synthetic Data",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TIP-2002/IEEE_TIP-2002A.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TIP-2002/IEEE_TIP-2002A.html",
+      "pdf": "/papers/IEEE_TIP-2002/IEEE_TIP-2002A.pdf"
     },
     {
       "title": "A Comparison of Computational Color Constancy Algorithms, Part 2; Experiments with Images",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TIP-2002/IEEE_TIP-2002B.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TIP-2002/IEEE_TIP-2002B.html",
+      "pdf": "/papers/IEEE_TIP-2002/IEEE_TIP-2002B.pdf"
     },
     {
       "title": "Camera calibration for color research",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CRA-2002/CameraCalibration.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CRA-2002/CameraCalibration.html",
+      "pdf": "/papers/CRA-2002/CameraCalibration.pdf"
     },
     {
       "title": "Chromatic Adaptation Transforms with Tuned Sharpening",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2002/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CGIV-2002/index.html",
+      "pdf": "/papers/CGIV-2002/CGIV-2002.pdf"
     },
     {
       "title": "Tuning Retinex Parameters",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-2002/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-2002/index.html",
+      "pdf": "/papers/SPIE-2002/EI-2002.pdf"
     },
     {
       "title": "A Data Set for Color Research",
       "year": "2002",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CRA-2002/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CRA-2002/index.html",
+      "pdf": "/papers/CRA-2002/CRA-2002.pdf"
     },
     {
       "title": "Non-Linear Embeddings and the Underlying Dimensionality of Reflectance spectra and Chromaticity Histograms",
       "year": "2001",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IST-2001/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IST-2001/index.html",
+      "pdf": "/papers/IST-2001/IST-2001.pdf"
     },
     {
       "title": "Sensor Sharpening for Computational Color Constancy",
       "year": "2001",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-2001/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-2001/index.html",
+      "pdf": "/papers/JOSA-2001/JOSA-2001.pdf"
     },
     {
       "title": "Parameters for Retinex",
       "year": "2001",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2001/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC-2001/index.html",
+      "pdf": "/papers/AIC-2001/AIC-2001.pdf"
     },
     {
       "title": "Diagonal versus Affine Transformations for Color Correction",
       "year": "2000",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-2000/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-2000/index.html",
+      "pdf": "/papers/JOSA-2000/JOSA-2000.pdf"
     },
     {
       "title": "Retinex in Matlab",
       "year": "2000",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IST-2000/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IST-2000/index.html",
+      "pdf": null
     },
     {
       "title": "Colour by correlation in a three-dimensional colour space",
       "year": "2000",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-2000/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-2000/index.html",
+      "pdf": null
     },
     {
       "title": "Improvements to gamut mapping colour constancy algorithms",
       "year": "2000",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-2000/improvmentsToGumat.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-2000/improvmentsToGumat.html",
+      "pdf": "/papers/ECCV-2000/improvmentsToGumat.pdf"
     },
     {
       "title": "Spotting colours",
       "year": "2000",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIS-2000/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIS-2000/index.html",
+      "pdf": "/papers/CIS-2000/CIS2000.pdf"
     },
     {
       "title": "Computational uses of colour",
       "year": "2000",
-      "url": "https://www.cs.sfu.ca/~colour/publications/VSCS2000/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/VSCS2000/index.html",
+      "pdf": "/papers/VSCS2000/UsesofColourReprintVersion.pdf"
     },
     {
       "title": "White point estimation for uncalibrated images",
       "year": "1999",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/whitePointEstimation.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/whitePointEstimation.html",
+      "pdf": "/papers/ISTSID-1999/whitePointEsitmation.pdf"
     },
     {
       "title": "Committee-based color constancy",
       "year": "1999",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IST-99/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IST-99/index.html",
+      "pdf": "/papers/IST-99/IST-99-CBCC.pdf"
     },
     {
       "title": "Color Constancy with specular and non-specular surfaces",
       "year": "1999",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/specularSurfaces.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/specularSurfaces.html",
+      "pdf": "/papers/ISTSID-1999/specularSurfaces.pdf"
     },
     {
       "title": "From dichromatic to trichromatic images; implications for image Recovery and visualization",
       "year": "1999",
-      "url": "https://www.cs.sfu.ca/~colour/publications/PICS-99/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/PICS-99/index.html",
+      "pdf": "/papers/PICS-99/PICS-99-TRITODI.pdf"
     },
     {
       "title": "Bootstrapping color constancy",
       "year": "1999",
-      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE99/spie99bcc_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE99/spie99bcc_abs.html",
+      "pdf": "/papers/SPIE99/spie99bcc.pdf"
     },
     {
       "title": "Camera calibration for colour vision research",
       "year": "1999",
-      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-99/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/SPIE-99/index.html",
+      "pdf": "/papers/SPIE-99/SPIE-99.pdf"
     },
     {
       "title": "Experiments in sensor sharpening for color constancy",
       "year": "1998",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IST-98/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IST-98/index.html",
+      "pdf": "/papers/IST-98/IST-98.pdf"
     },
     {
       "title": "Is colour constancy good enough?",
       "year": "1998",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-98/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-98/index.html",
+      "pdf": "/papers/ECCV-98/ECCV-98.pdf"
     },
     {
       "title": "Investigations into multi-scale retinex",
       "year": "1998",
-      "url": "https://www.cs.sfu.ca/~colour/publications/CIM-98/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/CIM-98/index.html",
+      "pdf": "/papers/CIM-98/CIM-98.pdf"
     },
     {
       "title": "Analyzing and improving multi-scale retinex",
       "year": "1997",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IST-97/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IST-97/index.html",
+      "pdf": "/papers/IST-97/IST-97.pdf"
     },
     {
       "title": "Modeling color constancy with neural networks",
       "year": "1997",
-      "url": "https://www.cs.sfu.ca/~colour/publications/BOSTON/boston_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/BOSTON/boston_abs.html",
+      "pdf": null
     },
     {
       "title": "Luminance-based multi-Scale retinex",
       "year": "1997",
-      "url": "https://www.cs.sfu.ca/~colour/publications/AIC97RET/aic97ret_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/AIC97RET/aic97ret_abs.html",
+      "pdf": "/papers/AIC97RET/aic97ret.pdf"
     },
     {
       "title": "Learning color constancy",
       "year": "1996",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ARIZONA/arizona_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ARIZONA/arizona_abs.html",
+      "pdf": null
     },
     {
       "title": "Colour constancy for scenes with varying illumination",
       "year": "1996",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-96/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV-96/index.html",
+      "pdf": "/papers/ECCV-96/ECCV-96.pdf"
     },
     {
       "title": "Color Constant Color Indexing.",
       "year": "1995",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1995/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1995/index.html",
+      "pdf": "/papers/IEEE_TPAMI-1995/IEEE_TPAMI-1995.pdf"
     },
     {
       "title": "Color Constancy: Generalized Diagonal Transforms Suffice",
       "year": "1994",
-      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-1994/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/JOSA-1994/index.html",
+      "pdf": "/papers/JOSA-1994/JOSA-1994.pdf"
     },
     {
       "title": "Color Space Analysis of Mutual Illumination",
       "year": "1993",
-      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1993/index.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1993/index.html",
+      "pdf": "/papers/IEEE_TPAMI-1993/ColorSpaceMutualIllumination_PAMI1993.pdf"
     },
     {
       "title": "Modelling reflectance by logarithmic basis functions",
       "year": "1993",
-      "url": "https://www.cs.sfu.ca/~colour/publications/MRLBF/logbasis_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/MRLBF/logbasis_abs.html",
+      "pdf": null
     },
     {
       "title": "Conformal transplantation of lightness to varying resolution sensors",
       "year": "1993",
-      "url": "https://www.cs.sfu.ca/~colour/publications/Conformal/conf2_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/Conformal/conf2_abs.html",
+      "pdf": null
     },
     {
       "title": "Diagonal transforms suffice for color constancy",
       "year": "1993",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ICCV/iccv_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ICCV/iccv_abs.html",
+      "pdf": null
     },
     {
       "title": "Recovering shading from color images",
       "year": "1992",
-      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV92/eccv92_abs.html"
+      "url": "https://www.cs.sfu.ca/~colour/publications/ECCV92/eccv92_abs.html",
+      "pdf": null
     }
   ]
 }

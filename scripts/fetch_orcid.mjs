@@ -229,7 +229,7 @@ async function main() {
       authors: p.authors.map(displayName),
       links: {
         doi: p.doi ? `https://doi.org/${p.doi}` : null,
-        paperPage: page?.url ?? null,
+        pdf: page?.pdf ?? null, // a copy on this site, saved from the old one
         code: code ? `/code/${code.name}/` : null,
         data: data ? `https://doi.org/${data.doi}` : (earlier?.links[0].href ?? null),
       },

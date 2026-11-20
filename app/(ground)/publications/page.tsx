@@ -11,7 +11,7 @@ type Publication = (typeof data.publications)[number];
 const decadeOf = (year: number) => Math.floor(year / 10) * 10;
 
 function Entry({ p }: { p: Publication }) {
-  const { doi, paperPage, code, data: dataset } = p.links;
+  const { doi, pdf, code, data: dataset } = p.links;
   return (
     <li
       id={publicationAnchor(p)}
@@ -28,7 +28,7 @@ function Entry({ p }: { p: Publication }) {
       </p>
       <p className="mt-1 flex flex-wrap items-center gap-x-5 text-[15px] leading-[2]">
         {doi && <a href={doi}>DOI</a>}
-        {paperPage && <a href={paperPage}>Paper page</a>}
+        {pdf && <a href={pdf}>PDF</a>}
         {code && <Link href={code}>Code</Link>}
         {dataset && <a href={dataset}>Data</a>}
         <CiteButton

@@ -29,8 +29,7 @@ export default function FundingPage() {
       {funding.draft && (
         <p className="mt-3 max-w-[62ch] text-[14px] leading-relaxed text-ink-2">
           Placeholder, to be confirmed with Brian Funt. Gathered from the funders credited in the papers’ publisher
-          records (Crossref), the lab’s <a href={funding.oldPage}>earlier funding page</a> (2007), and the computing
-          settings in the lab’s code.
+          records (Crossref), the lab’s earlier website (2007), and the computing settings in the lab’s code.
         </p>
       )}
 
@@ -79,7 +78,7 @@ export default function FundingPage() {
               )}
               {f.onOldPage && (
                 <p className="mt-3 text-[15px] leading-[1.6] text-ink-2">
-                  Listed on the lab’s <a href={funding.oldPage}>earlier funding page</a> (2007).
+                  Listed on the lab’s earlier website (2007).
                 </p>
               )}
             </div>

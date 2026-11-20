@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T19:37:07.642Z",
+  "fetchedAt": "2026-11-20T20:29:11.198Z",
   "sources": [
     {
       "name": "Dr. Brian Funt",
@@ -25,7 +25,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -44,7 +44,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -63,7 +63,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -82,7 +82,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -101,7 +101,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -120,7 +120,7 @@
       "doi": "10.5281/zenodo.22683533",
       "links": {
         "doi": "https://doi.org/10.5281/zenodo.22683533",
-        "paperPage": null,
+        "pdf": null,
         "code": "/code/mmb-zonotope-tiling/",
         "data": null
       },
@@ -139,7 +139,7 @@
       "doi": "10.2352/ei.2026.38.10.hvei-216",
       "links": {
         "doi": "https://doi.org/10.2352/ei.2026.38.10.hvei-216",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -158,7 +158,7 @@
       "doi": "10.1088/1742-6596/3128/1/012011",
       "links": {
         "doi": "https://doi.org/10.1088/1742-6596/3128/1/012011",
-        "paperPage": null,
+        "pdf": null,
         "code": "/code/ColorMechanism/",
         "data": null
       },
@@ -177,7 +177,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -198,7 +198,7 @@
       "doi": "10.3390/vaccines13090921",
       "links": {
         "doi": "https://doi.org/10.3390/vaccines13090921",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -216,7 +216,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -244,7 +244,7 @@
       "doi": "10.3389/fbioe.2025.1585003",
       "links": {
         "doi": "https://doi.org/10.3389/fbioe.2025.1585003",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -263,7 +263,7 @@
       "doi": "10.1002/col.22976",
       "links": {
         "doi": "https://doi.org/10.1002/col.22976",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -283,7 +283,7 @@
       "doi": "10.1167/jov.25.2.2",
       "links": {
         "doi": "https://doi.org/10.1167/jov.25.2.2",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -303,7 +303,7 @@
       "doi": "10.5594/jmi.2024/scge4617",
       "links": {
         "doi": "https://doi.org/10.5594/jmi.2024/scge4617",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -322,7 +322,7 @@
       "doi": "10.2352/CIC.2024.32.1.4",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2024.32.1.4",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -340,7 +340,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -359,7 +359,7 @@
       "doi": "10.2352/CIC.2023.31.1.17",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2023.31.1.17",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -378,7 +378,7 @@
       "doi": "10.2352/CIC.2022.30.1.32",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2022.30.1.32",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -397,7 +397,7 @@
       "doi": "10.1167/jov.21.12.11",
       "links": {
         "doi": "https://doi.org/10.1167/jov.21.12.11",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -416,7 +416,7 @@
       "doi": "10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411",
       "links": {
         "doi": "https://doi.org/10.2352/J.IMAGINGSCI.TECHNOL.2020.64.5.050411",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": "https://www2.cs.sfu.ca/~colour/data2/DRONE-Dataset/"
       },
@@ -435,7 +435,7 @@
       "doi": "10.1002/col.22535",
       "links": {
         "doi": "https://doi.org/10.1002/col.22535",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
       },
@@ -454,7 +454,7 @@
       "doi": "10.3390/s20154275",
       "links": {
         "doi": "https://doi.org/10.3390/s20154275",
-        "paperPage": null,
+        "pdf": null,
         "code": "/code/CMMRI/",
         "data": null
       },
@@ -479,7 +479,7 @@
       "doi": "10.1109/TPAMI.2019.2919824",
       "links": {
         "doi": "https://doi.org/10.1109/TPAMI.2019.2919824",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -499,7 +499,7 @@
       "doi": "10.2352/issn.2169-2629.2019.27.21",
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-2629.2019.27.21",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": "https://www2.cs.sfu.ca/research/groups/Vision/data2/MIST-Dataset/"
       },
@@ -518,7 +518,7 @@
       "doi": "10.1364/JOSAA.35.00B292",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.35.00B292",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -537,7 +537,7 @@
       "doi": "10.2352/ISSN.2470-1173.2018.14.HVEI-541",
       "links": {
         "doi": "https://doi.org/10.2352/ISSN.2470-1173.2018.14.HVEI-541",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -556,7 +556,7 @@
       "doi": "10.2352/issn.2169-2629.2018.26.268",
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-2629.2018.26.268",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -581,7 +581,7 @@
       "doi": "10.2352/issn.2169-2629.2018.26.350",
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-2629.2018.26.350",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -600,7 +600,7 @@
       "doi": "10.2352/ISSN.2470-1173.2017.14.HVEI-133",
       "links": {
         "doi": "https://doi.org/10.2352/ISSN.2470-1173.2017.14.HVEI-133",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -620,7 +620,7 @@
       "doi": "10.1364/JOSAA.33.00A238",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.33.00A238",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": "https://doi.org/10.5281/zenodo.17114535"
       },
@@ -642,7 +642,7 @@
       "doi": "10.1007/s11263-015-0844-7",
       "links": {
         "doi": "https://doi.org/10.1007/s11263-015-0844-7",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -661,7 +661,7 @@
       "doi": "10.1002/col.21942",
       "links": {
         "doi": "https://doi.org/10.1002/col.21942",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -681,7 +681,7 @@
       "doi": "10.2352/ISSN.2169-2629.2017.32.192",
       "links": {
         "doi": "https://doi.org/10.2352/ISSN.2169-2629.2017.32.192",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -701,7 +701,7 @@
       "doi": "10.1109/ICCVW.2015.14",
       "links": {
         "doi": "https://doi.org/10.1109/ICCVW.2015.14",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -720,7 +720,7 @@
       "doi": "10.1109/TPAMI.2015.2420560",
       "links": {
         "doi": "https://doi.org/10.1109/TPAMI.2015.2420560",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -740,7 +740,7 @@
       "doi": "10.1016/j.visres.2015.05.009",
       "links": {
         "doi": "https://doi.org/10.1016/j.visres.2015.05.009",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -761,7 +761,7 @@
       "doi": "10.1371/journal.pone.0135029",
       "links": {
         "doi": "https://doi.org/10.1371/journal.pone.0135029",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -780,7 +780,7 @@
       "doi": "10.2352/cic.2015.23.1.art00014",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2015.23.1.art00014",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -801,7 +801,7 @@
       "doi": "10.1109/TIP.2013.2277943",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2013.2277943",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": "https://www.cs.sfu.ca/~colour/data/ThreeManuallyLabeledDatasets.zip"
       },
@@ -820,7 +820,7 @@
       "doi": "10.1002/col.21849",
       "links": {
         "doi": "https://doi.org/10.1002/col.21849",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -840,7 +840,7 @@
       "doi": "10.1109/TIP.2013.2283148",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2013.2283148",
-        "paperPage": null,
+        "pdf": null,
         "code": "/code/adl2lms/",
         "data": "https://www.cs.sfu.ca/~colour/data/XYZ%20of%2020%20metameric%205-transition%20points.docx"
       },
@@ -859,7 +859,7 @@
       "doi": "10.1364/JOSAA.31.001680",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.31.001680",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -878,7 +878,7 @@
       "doi": "10.1364/JOSAA.31.001445",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.31.001445",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -897,7 +897,7 @@
       "doi": "10.1002/col.21768",
       "links": {
         "doi": "https://doi.org/10.1002/col.21768",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -916,7 +916,7 @@
       "doi": "10.2352/cic.2014.22.1.art00037",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2014.22.1.art00037",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -936,7 +936,7 @@
       "doi": "10.2352/CIC.2014.22.1.art00042",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2014.22.1.art00042",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -955,7 +955,7 @@
       "doi": "10.1117/12.2042507",
       "links": {
         "doi": "https://doi.org/10.1117/12.2042507",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -975,7 +975,7 @@
       "doi": "10.1117/12.2042300",
       "links": {
         "doi": "https://doi.org/10.1117/12.2042300",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -994,7 +994,7 @@
       "doi": "10.2352/cic.2014.22.1.art00012",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2014.22.1.art00012",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1013,7 +1013,7 @@
       "doi": "10.2352/cic.2013.21.1.art00013",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2013.21.1.art00013",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1032,7 +1032,7 @@
       "doi": "10.2352/cic.2013.21.1.art00021",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2013.21.1.art00021",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1051,7 +1051,7 @@
       "doi": "10.1007/978-1-4419-6190-7_10",
       "links": {
         "doi": "https://doi.org/10.1007/978-1-4419-6190-7_10",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1070,7 +1070,7 @@
       "doi": "10.2352/J.ImagingSci.Technol.2012.56.2.020401",
       "links": {
         "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.2012.56.2.020401",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1090,7 +1090,7 @@
       "doi": "10.1117/1.JEI.21.3.033022",
       "links": {
         "doi": "https://doi.org/10.1117/1.JEI.21.3.033022",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1109,7 +1109,7 @@
       "doi": "10.2352/J.ImagingSci.Technol.2012.56.2.020501",
       "links": {
         "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.2012.56.2.020501",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1128,7 +1128,7 @@
       "doi": "10.1002/col.20680",
       "links": {
         "doi": "https://doi.org/10.1002/col.20680",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1148,7 +1148,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1167,7 +1167,7 @@
       "doi": "10.2352/cic.2012.20.1.art00010",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2012.20.1.art00010",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1186,7 +1186,7 @@
       "doi": "10.2352/CIC.2012.20.1.art00019",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2012.20.1.art00019",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1206,7 +1206,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1226,7 +1226,7 @@
       "doi": "10.1364/JOSAA.28.000940",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.28.000940",
-        "paperPage": null,
+        "pdf": null,
         "code": "/code/tps/",
         "data": null
       },
@@ -1245,7 +1245,7 @@
       "doi": "10.2352/CIC.2011.19.1.art00034",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2011.19.1.art00034",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1266,7 +1266,7 @@
       "doi": "10.1007/978-3-642-20404-3_15",
       "links": {
         "doi": "https://doi.org/10.1007/978-3-642-20404-3_15",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1282,7 +1282,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1301,7 +1301,7 @@
       "doi": "10.2352/cgiv.2010.5.1.art00073",
       "links": {
         "doi": "https://doi.org/10.2352/cgiv.2010.5.1.art00073",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CGIV-2010/index_CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.html",
+        "pdf": "/papers/CGIV-2010/CGIV2010_CubicalGamutMapping_MosnyFunt_versionWithCitation.pdf",
         "code": null,
         "data": null
       },
@@ -1320,7 +1320,7 @@
       "doi": "10.1117/12.845394",
       "links": {
         "doi": "https://doi.org/10.1117/12.845394",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-2010/index_SPIE2010_SHI.html",
+        "pdf": "/papers/SPIE-2010/SPIE2010_SHI.pdf",
         "code": null,
         "data": null
       },
@@ -1339,7 +1339,7 @@
       "doi": "10.5446/31094",
       "links": {
         "doi": "https://doi.org/10.5446/31094",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.html",
+        "pdf": "/papers/CIC-2010/Rehabilitation_MaxRGB_CIC2010_ProcVersionWithCitation.pdf",
         "code": null,
         "data": null
       },
@@ -1358,7 +1358,7 @@
       "doi": "10.2352/cic.2010.18.1.art00059",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2010.18.1.art00059",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2010/index_ADL_FinalVersionwithCitation.html",
+        "pdf": "/papers/CIC-2010/ADL_FinalVersionwithCitation.pdf",
         "code": null,
         "data": null
       },
@@ -1377,7 +1377,7 @@
       "doi": "10.1016/j.imavis.2007.11.012",
       "links": {
         "doi": "https://doi.org/10.1016/j.imavis.2007.11.012",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IVC-2009/index_Xiong-Funt_StereoRetinexPrintVersion.html",
+        "pdf": "/papers/IVC-2009/Xiong-Funt_StereoRetinexPrintVersion.pdf",
         "code": null,
         "data": null
       },
@@ -1397,7 +1397,7 @@
       "doi": "10.1007/978-3-540-87536-9_10",
       "links": {
         "doi": "https://doi.org/10.1007/978-3-540-87536-9_10",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ICANN-2008/index_ICANN2008_AI.html",
+        "pdf": "/papers/ICANN-2008/ICANN2008_AI.pdf",
         "code": null,
         "data": null
       },
@@ -1416,7 +1416,7 @@
       "doi": "10.2352/cgiv.2008.4.1.art00056",
       "links": {
         "doi": "https://doi.org/10.2352/cgiv.2008.4.1.art00056",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CGIV-2008/index_CGIV2008_SHI.html",
+        "pdf": "/papers/CGIV-2008/CGIV2008_SHI.pdf",
         "code": null,
         "data": null
       },
@@ -1435,7 +1435,7 @@
       "doi": "10.2352/CIC.2008.16.1.art00013",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2008.16.1.art00013",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_BASTANI.html",
+        "pdf": "/papers/CIC-2008/CIC16_BASTANI.pdf",
         "code": null,
         "data": null
       },
@@ -1455,7 +1455,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2008/index_CIC16_SHI.html",
+        "pdf": "/papers/CIC-2008/CIC16_SHI.pdf",
         "code": null,
         "data": null
       },
@@ -1474,7 +1474,7 @@
       "doi": "10.2352/issn.2169-4451.2008.24.1.art00042_2",
       "links": {
         "doi": "https://doi.org/10.2352/issn.2169-4451.2008.24.1.art00042_2",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1493,7 +1493,7 @@
       "doi": "10.1109/TIP.2006.884953",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2006.884953",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1512,7 +1512,7 @@
       "doi": "10.1016/j.cviu.2006.11.014",
       "links": {
         "doi": "https://doi.org/10.1016/j.cviu.2006.11.014",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CVIU-2007/index_Shi+Funt_CVIU_QuaternioinTexture.html",
+        "pdf": "/papers/CVIU-2007/Shi+Funt_CVIU_QuaternioinTexture.pdf",
         "code": null,
         "data": null
       },
@@ -1536,7 +1536,7 @@
       "doi": "10.2352/cic.2007.15.1.art00027",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2007.15.1.art00027",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG_PG143.html",
+        "pdf": "/papers/CIC-2007/CIC15_XIONG_PG143.pdf",
         "code": null,
         "data": null
       },
@@ -1556,7 +1556,7 @@
       "doi": "10.1117/12.711007",
       "links": {
         "doi": "https://doi.org/10.1117/12.711007",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1580,7 +1580,7 @@
       "doi": "10.2352/CIC.2007.15.1.art00006",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2007.15.1.art00006",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_XIONG.html",
+        "pdf": "/papers/CIC-2007/CIC15_XIONG.pdf",
         "code": null,
         "data": null
       },
@@ -1599,7 +1599,7 @@
       "doi": "10.1117/12.707273",
       "links": {
         "doi": "https://doi.org/10.1117/12.707273",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1620,7 +1620,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1639,7 +1639,7 @@
       "doi": "10.2352/cic.2007.15.1.art00041",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2007.15.1.art00041",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2007/index_CIC15_BASTANI_PG218.html",
+        "pdf": "/papers/CIC-2007/CIC15_BASTANI_PG218.pdf",
         "code": null,
         "data": null
       },
@@ -1659,7 +1659,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1678,7 +1678,7 @@
       "doi": "10.2352/J.ImagingSci.Technol.(2006)50:4(341)",
       "links": {
         "doi": "https://doi.org/10.2352/J.ImagingSci.Technol.(2006)50:4(341)",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JIST2006/Xiong-Funt_SVR_JIST2006.html",
+        "pdf": "/papers/JIST2006/Xiong-Funt_SVR_JIST2006.pdf",
         "code": null,
         "data": null
       },
@@ -1697,7 +1697,7 @@
       "doi": "10.1117/12.643211",
       "links": {
         "doi": "https://doi.org/10.1117/12.643211",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1716,7 +1716,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1735,7 +1735,7 @@
       "doi": "10.2352/CIC.2006.14.1.art00056",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2006.14.1.art00056",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1755,7 +1755,7 @@
       "doi": "10.1117/12.643655",
       "links": {
         "doi": "https://doi.org/10.1117/12.643655",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1774,7 +1774,7 @@
       "doi": "10.2352/CIC.2006.14.1.art00057",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2006.14.1.art00057",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1793,7 +1793,7 @@
       "doi": "10.1109/CRV.2006.70",
       "links": {
         "doi": "https://doi.org/10.1109/CRV.2006.70",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1813,7 +1813,7 @@
       "doi": "10.1002/col.20156",
       "links": {
         "doi": "https://doi.org/10.1002/col.20156",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CRA-2004/index.html",
+        "pdf": "/papers/CRA-2004/CRA-BastaniCressmanFinalVersion.pdf",
         "code": null,
         "data": null
       },
@@ -1833,7 +1833,7 @@
       "doi": "10.2352/CIC.2005.13.1.art00018",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2005.13.1.art00018",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1852,7 +1852,7 @@
       "doi": "10.5244/C.19.54",
       "links": {
         "doi": "https://doi.org/10.5244/C.19.54",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/PBMVC05/index_Toro_Funt_BMVC_2005.html",
+        "pdf": "/papers/PBMVC05/Toro_Funt_BMVC_2005.pdf",
         "code": null,
         "data": null
       },
@@ -1871,7 +1871,7 @@
       "doi": "10.2352/cic.2005.13.1.art00037",
       "links": {
         "doi": "https://doi.org/10.2352/cic.2005.13.1.art00037",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -1891,7 +1891,7 @@
       "doi": "10.1117/1.1636761",
       "links": {
         "doi": "https://doi.org/10.1117/1.1636761",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/RetinexInMatlab.html",
+        "pdf": "/papers/JEI-2004/RetinexInMatlab_JEI2004.pdf",
         "code": "/code/retinex-matlab/",
         "data": null
       },
@@ -1910,7 +1910,7 @@
       "doi": "10.1117/1.1635365",
       "links": {
         "doi": "https://doi.org/10.1117/1.1635365",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JEI-2004/TuningRetinexParamaters.html",
+        "pdf": "/papers/JEI-2004/TuningRetinexParamaters_JEI2004.pdf",
         "code": null,
         "data": null
       },
@@ -1930,7 +1930,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CRA-2004/index.html",
+        "pdf": "/papers/CRA-2004/CRA-BastaniCressmanFinalVersion.pdf",
         "code": null,
         "data": null
       },
@@ -1949,7 +1949,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/SVR_WebVersion.html",
+        "pdf": "/papers/CIC-2004/SVR_WebVersion.pdf",
         "code": null,
         "data": null
       },
@@ -1968,7 +1968,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/LuminanceRedness_Final_with_Citation.html",
+        "pdf": "/papers/CIC-2004/LuminanceRedness_Final_with_Citation.pdf",
         "code": null,
         "data": null
       },
@@ -1988,7 +1988,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CIC-2004/CIC12-OptimalColorCorrectionProceedings.html",
+        "pdf": "/papers/CIC-2004/CIC12-OptimalColorCorrectionProceedings.pdf",
         "code": null,
         "data": null
       },
@@ -2006,7 +2006,7 @@
       "doi": "10.1017/S0140525X03300019",
       "links": {
         "doi": "https://doi.org/10.1017/S0140525X03300019",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/BBS-2003/index.html",
+        "pdf": "/papers/BBS-2003/BBS-2003.pdf",
         "code": null,
         "data": null
       },
@@ -2025,7 +2025,7 @@
       "doi": "10.2352/CIC.2003.11.1.art00028",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2003.11.1.art00028",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/PCIC-2003/LargeImageDatabase.html",
+        "pdf": "/papers/PCIC-2003/LargeImageDatabase.pdf",
         "code": null,
         "data": "https://www.cs.sfu.ca/~colour/data/gray_ball/index.html"
       },
@@ -2044,7 +2044,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/PICIP-2003/index.html",
+        "pdf": "/papers/PICIP-2003/PICIP-2003.pdf",
         "code": null,
         "data": null
       },
@@ -2063,7 +2063,7 @@
       "doi": "10.1117/12.473897",
       "links": {
         "doi": "https://doi.org/10.1117/12.473897",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-2003/index.html",
+        "pdf": "/papers/SPIE-2003/Non-vonKriesChromatic.pdf",
         "code": null,
         "data": null
       },
@@ -2082,7 +2082,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2101,7 +2101,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2121,7 +2121,7 @@
       "doi": "10.1109/TIP.2002.802531",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2002.802531",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2142,7 +2142,7 @@
       "doi": "10.1109/TIP.2002.802529",
       "links": {
         "doi": "https://doi.org/10.1109/TIP.2002.802529",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2163,7 +2163,7 @@
       "doi": "10.1002/col.10049",
       "links": {
         "doi": "https://doi.org/10.1002/col.10049",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CRA-2002/index.html",
+        "pdf": "/papers/CRA-2002/CRA-2002.pdf",
         "code": null,
         "data": null
       },
@@ -2182,7 +2182,7 @@
       "doi": "10.1002/col.10050",
       "links": {
         "doi": "https://doi.org/10.1002/col.10050",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2202,7 +2202,7 @@
       "doi": "10.1364/JOSAA.19.002374",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.19.002374",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-2002/index.html",
+        "pdf": "/papers/JOSA-2002/JOSA-2002.pdf",
         "code": null,
         "data": null
       },
@@ -2221,7 +2221,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/CGIV-2002/index.html",
+        "pdf": "/papers/CGIV-2002/CGIV-2002.pdf",
         "code": null,
         "data": null
       },
@@ -2241,7 +2241,7 @@
       "doi": "10.1117/12.469533",
       "links": {
         "doi": "https://doi.org/10.1117/12.469533",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-2002/index.html",
+        "pdf": "/papers/SPIE-2002/EI-2002.pdf",
         "code": null,
         "data": null
       },
@@ -2261,7 +2261,7 @@
       "doi": "10.1364/JOSAA.18.002728",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.18.002728",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-2001/index.html",
+        "pdf": "/papers/JOSA-2001/JOSA-2001.pdf",
         "code": null,
         "data": null
       },
@@ -2280,7 +2280,7 @@
       "doi": "10.1117/12.464727",
       "links": {
         "doi": "https://doi.org/10.1117/12.464727",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/AIC-2001/index.html",
+        "pdf": "/papers/AIC-2001/AIC-2001.pdf",
         "code": null,
         "data": null
       },
@@ -2300,7 +2300,7 @@
       "doi": "10.2352/CIC.2001.9.1.art00023",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2001.9.1.art00023",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-2001/index.html",
+        "pdf": "/papers/IST-2001/IST-2001.pdf",
         "code": null,
         "data": null
       },
@@ -2319,7 +2319,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2338,7 +2338,7 @@
       "doi": "10.1364/JOSAA.17.002108",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.17.002108",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-2000/index.html",
+        "pdf": "/papers/JOSA-2000/JOSA-2000.pdf",
         "code": null,
         "data": null
       },
@@ -2358,7 +2358,7 @@
       "doi": "10.1007/3-540-45054-8_25",
       "links": {
         "doi": "https://doi.org/10.1007/3-540-45054-8_25",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-2000/index.html",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2378,7 +2378,7 @@
       "doi": "10.2352/CIC.2000.8.1.art00022",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.2000.8.1.art00022",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-2000/index.html",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2397,7 +2397,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE99/spie99bcc_abs.html",
+        "pdf": "/papers/SPIE99/spie99bcc.pdf",
         "code": null,
         "data": null
       },
@@ -2416,7 +2416,7 @@
       "doi": "10.1117/12.348476",
       "links": {
         "doi": "https://doi.org/10.1117/12.348476",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/SPIE-99/index.html",
+        "pdf": "/papers/SPIE-99/SPIE-99.pdf",
         "code": null,
         "data": null
       },
@@ -2434,7 +2434,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2453,7 +2453,7 @@
       "doi": "10.2352/CIC.1999.7.1.art00022",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00022",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/specularSurfaces.html",
+        "pdf": "/papers/ISTSID-1999/specularSurfaces.pdf",
         "code": null,
         "data": null
       },
@@ -2472,7 +2472,7 @@
       "doi": "10.2352/CIC.1999.7.1.art00059",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00059",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-99/index.html",
+        "pdf": "/papers/IST-99/IST-99-CBCC.pdf",
         "code": null,
         "data": null
       },
@@ -2492,7 +2492,7 @@
       "doi": "10.2352/CIC.1999.7.1.art00019",
       "links": {
         "doi": "https://doi.org/10.2352/CIC.1999.7.1.art00019",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ISTSID-1999/whitePointEstimation.html",
+        "pdf": "/papers/ISTSID-1999/whitePointEsitmation.pdf",
         "code": null,
         "data": null
       },
@@ -2511,7 +2511,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IST-98/index.html",
+        "pdf": "/papers/IST-98/IST-98.pdf",
         "code": null,
         "data": null
       },
@@ -2531,7 +2531,7 @@
       "doi": "10.1007/BFb0055683",
       "links": {
         "doi": "https://doi.org/10.1007/BFb0055683",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-98/index.html",
+        "pdf": "/papers/ECCV-98/ECCV-98.pdf",
         "code": null,
         "data": null
       },
@@ -2551,7 +2551,7 @@
       "doi": "10.1006/cviu.1996.0567",
       "links": {
         "doi": "https://doi.org/10.1006/cviu.1996.0567",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-96/index.html",
+        "pdf": "/papers/ECCV-96/ECCV-96.pdf",
         "code": null,
         "data": null
       },
@@ -2567,7 +2567,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2586,7 +2586,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2604,7 +2604,7 @@
       "doi": "10.1007/3-540-63931-4_223",
       "links": {
         "doi": "https://doi.org/10.1007/3-540-63931-4_223",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2623,7 +2623,7 @@
       "doi": "10.1002/(SICI)1520-6378(199604)21:2<87::AID-COL2>3.0.CO;2-0",
       "links": {
         "doi": "https://doi.org/10.1002/(SICI)1520-6378(199604)21:2<87::AID-COL2>3.0.CO;2-0",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2643,7 +2643,7 @@
       "doi": "10.1007/3-540-61123-1_124",
       "links": {
         "doi": "https://doi.org/10.1007/3-540-61123-1_124",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2663,7 +2663,7 @@
       "doi": "10.1007/3-540-61123-1_123",
       "links": {
         "doi": "https://doi.org/10.1007/3-540-61123-1_123",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV-96/index.html",
+        "pdf": "/papers/ECCV-96/ECCV-96.pdf",
         "code": null,
         "data": null
       },
@@ -2683,7 +2683,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2703,7 +2703,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ARIZONA/arizona_abs.html",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2722,7 +2722,7 @@
       "doi": "10.1109/34.391390",
       "links": {
         "doi": "https://doi.org/10.1109/34.391390",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1995/index.html",
+        "pdf": "/papers/IEEE_TPAMI-1995/IEEE_TPAMI-1995.pdf",
         "code": null,
         "data": null
       },
@@ -2742,7 +2742,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2762,7 +2762,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2780,7 +2780,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2798,7 +2798,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2818,7 +2818,7 @@
       "doi": "10.1364/JOSAA.11.003011",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.11.003011",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/JOSA-1994/index.html",
+        "pdf": "/papers/JOSA-1994/JOSA-1994.pdf",
         "code": null,
         "data": null
       },
@@ -2838,7 +2838,7 @@
       "doi": "10.1364/JOSAA.11.001553",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.11.001553",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2857,7 +2857,7 @@
       "doi": "10.1109/34.250838",
       "links": {
         "doi": "https://doi.org/10.1109/34.250838",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/IEEE_TPAMI-1993/index.html",
+        "pdf": "/papers/IEEE_TPAMI-1993/ColorSpaceMutualIllumination_PAMI1993.pdf",
         "code": null,
         "data": null
       },
@@ -2877,7 +2877,7 @@
       "doi": "10.1117/12.152721",
       "links": {
         "doi": "https://doi.org/10.1117/12.152721",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2897,7 +2897,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/Conformal/conf2_abs.html",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2917,7 +2917,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ICCV/iccv_abs.html",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2936,7 +2936,7 @@
       "doi": "10.1016/1049-9660(92)90036-3",
       "links": {
         "doi": "https://doi.org/10.1016/1049-9660(92)90036-3",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2955,7 +2955,7 @@
       "doi": "10.1364/JOSAA.9.001255",
       "links": {
         "doi": "https://doi.org/10.1364/JOSAA.9.001255",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2975,7 +2975,7 @@
       "doi": "10.1007/3-540-55426-2_15",
       "links": {
         "doi": "https://doi.org/10.1007/3-540-55426-2_15",
-        "paperPage": "https://www.cs.sfu.ca/~colour/publications/ECCV92/eccv92_abs.html",
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -2995,7 +2995,7 @@
       "doi": "10.1007/BF00127123",
       "links": {
         "doi": "https://doi.org/10.1007/BF00127123",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3015,7 +3015,7 @@
       "doi": "10.1109/34.58869",
       "links": {
         "doi": "https://doi.org/10.1109/34.58869",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3034,7 +3034,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3054,7 +3054,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3073,7 +3073,7 @@
       "doi": "10.1007/BF00126427",
       "links": {
         "doi": "https://doi.org/10.1007/BF00126427",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3092,7 +3092,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3111,7 +3111,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3130,7 +3130,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3149,7 +3149,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3167,7 +3167,7 @@
       "doi": "10.1016/S0364-0213(83)80018-4",
       "links": {
         "doi": "https://doi.org/10.1016/S0364-0213(83)80018-4",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3186,7 +3186,7 @@
       "doi": "10.1111/j.1467-8659.1983.tb00148.x",
       "links": {
         "doi": "https://doi.org/10.1111/j.1467-8659.1983.tb00148.x",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3204,7 +3204,7 @@
       "doi": "10.1109/MC.1983.1654205",
       "links": {
         "doi": "https://doi.org/10.1109/MC.1983.1654205",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3222,7 +3222,7 @@
       "doi": null,
       "links": {
         "doi": null,
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
@@ -3240,7 +3240,7 @@
       "doi": "10.1016/0004-3702(80)90002-8",
       "links": {
         "doi": "https://doi.org/10.1016/0004-3702(80)90002-8",
-        "paperPage": null,
+        "pdf": null,
         "code": null,
         "data": null
       },
