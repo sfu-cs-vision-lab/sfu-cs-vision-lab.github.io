@@ -98,8 +98,13 @@ export default function PeoplePage() {
       </p>
 
       <Section id="director" title="Director">
-        <div className="flex gap-5 md:gap-6">
-          {director.image && <Portrait src={director.image} name={plainName(director.name)} />}
+        {/* From 768px the interests and education sit in the column beside the photo, aligned with the name. */}
+        <div className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-5 md:gap-x-6">
+          {director.image && (
+            <div className="self-start md:row-span-2">
+              <Portrait src={director.image} name={plainName(director.name)} />
+            </div>
+          )}
           <div>
             <h3 className="text-[17px] font-semibold leading-snug text-ink">{director.name}</h3>
             <p className="text-[16px] leading-[1.6] text-ink-2">{director.title}</p>
@@ -110,10 +115,10 @@ export default function PeoplePage() {
               {director.links?.github && <a href={director.links.github}>GitHub</a>}
             </p>
           </div>
-        </div>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2">
-          <List title="Research interests" items={director.researchInterests} />
-          <List title="Education" items={director.education} />
+          <div className="col-span-2 mt-8 grid gap-6 sm:grid-cols-2 md:col-span-1 md:col-start-2">
+            <List title="Research interests" items={director.researchInterests} />
+            <List title="Education" items={director.education} />
+          </div>
         </div>
       </Section>
 
