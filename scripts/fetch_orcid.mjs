@@ -148,8 +148,10 @@ function normalise(w, owner) {
 }
 
 const isRecording = p => RECORDING.test(p.venue ?? "");
-// Which of two records of one work to keep: a paper over a recording, a typed record over "Other", one with a DOI.
-const weight = p => (isRecording(p) ? 0 : 4) + (p.type === "Other" ? 0 : 2) + (p.doi ? 1 : 0);
+// Which of two records of one work to keep: a paper over a recording, a typed record over "Other", one with a DOI,
+// then one with full author names (Europe PubMed Central's records give "Funt BV").
+const initialsOnly = p => p.authors.length > 0 && p.authors.every(a => /^[A-Z][\w'-]+ [A-Z]{1,3}$/.test(a));
+const weight = p => (isRecording(p) ? 0 : 4) + (p.type === "Other" ? 0 : 2) + (p.doi ? 1 : 0) + (initialsOnly(p) ? 0 : 0.5);
 
 function sameWork(p, q) {
   if (p.doi && q.doi && p.doi.toLowerCase() === q.doi.toLowerCase()) return true;
