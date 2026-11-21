@@ -1,24 +1,7 @@
 {
   "org": "sfu-cs-vision-lab",
-  "fetchedAt": "2026-11-19T09:26:04.647Z",
+  "fetchedAt": "2026-11-21T00:45:59.714Z",
   "repos": [
-    {
-      "id": 1463350549,
-      "name": "mts2026-ctl",
-      "full_name": "sfu-cs-vision-lab/mts2026-ctl",
-      "html_url": "https://github.com/sfu-cs-vision-lab/mts2026-ctl",
-      "description": null,
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "language": "HTML",
-      "topics": [],
-      "homepage": null,
-      "updated_at": "2026-11-18T21:24:36Z",
-      "readme": {
-        "content": "# Modernizing the Color Transformation Language\n\nLinks to the code and branches from Alex Forsythe's talk at the SMPTE Media Technology Summit 2026, from the Computational Vision Lab at Simon Fraser University.\n\nThe page is `index.html`, served with GitHub Pages at https://sfu-cs-vision-lab.github.io/mts2026-ctl/\n",
-        "sourceUrl": "https://github.com/sfu-cs-vision-lab/mts2026-ctl/blob/main/README.md"
-      }
-    },
     {
       "id": 1448577135,
       "name": "ColorMechanism",
